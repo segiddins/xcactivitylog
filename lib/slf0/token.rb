@@ -59,7 +59,9 @@ module SLF0
       def object_list(reason = nil)
         return if shift_nil?(reason)
 
-        shift(ObjectList, reason).length.times.map { object(reason && "object in object list for #{reason}") }
+        Array.new(shift(ObjectList, reason).length) do
+          object(reason && "object in object list for #{reason}")
+        end
       end
 
       def object(reason = nil)

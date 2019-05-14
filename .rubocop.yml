@@ -1,4 +1,5 @@
-inherit_from: .rubocop_todo.yml
+AllCops:
+  TargetRubyVersion: 2.6
 
----
+inherit_from: .rubocop_todo.yml
 require: rubocop-performance
