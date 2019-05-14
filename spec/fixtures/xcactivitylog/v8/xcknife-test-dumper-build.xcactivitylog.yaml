@@ -1,0 +1,725 @@
+---
+- !ruby/object:XCActivityLog::IDECommandLineBuildLog
+  section_type: 0
+  domain_type: Xcode.IDEActivityLogDomainType.DebugLog
+  title: Building project TestDumper with scheme TestDumper and configuration Debug
+  signature: Building project TestDumper with scheme TestDumper and configuration
+    Debug
+  time_started_recording: 2018-07-04 05:12:07.827049970 +00:00
+  time_stopped_recording: 2018-07-04 05:12:12.984741210 +00:00
+  subsections:
+  - !ruby/object:XCActivityLog::IDEActivityLogSection
+    section_type: 1
+    domain_type: Xcode.IDEActivityLogDomainType.target.product-type.framework
+    title: "\e[1m\e[36m=== BUILD TARGET TestDumper OF PROJECT TestDumper WITH CONFIGURATION
+      Debug ===\e[0m"
+    signature: "\e[1m\e[36m=== BUILD TARGET TestDumper OF PROJECT TestDumper WITH
+      CONFIGURATION Debug ===\e[0m"
+    time_started_recording: 2018-07-04 05:12:07.961242675 +00:00
+    time_stopped_recording: 2018-07-04 05:12:12.983428955 +00:00
+    subsections:
+    - !ruby/object:XCActivityLog::IDEActivityLogSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Check dependencies
+      signature: Check dependencies
+      time_started_recording: 2018-07-04 05:12:07.961334228 +00:00
+      time_stopped_recording: 2018-01-05 18:48:32.000000000 +00:00
+      subsections: 
+      text: 
+      messages: 
+      cancelled: false
+      quiet: true
+      fetched_from_cache: false
+      subtitle: 
+      location: 
+      command_detail_description: Check dependencies
+      unique_identifier: 67963626-1A9D-4333-A6DF-EEF0AD570FB5
+      localized_result_string: 
+      xcbuild_signature: 
+    - !ruby/object:XCActivityLog::IDEActivityLogSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write auxiliary files
+      signature: Write auxiliary files
+      time_started_recording: 2018-07-04 05:12:08.567657470 +00:00
+      time_stopped_recording: 2018-07-04 05:12:08.570770263 +00:00
+      subsections: 
+      text: |
+        /bin/mkdir -p /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386
+        write-file /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper.LinkFileList
+        /bin/mkdir -p /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources
+        write-file /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c
+        write-file /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper.hmap
+        write-file /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/module.modulemap
+        write-file /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-own-target-headers.hmap
+        write-file /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-project-headers.hmap
+        write-file /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-all-target-headers.hmap
+        /bin/mkdir -p /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64
+        write-file /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper.LinkFileList
+        write-file /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-generated-files.hmap
+        write-file /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-all-non-framework-target-headers.hmap
+        write-file /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/all-product-headers.yaml
+      messages: 
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle: 
+      location: 
+      command_detail_description: Write auxiliary files
+      unique_identifier: 4E1D68E4-EE88-4CE5-BCA8-30E02A0F4CDE
+      localized_result_string: 
+      xcbuild_signature: 
+    - !ruby/object:XCActivityLog::IDEActivityLogSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Create product structure
+      signature: Create product structure
+      time_started_recording: 2018-01-05 18:48:32.000000000 +00:00
+      time_stopped_recording: 2018-07-04 05:12:08.573058962 +00:00
+      subsections: 
+      text: |
+        /bin/mkdir -p /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework
+        /bin/mkdir -p /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Headers
+      messages: 
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle: 
+      location: 
+      command_detail_description: Create product structure
+      unique_identifier: 13FCCE52-E7F1-4F8B-A260-8C5B11BE134A
+      localized_result_string: 
+      xcbuild_signature: 
+    - !ruby/object:XCActivityLog::IDEActivityLogSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Process /Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/Info.plist
+      signature: "\e[1mProcessInfoPlistFile\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Info.plist
+        TestDumper/Info.plist"
+      time_started_recording: 2018-07-04 05:12:08.573665976 +00:00
+      time_stopped_recording: 2018-07-04 05:12:08.578521728 +00:00
+      subsections: 
+      text: 
+      messages: 
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle: 
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/Info.plist
+        timestamp: 0.0
+      command_detail_description: "\e[1mProcessInfoPlistFile\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Info.plist
+        TestDumper/Info.plist\n    cd /Users/segiddins/Development/OpenSource/xcknife/TestDumper\n
+        \   export PATH=\"/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode-9.3.app/Contents/Developer/usr/bin:/Users/segiddins/.gem/ruby/2.2.3/bin:/Users/segiddins/.rubies/2.2.3/lib/ruby/gems/2.2.0/bin:/Users/segiddins/.rubies/2.2.3/bin:/Users/segiddins/perl5/bin:/usr/local/heroku/bin:/Users/segiddins/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/Library/TeX/texbin:/sbin:/usr/local/lib/python2.7/site-packages:/opt/X11/bin:/Library/Frameworks/Python.framework/Versions/3.3/bin:/opt/local/bin:/Users/segiddins/.npm:/usr/local/go/bin:/usr/local/share/npm/bin\"\n
+        \   builtin-infoPlistUtility /Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/Info.plist
+        -expandbuildsettings -format binary -platform iphonesimulator -o /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Info.plist\n"
+      unique_identifier: EBE3BD1F-593F-43B3-B5CF-30E72290310B
+      localized_result_string: 
+      xcbuild_signature: 
+    - !ruby/object:XCActivityLog::IDEActivityLogSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Compile /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c
+      signature: "\e[1mCompileC\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper_vers.o
+        testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c
+        normal i386 c com.apple.compilers.llvm.clang.1_0.compiler"
+      time_started_recording: 2018-07-04 05:12:08.582731008 +00:00
+      time_stopped_recording: 2018-07-04 05:12:08.782593965 +00:00
+      subsections: 
+      text: 
+      messages: 
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle: 
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c
+        timestamp: 0.0
+      command_detail_description: "\e[1mCompileC\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper_vers.o
+        testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c
+        normal i386 c com.apple.compilers.llvm.clang.1_0.compiler\n    cd /Users/segiddins/Development/OpenSource/xcknife/TestDumper\n
+        \   export LANG=en_US.US-ASCII\n    export PATH=\"/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode-9.3.app/Contents/Developer/usr/bin:/Users/segiddins/.gem/ruby/2.2.3/bin:/Users/segiddins/.rubies/2.2.3/lib/ruby/gems/2.2.0/bin:/Users/segiddins/.rubies/2.2.3/bin:/Users/segiddins/perl5/bin:/usr/local/heroku/bin:/Users/segiddins/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/Library/TeX/texbin:/sbin:/usr/local/lib/python2.7/site-packages:/opt/X11/bin:/Library/Frameworks/Python.framework/Versions/3.3/bin:/opt/local/bin:/Users/segiddins/.npm:/usr/local/go/bin:/usr/local/share/npm/bin\"\n
+        \   /Applications/Xcode-9.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        -x c -arch i386 -fmessage-length=168 -fdiagnostics-show-note-include-stack
+        -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -gmodules
+        -fmodules-cache-path=/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/ModuleCache.noindex
+        -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/ModuleCache.noindex/Session.modulevalidation
+        -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module
+        -Werror=non-modular-include-in-framework-module -fmodule-name=TestDumper -Wno-trigraphs
+        -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes
+        -Werror=return-type -Wunreachable-code -Werror=deprecated-objc-isa-usage -Werror=objc-root-class
+        -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label
+        -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized
+        -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants
+        -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion
+        -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion
+        -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk
+        -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mios-simulator-version-min=8.4
+        -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing
+        -Wno-strict-prototypes -index-store-path /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Index/DataStore
+        -iquote /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-generated-files.hmap
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-own-target-headers.hmap
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-all-non-framework-target-headers.hmap
+        -ivfsoverlay /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/all-product-headers.yaml
+        -iquote /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-project-headers.hmap
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/include
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/i386
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources
+        -F/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator
+        -F/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/../../Library/Frameworks
+        -F/Users/segiddins/Development/OpenSource/xcknife/TestDumper -MMD -MT dependencies
+        -MF /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper_vers.d
+        --serialize-diagnostics /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper_vers.dia
+        -c /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c
+        -o /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper_vers.o\n"
+      unique_identifier: 5C11E7B1-046C-484E-88FB-CD046037CD73
+      localized_result_string: 
+      xcbuild_signature: 
+    - !ruby/object:XCActivityLog::IDEActivityLogSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Compile /Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/Initialize.m
+      signature: "\e[1mCompileC\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/Initialize.o
+        TestDumper/Initialize.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler"
+      time_started_recording: 2018-07-04 05:12:08.582703828 +00:00
+      time_stopped_recording: 2018-07-04 05:12:12.356994628 +00:00
+      subsections: 
+      text: "\e[1m/Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/Initialize.m:218:44:
+        \e[0m\e[0;1;35mwarning: \e[0m\e[1mvalues of type 'NSInteger' should not be
+        used as format arguments;\n      add an explicit cast to 'long' instead [-Wformat]\e[0m\n
+        \               NSLog(@\"Uknown level %ld\", level);\n\e[0;1;32m                                     ~~~
+        \  ^~~~~\n\e[0m\e[0;32m                                     %ld   (long)\n\e[0m1
+        warning generated.\n"
+      messages:
+      - !ruby/object:XCActivityLog::IDEClangDiagnosticActivityLogMessage
+        title: Values of type 'NSInteger' should not be used as format arguments;
+          add an explicit cast to 'long' instead
+        short_title: 
+        time_emitted: 552373932
+        range_in_section_text: !ruby/object:XCActivityLog::NSRange
+          location: 18446744073709551615
+          length: 0
+        submessages: 
+        severity: 1
+        type: com.apple.dt.IDE.diagnostic
+        location: !ruby/object:XCActivityLog::DVTTextDocumentLocation
+          document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/Initialize.m
+          timestamp: 0.0
+          starting_line_number: 217
+          starting_column_number: 43
+          ending_line_number: 217
+          ending_column_number: 43
+          character_range: !ruby/object:XCActivityLog::NSRange
+            location: 8096
+            length: 0
+          location_encoding: 1
+        category_identifier: Format String Issue
+        secondary_locations:
+        - !ruby/object:XCActivityLog::DVTTextDocumentLocation
+          document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/Initialize.m
+          timestamp: 0.0
+          starting_line_number: 217
+          starting_column_number: 43
+          ending_line_number: 217
+          ending_column_number: 48
+          character_range: !ruby/object:XCActivityLog::NSRange
+            location: 8096
+            length: 0
+          location_encoding: 1
+        - !ruby/object:XCActivityLog::DVTTextDocumentLocation
+          document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/Initialize.m
+          timestamp: 0.0
+          starting_line_number: 217
+          starting_column_number: 37
+          ending_line_number: 217
+          ending_column_number: 40
+          character_range: !ruby/object:XCActivityLog::NSRange
+            location: 8090
+            length: 3
+          location_encoding: 1
+        - !ruby/object:XCActivityLog::DVTTextDocumentLocation
+          document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/Initialize.m
+          timestamp: 0.0
+          starting_line_number: 217
+          starting_column_number: 37
+          ending_line_number: 217
+          ending_column_number: 40
+          character_range: !ruby/object:XCActivityLog::NSRange
+            location: 8090
+            length: 3
+          location_encoding: 1
+        - !ruby/object:XCActivityLog::DVTTextDocumentLocation
+          document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/Initialize.m
+          timestamp: 0.0
+          starting_line_number: 217
+          starting_column_number: 43
+          ending_line_number: 217
+          ending_column_number: 43
+          character_range: !ruby/object:XCActivityLog::NSRange
+            location: 8096
+            length: 0
+          location_encoding: 1
+        additional_description: 
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle: 
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/Initialize.m
+        timestamp: 0.0
+      command_detail_description: "\e[1mCompileC\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/Initialize.o
+        TestDumper/Initialize.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler\n
+        \   cd /Users/segiddins/Development/OpenSource/xcknife/TestDumper\n    export
+        LANG=en_US.US-ASCII\n    export PATH=\"/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode-9.3.app/Contents/Developer/usr/bin:/Users/segiddins/.gem/ruby/2.2.3/bin:/Users/segiddins/.rubies/2.2.3/lib/ruby/gems/2.2.0/bin:/Users/segiddins/.rubies/2.2.3/bin:/Users/segiddins/perl5/bin:/usr/local/heroku/bin:/Users/segiddins/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/Library/TeX/texbin:/sbin:/usr/local/lib/python2.7/site-packages:/opt/X11/bin:/Library/Frameworks/Python.framework/Versions/3.3/bin:/opt/local/bin:/Users/segiddins/.npm:/usr/local/go/bin:/usr/local/share/npm/bin\"\n
+        \   /Applications/Xcode-9.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        -x objective-c -arch i386 -fmessage-length=168 -fdiagnostics-show-note-include-stack
+        -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules
+        -gmodules -fmodules-cache-path=/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/ModuleCache.noindex
+        -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/ModuleCache.noindex/Session.modulevalidation
+        -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module
+        -Werror=non-modular-include-in-framework-module -fmodule-name=TestDumper -Wno-trigraphs
+        -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes
+        -Werror=return-type -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage
+        -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wduplicate-method-match
+        -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label
+        -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized
+        -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants
+        -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion
+        -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion
+        -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match
+        -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0
+        -isysroot /Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk
+        -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mios-simulator-version-min=8.4
+        -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing
+        -Wno-strict-prototypes -fobjc-abi-version=2 -fobjc-legacy-dispatch -index-store-path
+        /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Index/DataStore
+        -iquote /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-generated-files.hmap
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-own-target-headers.hmap
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-all-non-framework-target-headers.hmap
+        -ivfsoverlay /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/all-product-headers.yaml
+        -iquote /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-project-headers.hmap
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/include
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/i386
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources
+        -F/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator
+        -F/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/../../Library/Frameworks
+        -F/Users/segiddins/Development/OpenSource/xcknife/TestDumper -MMD -MT dependencies
+        -MF /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/Initialize.d
+        --serialize-diagnostics /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/Initialize.dia
+        -c /Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/Initialize.m
+        -o /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/Initialize.o\n"
+      unique_identifier: 68DEC017-E4E3-4013-A4A0-ED98BBC26F1F
+      localized_result_string: 
+      xcbuild_signature: 
+    - !ruby/object:XCActivityLog::IDEActivityLogSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Compile /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c
+      signature: "\e[1mCompileC\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper_vers.o
+        testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c
+        normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler"
+      time_started_recording: 2018-07-04 05:12:08.078125000 +00:00
+      time_stopped_recording: 2018-07-04 05:12:08.781097412 +00:00
+      subsections: 
+      text: 
+      messages: 
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle: 
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c
+        timestamp: 0.0
+      command_detail_description: "\e[1mCompileC\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper_vers.o
+        testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c
+        normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler\n    cd /Users/segiddins/Development/OpenSource/xcknife/TestDumper\n
+        \   export LANG=en_US.US-ASCII\n    export PATH=\"/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode-9.3.app/Contents/Developer/usr/bin:/Users/segiddins/.gem/ruby/2.2.3/bin:/Users/segiddins/.rubies/2.2.3/lib/ruby/gems/2.2.0/bin:/Users/segiddins/.rubies/2.2.3/bin:/Users/segiddins/perl5/bin:/usr/local/heroku/bin:/Users/segiddins/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/Library/TeX/texbin:/sbin:/usr/local/lib/python2.7/site-packages:/opt/X11/bin:/Library/Frameworks/Python.framework/Versions/3.3/bin:/opt/local/bin:/Users/segiddins/.npm:/usr/local/go/bin:/usr/local/share/npm/bin\"\n
+        \   /Applications/Xcode-9.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        -x c -arch x86_64 -fmessage-length=168 -fdiagnostics-show-note-include-stack
+        -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -gmodules
+        -fmodules-cache-path=/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/ModuleCache.noindex
+        -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/ModuleCache.noindex/Session.modulevalidation
+        -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module
+        -Werror=non-modular-include-in-framework-module -fmodule-name=TestDumper -Wno-trigraphs
+        -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes
+        -Werror=return-type -Wunreachable-code -Werror=deprecated-objc-isa-usage -Werror=objc-root-class
+        -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label
+        -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized
+        -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants
+        -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion
+        -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion
+        -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk
+        -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mios-simulator-version-min=8.4
+        -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing
+        -Wno-strict-prototypes -index-store-path /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Index/DataStore
+        -iquote /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-generated-files.hmap
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-own-target-headers.hmap
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-all-non-framework-target-headers.hmap
+        -ivfsoverlay /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/all-product-headers.yaml
+        -iquote /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-project-headers.hmap
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/include
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/x86_64
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources
+        -F/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator
+        -F/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/../../Library/Frameworks
+        -F/Users/segiddins/Development/OpenSource/xcknife/TestDumper -MMD -MT dependencies
+        -MF /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper_vers.d
+        --serialize-diagnostics /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper_vers.dia
+        -c /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c
+        -o /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper_vers.o\n"
+      unique_identifier: 64A23EA0-5910-4819-96AF-0370EDEB794E
+      localized_result_string: 
+      xcbuild_signature: 
+    - !ruby/object:XCActivityLog::IDEActivityLogSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Compile /Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/Initialize.m
+      signature: "\e[1mCompileC\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/Initialize.o
+        TestDumper/Initialize.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler"
+      time_started_recording: 2018-07-04 05:12:08.583068847 +00:00
+      time_stopped_recording: 2018-07-04 05:12:12.348744988 +00:00
+      subsections: 
+      text: 
+      messages: 
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle: 
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/Initialize.m
+        timestamp: 0.0
+      command_detail_description: "\e[1mCompileC\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/Initialize.o
+        TestDumper/Initialize.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler\n
+        \   cd /Users/segiddins/Development/OpenSource/xcknife/TestDumper\n    export
+        LANG=en_US.US-ASCII\n    export PATH=\"/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode-9.3.app/Contents/Developer/usr/bin:/Users/segiddins/.gem/ruby/2.2.3/bin:/Users/segiddins/.rubies/2.2.3/lib/ruby/gems/2.2.0/bin:/Users/segiddins/.rubies/2.2.3/bin:/Users/segiddins/perl5/bin:/usr/local/heroku/bin:/Users/segiddins/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/Library/TeX/texbin:/sbin:/usr/local/lib/python2.7/site-packages:/opt/X11/bin:/Library/Frameworks/Python.framework/Versions/3.3/bin:/opt/local/bin:/Users/segiddins/.npm:/usr/local/go/bin:/usr/local/share/npm/bin\"\n
+        \   /Applications/Xcode-9.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        -x objective-c -arch x86_64 -fmessage-length=168 -fdiagnostics-show-note-include-stack
+        -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules
+        -gmodules -fmodules-cache-path=/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/ModuleCache.noindex
+        -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/ModuleCache.noindex/Session.modulevalidation
+        -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module
+        -Werror=non-modular-include-in-framework-module -fmodule-name=TestDumper -Wno-trigraphs
+        -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes
+        -Werror=return-type -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage
+        -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wduplicate-method-match
+        -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label
+        -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized
+        -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants
+        -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion
+        -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion
+        -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match
+        -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0
+        -isysroot /Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk
+        -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mios-simulator-version-min=8.4
+        -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing
+        -Wno-strict-prototypes -fobjc-abi-version=2 -fobjc-legacy-dispatch -index-store-path
+        /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Index/DataStore
+        -iquote /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-generated-files.hmap
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-own-target-headers.hmap
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-all-non-framework-target-headers.hmap
+        -ivfsoverlay /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/all-product-headers.yaml
+        -iquote /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-project-headers.hmap
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/include
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/x86_64
+        -I/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources
+        -F/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator
+        -F/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/../../Library/Frameworks
+        -F/Users/segiddins/Development/OpenSource/xcknife/TestDumper -MMD -MT dependencies
+        -MF /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/Initialize.d
+        --serialize-diagnostics /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/Initialize.dia
+        -c /Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/Initialize.m
+        -o /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/Initialize.o\n"
+      unique_identifier: 7813E0F2-9058-41A1-9BDE-744E3E9F5E12
+      localized_result_string: 
+      xcbuild_signature: 
+    - !ruby/object:XCActivityLog::IDEActivityLogSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Link /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper
+      signature: "\e[1mLd\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper
+        normal i386"
+      time_started_recording: 2018-07-04 05:12:12.358367919 +00:00
+      time_stopped_recording: 2018-07-04 05:12:12.518251061 +00:00
+      subsections: 
+      text: 
+      messages: 
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle: 
+      location: 
+      command_detail_description: "\e[1mLd\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper
+        normal i386\n    cd /Users/segiddins/Development/OpenSource/xcknife/TestDumper\n
+        \   export IPHONEOS_DEPLOYMENT_TARGET=8.4\n    export PATH=\"/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode-9.3.app/Contents/Developer/usr/bin:/Users/segiddins/.gem/ruby/2.2.3/bin:/Users/segiddins/.rubies/2.2.3/lib/ruby/gems/2.2.0/bin:/Users/segiddins/.rubies/2.2.3/bin:/Users/segiddins/perl5/bin:/usr/local/heroku/bin:/Users/segiddins/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/Library/TeX/texbin:/sbin:/usr/local/lib/python2.7/site-packages:/opt/X11/bin:/Library/Frameworks/Python.framework/Versions/3.3/bin:/opt/local/bin:/Users/segiddins/.npm:/usr/local/go/bin:/usr/local/share/npm/bin\"\n
+        \   /Applications/Xcode-9.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        -arch i386 -dynamiclib -isysroot /Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk
+        -L/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator
+        -F/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator
+        -F/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/../../Library/Frameworks
+        -F/Users/segiddins/Development/OpenSource/xcknife/TestDumper -filelist /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper.LinkFileList
+        -install_name @rpath/TestDumper.framework/TestDumper -Xlinker -rpath -Xlinker
+        @executable_path/Frameworks -Xlinker -rpath -Xlinker @loader_path/Frameworks
+        -mios-simulator-version-min=8.4 -dead_strip -Xlinker -object_path_lto -Xlinker
+        /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper_lto.o
+        -Xlinker -export_dynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version
+        -Xlinker 2 -fobjc-arc -fobjc-link-runtime -framework XCTest -compatibility_version
+        1 -current_version 1 -Xlinker -dependency_info -Xlinker /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper_dependency_info.dat
+        -o /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper\n"
+      unique_identifier: 9BEB9357-9E40-4FB6-B3B3-F248112EE830
+      localized_result_string: 
+      xcbuild_signature: 
+    - !ruby/object:XCActivityLog::IDEActivityLogSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Link /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper
+      signature: "\e[1mLd\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper
+        normal x86_64"
+      time_started_recording: 2018-07-04 05:12:12.358551025 +00:00
+      time_stopped_recording: 2018-07-04 05:12:12.518800616 +00:00
+      subsections: 
+      text: 
+      messages: 
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle: 
+      location: 
+      command_detail_description: "\e[1mLd\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper
+        normal x86_64\n    cd /Users/segiddins/Development/OpenSource/xcknife/TestDumper\n
+        \   export IPHONEOS_DEPLOYMENT_TARGET=8.4\n    export PATH=\"/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode-9.3.app/Contents/Developer/usr/bin:/Users/segiddins/.gem/ruby/2.2.3/bin:/Users/segiddins/.rubies/2.2.3/lib/ruby/gems/2.2.0/bin:/Users/segiddins/.rubies/2.2.3/bin:/Users/segiddins/perl5/bin:/usr/local/heroku/bin:/Users/segiddins/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/Library/TeX/texbin:/sbin:/usr/local/lib/python2.7/site-packages:/opt/X11/bin:/Library/Frameworks/Python.framework/Versions/3.3/bin:/opt/local/bin:/Users/segiddins/.npm:/usr/local/go/bin:/usr/local/share/npm/bin\"\n
+        \   /Applications/Xcode-9.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+        -arch x86_64 -dynamiclib -isysroot /Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk
+        -L/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator
+        -F/Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator
+        -F/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/../../Library/Frameworks
+        -F/Users/segiddins/Development/OpenSource/xcknife/TestDumper -filelist /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper.LinkFileList
+        -install_name @rpath/TestDumper.framework/TestDumper -Xlinker -rpath -Xlinker
+        @executable_path/Frameworks -Xlinker -rpath -Xlinker @loader_path/Frameworks
+        -mios-simulator-version-min=8.4 -dead_strip -Xlinker -object_path_lto -Xlinker
+        /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper_lto.o
+        -Xlinker -export_dynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version
+        -Xlinker 2 -fobjc-arc -fobjc-link-runtime -framework XCTest -compatibility_version
+        1 -current_version 1 -Xlinker -dependency_info -Xlinker /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper_dependency_info.dat
+        -o /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper\n"
+      unique_identifier: 738ACEA4-3C26-4DC3-893C-9E13097150B7
+      localized_result_string: 
+      xcbuild_signature: 
+    - !ruby/object:XCActivityLog::IDEActivityLogSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Create universal binary /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper
+      signature: "\e[1mCreateUniversalBinary\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper
+        normal i386\\ x86_64"
+      time_started_recording: 2018-07-04 05:12:12.521051049 +00:00
+      time_stopped_recording: 2018-07-04 05:12:12.539857745 +00:00
+      subsections: 
+      text: 
+      messages: 
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle: 
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper
+        timestamp: 140735743524864.0
+      command_detail_description: "\e[1mCreateUniversalBinary\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper
+        normal i386\\ x86_64\n    cd /Users/segiddins/Development/OpenSource/xcknife/TestDumper\n
+        \   export PATH=\"/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode-9.3.app/Contents/Developer/usr/bin:/Users/segiddins/.gem/ruby/2.2.3/bin:/Users/segiddins/.rubies/2.2.3/lib/ruby/gems/2.2.0/bin:/Users/segiddins/.rubies/2.2.3/bin:/Users/segiddins/perl5/bin:/usr/local/heroku/bin:/Users/segiddins/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/Library/TeX/texbin:/sbin:/usr/local/lib/python2.7/site-packages:/opt/X11/bin:/Library/Frameworks/Python.framework/Versions/3.3/bin:/opt/local/bin:/Users/segiddins/.npm:/usr/local/go/bin:/usr/local/share/npm/bin\"\n
+        \   /Applications/Xcode-9.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
+        -create /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper
+        /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper
+        -output /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper\n"
+      unique_identifier: 28A1F342-70E2-4BB6-AFC3-841977DD5D33
+      localized_result_string: 
+      xcbuild_signature: 
+    - !ruby/object:XCActivityLog::IDEActivityLogSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Generate /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework.dSYM
+      signature: "\e[1mGenerateDSYMFile\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework.dSYM
+        testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper"
+      time_started_recording: 2018-07-04 05:12:12.540467619 +00:00
+      time_stopped_recording: 2018-07-04 05:12:12.805268883 +00:00
+      subsections: 
+      text: 
+      messages: 
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle: 
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework.dSYM
+        timestamp: 140735743524864.0
+      command_detail_description: "\e[1mGenerateDSYMFile\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework.dSYM
+        testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper\n
+        \   cd /Users/segiddins/Development/OpenSource/xcknife/TestDumper\n    export
+        PATH=\"/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode-9.3.app/Contents/Developer/usr/bin:/Users/segiddins/.gem/ruby/2.2.3/bin:/Users/segiddins/.rubies/2.2.3/lib/ruby/gems/2.2.0/bin:/Users/segiddins/.rubies/2.2.3/bin:/Users/segiddins/perl5/bin:/usr/local/heroku/bin:/Users/segiddins/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/Library/TeX/texbin:/sbin:/usr/local/lib/python2.7/site-packages:/opt/X11/bin:/Library/Frameworks/Python.framework/Versions/3.3/bin:/opt/local/bin:/Users/segiddins/.npm:/usr/local/go/bin:/usr/local/share/npm/bin\"\n
+        \   /Applications/Xcode-9.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
+        /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper
+        -o /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework.dSYM\n"
+      unique_identifier: A8FAC121-7021-40D3-A18E-27C229C9C846
+      localized_result_string: 
+      xcbuild_signature: 
+    - !ruby/object:XCActivityLog::IDEActivityLogSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Copy /Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/TestDumper.h
+      signature: "\e[1mCpHeader\e[0m TestDumper/TestDumper.h testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Headers/TestDumper.h"
+      time_started_recording: 2018-01-05 18:48:32.000000000 +00:00
+      time_stopped_recording: 2018-07-04 05:12:12.807701945 +00:00
+      subsections: 
+      text: 
+      messages: 
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle: 
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/TestDumper.h
+        timestamp: 0.0
+      command_detail_description: "\e[1mCpHeader\e[0m TestDumper/TestDumper.h testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Headers/TestDumper.h\n
+        \   cd /Users/segiddins/Development/OpenSource/xcknife/TestDumper\n    export
+        PATH=\"/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode-9.3.app/Contents/Developer/usr/bin:/Users/segiddins/.gem/ruby/2.2.3/bin:/Users/segiddins/.rubies/2.2.3/lib/ruby/gems/2.2.0/bin:/Users/segiddins/.rubies/2.2.3/bin:/Users/segiddins/perl5/bin:/usr/local/heroku/bin:/Users/segiddins/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/Library/TeX/texbin:/sbin:/usr/local/lib/python2.7/site-packages:/opt/X11/bin:/Library/Frameworks/Python.framework/Versions/3.3/bin:/opt/local/bin:/Users/segiddins/.npm:/usr/local/go/bin:/usr/local/share/npm/bin\"\n
+        \   builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git
+        -exclude .hg -resolve-src-symlinks /Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/TestDumper.h
+        /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Headers\n"
+      unique_identifier: 750FD19A-A179-4E8B-8DB0-18DE24743471
+      localized_result_string: 
+      xcbuild_signature: 
+    - !ruby/object:XCActivityLog::IDEActivityLogSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Copy /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/module.modulemap
+      signature: "\e[1mDitto\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/module.modulemap
+        testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Modules/module.modulemap"
+      time_started_recording: 2018-01-05 18:48:32.000000000 +00:00
+      time_stopped_recording: 2018-01-05 18:48:32.000000000 +00:00
+      subsections: 
+      text: 
+      messages: 
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle: 
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/module.modulemap
+        timestamp: 0.0
+      command_detail_description: "\e[1mDitto\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/module.modulemap
+        testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Modules/module.modulemap\n
+        \   cd /Users/segiddins/Development/OpenSource/xcknife/TestDumper\n    export
+        PATH=\"/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode-9.3.app/Contents/Developer/usr/bin:/Users/segiddins/.gem/ruby/2.2.3/bin:/Users/segiddins/.rubies/2.2.3/lib/ruby/gems/2.2.0/bin:/Users/segiddins/.rubies/2.2.3/bin:/Users/segiddins/perl5/bin:/usr/local/heroku/bin:/Users/segiddins/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/Library/TeX/texbin:/sbin:/usr/local/lib/python2.7/site-packages:/opt/X11/bin:/Library/Frameworks/Python.framework/Versions/3.3/bin:/opt/local/bin:/Users/segiddins/.npm:/usr/local/go/bin:/usr/local/share/npm/bin\"\n
+        \   builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git
+        -exclude .hg -resolve-src-symlinks /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/module.modulemap
+        /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Modules\n"
+      unique_identifier: DCCEDC7B-A033-4351-8517-9B66A9AC9F64
+      localized_result_string: 
+      xcbuild_signature: 
+    - !ruby/object:XCActivityLog::IDEActivityLogSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Copy Swift standard libraries into /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework
+      signature: "\e[1mCopySwiftLibs\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework"
+      time_started_recording: 2018-07-04 05:12:12.809842944 +00:00
+      time_stopped_recording: 2018-07-04 05:12:12.827850341 +00:00
+      subsections: 
+      text: 'Exiting early, found no Swift version in executables.
+
+'
+      messages: 
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle: 
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/
+        timestamp: 0.0
+      command_detail_description: "\e[1mCopySwiftLibs\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework\n
+        \   cd /Users/segiddins/Development/OpenSource/xcknife/TestDumper\n    export
+        CODESIGN_ALLOCATE=/Applications/Xcode-9.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate\n
+        \   export DEVELOPER_DIR=/Applications/Xcode-9.3.app/Contents/Developer\n
+        \   export PATH=\"/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode-9.3.app/Contents/Developer/usr/bin:/Users/segiddins/.gem/ruby/2.2.3/bin:/Users/segiddins/.rubies/2.2.3/lib/ruby/gems/2.2.0/bin:/Users/segiddins/.rubies/2.2.3/bin:/Users/segiddins/perl5/bin:/usr/local/heroku/bin:/Users/segiddins/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/Library/TeX/texbin:/sbin:/usr/local/lib/python2.7/site-packages:/opt/X11/bin:/Library/Frameworks/Python.framework/Versions/3.3/bin:/opt/local/bin:/Users/segiddins/.npm:/usr/local/go/bin:/usr/local/share/npm/bin\"\n
+        \   export SDKROOT=/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk\n
+        \   builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper
+        --scan-folder /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Frameworks
+        --scan-folder /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/PlugIns
+        --scan-folder /Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework
+        --platform iphonesimulator --toolchain /Applications/Xcode-9.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+        --destination /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Frameworks
+        --strip-bitcode --resource-destination /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework
+        --resource-library libswiftRemoteMirror.dylib\n"
+      unique_identifier: CF673EA2-6C42-4319-8400-140B592918F8
+      localized_result_string: 
+      xcbuild_signature: 
+    - !ruby/object:XCActivityLog::IDEActivityLogSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Touch /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework
+      signature: "\e[1mTouch\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework"
+      time_started_recording: 2018-07-04 05:12:12.078125000 +00:00
+      time_stopped_recording: 2018-07-04 05:12:12.845460414 +00:00
+      subsections: 
+      text: 
+      messages: 
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle: 
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/
+        timestamp: 0.0
+      command_detail_description: "\e[1mTouch\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework\n
+        \   cd /Users/segiddins/Development/OpenSource/xcknife/TestDumper\n    export
+        PATH=\"/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode-9.3.app/Contents/Developer/usr/bin:/Users/segiddins/.gem/ruby/2.2.3/bin:/Users/segiddins/.rubies/2.2.3/lib/ruby/gems/2.2.0/bin:/Users/segiddins/.rubies/2.2.3/bin:/Users/segiddins/perl5/bin:/usr/local/heroku/bin:/Users/segiddins/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/Library/TeX/texbin:/sbin:/usr/local/lib/python2.7/site-packages:/opt/X11/bin:/Library/Frameworks/Python.framework/Versions/3.3/bin:/opt/local/bin:/Users/segiddins/.npm:/usr/local/go/bin:/usr/local/share/npm/bin\"\n
+        \   /usr/bin/touch -c /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework\n"
+      unique_identifier: E2DCF8FB-12B0-48CF-9747-27A934234503
+      localized_result_string: 
+      xcbuild_signature: 
+    - !ruby/object:XCActivityLog::IDEActivityLogSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Sign /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework
+      signature: "\e[1mCodeSign\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework"
+      time_started_recording: 2018-07-04 05:12:12.846162080 +00:00
+      time_stopped_recording: 2018-07-04 05:12:12.981892943 +00:00
+      subsections: 
+      text: 
+      messages: 
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle: 
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/
+        timestamp: 0.0
+      command_detail_description: "\e[1mCodeSign\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework\n
+        \   cd /Users/segiddins/Development/OpenSource/xcknife/TestDumper\n    export
+        CODESIGN_ALLOCATE=/Applications/Xcode-9.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate\n
+        \   export PATH=\"/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode-9.3.app/Contents/Developer/usr/bin:/Users/segiddins/.gem/ruby/2.2.3/bin:/Users/segiddins/.rubies/2.2.3/lib/ruby/gems/2.2.0/bin:/Users/segiddins/.rubies/2.2.3/bin:/Users/segiddins/perl5/bin:/usr/local/heroku/bin:/Users/segiddins/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/Library/TeX/texbin:/sbin:/usr/local/lib/python2.7/site-packages:/opt/X11/bin:/Library/Frameworks/Python.framework/Versions/3.3/bin:/opt/local/bin:/Users/segiddins/.npm:/usr/local/go/bin:/usr/local/share/npm/bin\"\n
+        \   \nSigning Identity:     \"-\"\n\n    /usr/bin/codesign --force --sign
+        - --timestamp=none /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework\n"
+      unique_identifier: BD10062A-E9EB-464F-9EDA-80A896AF6A6D
+      localized_result_string: 
+      xcbuild_signature: 
+    text: 
+    messages: 
+    cancelled: false
+    quiet: false
+    fetched_from_cache: false
+    subtitle: 
+    location: 
+    command_detail_description: 
+    unique_identifier: 0A84B9E8-A59F-424B-9C48-4E5E7B1A6902
+    localized_result_string: 
+    xcbuild_signature: 
+  text: 
+  messages: 
+  cancelled: false
+  quiet: false
+  fetched_from_cache: false
+  subtitle: 
+  location: 
+  command_detail_description: 
+  unique_identifier: 9B49DAD6-5CAD-41DE-9A74-45343EEA477C
+  localized_result_string: Build succeeded
+  xcbuild_signature: 
