@@ -55,9 +55,64 @@ module XCActivityLog
       subsections&.each { |s| s.each(&blk) }
     end
 
+    def each_with_parent(parent: nil, &blk)
+      return enum_for(__method__) unless block_given?
+
+      yield self, parent
+      subsections&.each { |s| s.each_with_parent(parent: self, &blk) }
+    end
+
     def duration_usec
       time_stopped_recording_usec - time_started_recording_usec
     end
+
+    def write_chrome_trace_file(section_type:, to:)
+      to << '{"traceEvents":[' << "\n"
+      written_comma = false
+      thread_id_map = []
+      each_with_parent.sort_by { |s, _| s.time_started_recording }.each do |section, parent|
+        case section.section_type
+        when section_type
+          if written_comma
+            to << ",\n"
+          else
+            written_comma = true
+          end
+          best_thread, thread_id = thread_id_map.each_with_index.select do |thread, tid|
+            section.time_started_recording > thread.last.time_stopped_recording
+          end.min_by do |thread, tid|
+            (section.time_started_recording - thread.last.time_stopped_recording) +
+              (thread.last.time_stopped_recording - thread_id_map.map(&:last).map(&:time_stopped_recording).min)
+          end
+          unless thread_id
+            thread_id = thread_id_map.size
+            best_thread = []
+            thread_id_map << best_thread
+          end
+          best_thread << section
+          require 'json'
+          to << JSON.generate(
+            {
+              pid: section.section_type.to_s,
+              tid: thread_id,
+              ts: section.time_started_recording_usec,
+              ph: 'X',
+              name: section.title,
+              dur: section.duration_usec,
+              args: {
+                subtitle: section.subtitle,
+                target: parent.title,
+              }
+            }
+          )
+        end
+      end
+
+      to << "\n]}"
+
+      to
+    end
+
     attribute :section_type, :int
     attribute :domain_type, :string
     attribute :title, :string
