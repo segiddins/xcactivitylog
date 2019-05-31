@@ -6,7 +6,7 @@
   signature: Building project TestDumper with scheme TestDumper and configuration
     Debug
   time_started_recording: 2018-07-04 05:12:07.827049970 +00:00
-  time_stopped_recording: 2018-07-04 05:12:12.984741210 +00:00
+  time_stopped_recording: 2018-07-04 05:12:12.984755039 +00:00
   subsections:
   - !ruby/object:XCActivityLog::IDEActivityLogSection
     section_type: 1
@@ -15,16 +15,16 @@
       Debug ===\e[0m"
     signature: "\e[1m\e[36m=== BUILD TARGET TestDumper OF PROJECT TestDumper WITH
       CONFIGURATION Debug ===\e[0m"
-    time_started_recording: 2018-07-04 05:12:07.961242675 +00:00
-    time_stopped_recording: 2018-07-04 05:12:12.983428955 +00:00
+    time_started_recording: 2018-07-04 05:12:07.963690042 +00:00
+    time_stopped_recording: 2018-07-04 05:12:12.983430027 +00:00
     subsections:
     - !ruby/object:XCActivityLog::IDEActivityLogSection
       section_type: 2
       domain_type: com.apple.dt.IDE.BuildLogSection
       title: Check dependencies
       signature: Check dependencies
-      time_started_recording: 2018-07-04 05:12:07.961334228 +00:00
-      time_stopped_recording: 2018-01-05 18:48:32.000000000 +00:00
+      time_started_recording: 2018-07-04 05:12:07.963778018 +00:00
+      time_stopped_recording: 2018-07-04 05:12:08.571838974 +00:00
       subsections: 
       text: 
       messages: 
@@ -42,8 +42,8 @@
       domain_type: com.apple.dt.IDE.BuildLogSection
       title: Write auxiliary files
       signature: Write auxiliary files
-      time_started_recording: 2018-07-04 05:12:08.567657470 +00:00
-      time_stopped_recording: 2018-07-04 05:12:08.570770263 +00:00
+      time_started_recording: 2018-07-04 05:12:08.567659974 +00:00
+      time_stopped_recording: 2018-07-04 05:12:08.571750998 +00:00
       subsections: 
       text: |
         /bin/mkdir -p /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386
@@ -75,7 +75,7 @@
       domain_type: com.apple.dt.IDE.BuildLogSection
       title: Create product structure
       signature: Create product structure
-      time_started_recording: 2018-01-05 18:48:32.000000000 +00:00
+      time_started_recording: 2018-07-04 05:12:08.572005033 +00:00
       time_stopped_recording: 2018-07-04 05:12:08.573058962 +00:00
       subsections: 
       text: |
@@ -98,7 +98,7 @@
       signature: "\e[1mProcessInfoPlistFile\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Info.plist
         TestDumper/Info.plist"
       time_started_recording: 2018-07-04 05:12:08.573665976 +00:00
-      time_stopped_recording: 2018-07-04 05:12:08.578521728 +00:00
+      time_stopped_recording: 2018-07-04 05:12:08.580479025 +00:00
       subsections: 
       text: 
       messages: 
@@ -182,8 +182,8 @@
       title: Compile /Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/Initialize.m
       signature: "\e[1mCompileC\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/Initialize.o
         TestDumper/Initialize.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler"
-      time_started_recording: 2018-07-04 05:12:08.582703828 +00:00
-      time_stopped_recording: 2018-07-04 05:12:12.356994628 +00:00
+      time_started_recording: 2018-07-04 05:12:08.582720994 +00:00
+      time_stopped_recording: 2018-07-04 05:12:12.357010006 +00:00
       subsections: 
       text: "\e[1m/Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/Initialize.m:218:44:
         \e[0m\e[0;1;35mwarning: \e[0m\e[1mvalues of type 'NSInteger' should not be
@@ -319,8 +319,8 @@
       signature: "\e[1mCompileC\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper_vers.o
         testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c
         normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler"
-      time_started_recording: 2018-07-04 05:12:08.078125000 +00:00
-      time_stopped_recording: 2018-07-04 05:12:08.781097412 +00:00
+      time_started_recording: 2018-07-04 05:12:08.582707047 +00:00
+      time_stopped_recording: 2018-07-04 05:12:08.781100034 +00:00
       subsections: 
       text: 
       messages: 
@@ -377,7 +377,7 @@
       title: Compile /Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/Initialize.m
       signature: "\e[1mCompileC\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/Initialize.o
         TestDumper/Initialize.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler"
-      time_started_recording: 2018-07-04 05:12:08.583068847 +00:00
+      time_started_recording: 2018-07-04 05:12:08.583068966 +00:00
       time_stopped_recording: 2018-07-04 05:12:12.348744988 +00:00
       subsections: 
       text: 
@@ -439,8 +439,8 @@
       title: Link /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper
       signature: "\e[1mLd\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper
         normal i386"
-      time_started_recording: 2018-07-04 05:12:12.358367919 +00:00
-      time_stopped_recording: 2018-07-04 05:12:12.518251061 +00:00
+      time_started_recording: 2018-07-04 05:12:12.358373999 +00:00
+      time_stopped_recording: 2018-07-04 05:12:12.518252968 +00:00
       subsections: 
       text: 
       messages: 
@@ -475,8 +475,8 @@
       title: Link /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper
       signature: "\e[1mLd\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper
         normal x86_64"
-      time_started_recording: 2018-07-04 05:12:12.358551025 +00:00
-      time_stopped_recording: 2018-07-04 05:12:12.518800616 +00:00
+      time_started_recording: 2018-07-04 05:12:12.358556985 +00:00
+      time_stopped_recording: 2018-07-04 05:12:12.518813967 +00:00
       subsections: 
       text: 
       messages: 
@@ -512,7 +512,7 @@
       signature: "\e[1mCreateUniversalBinary\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper
         normal i386\\ x86_64"
       time_started_recording: 2018-07-04 05:12:12.521051049 +00:00
-      time_stopped_recording: 2018-07-04 05:12:12.539857745 +00:00
+      time_stopped_recording: 2018-07-04 05:12:12.539873003 +00:00
       subsections: 
       text: 
       messages: 
@@ -522,7 +522,7 @@
       subtitle: 
       location: !ruby/object:XCActivityLog::DVTDocumentLocation
         document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper
-        timestamp: 140735743524864.0
+        timestamp: 140735744835584.0
       command_detail_description: "\e[1mCreateUniversalBinary\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper
         normal i386\\ x86_64\n    cd /Users/segiddins/Development/OpenSource/xcknife/TestDumper\n
         \   export PATH=\"/Applications/Xcode-9.3.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode-9.3.app/Contents/Developer/usr/bin:/Users/segiddins/.gem/ruby/2.2.3/bin:/Users/segiddins/.rubies/2.2.3/lib/ruby/gems/2.2.0/bin:/Users/segiddins/.rubies/2.2.3/bin:/Users/segiddins/perl5/bin:/usr/local/heroku/bin:/Users/segiddins/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/Library/TeX/texbin:/sbin:/usr/local/lib/python2.7/site-packages:/opt/X11/bin:/Library/Frameworks/Python.framework/Versions/3.3/bin:/opt/local/bin:/Users/segiddins/.npm:/usr/local/go/bin:/usr/local/share/npm/bin\"\n
@@ -539,8 +539,8 @@
       title: Generate /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework.dSYM
       signature: "\e[1mGenerateDSYMFile\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework.dSYM
         testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper"
-      time_started_recording: 2018-07-04 05:12:12.540467619 +00:00
-      time_stopped_recording: 2018-07-04 05:12:12.805268883 +00:00
+      time_started_recording: 2018-07-04 05:12:12.540480971 +00:00
+      time_stopped_recording: 2018-07-04 05:12:12.805286049 +00:00
       subsections: 
       text: 
       messages: 
@@ -550,7 +550,7 @@
       subtitle: 
       location: !ruby/object:XCActivityLog::DVTDocumentLocation
         document_url_string: file:///Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework.dSYM
-        timestamp: 140735743524864.0
+        timestamp: 140735744835584.0
       command_detail_description: "\e[1mGenerateDSYMFile\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework.dSYM
         testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper\n
         \   cd /Users/segiddins/Development/OpenSource/xcknife/TestDumper\n    export
@@ -566,7 +566,7 @@
       domain_type: com.apple.dt.IDE.BuildLogSection
       title: Copy /Users/segiddins/Development/OpenSource/xcknife/TestDumper/TestDumper/TestDumper.h
       signature: "\e[1mCpHeader\e[0m TestDumper/TestDumper.h testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Headers/TestDumper.h"
-      time_started_recording: 2018-01-05 18:48:32.000000000 +00:00
+      time_started_recording: 2018-07-04 05:12:12.806277036 +00:00
       time_stopped_recording: 2018-07-04 05:12:12.807701945 +00:00
       subsections: 
       text: 
@@ -593,8 +593,8 @@
       title: Copy /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/module.modulemap
       signature: "\e[1mDitto\e[0m testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/module.modulemap
         testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Modules/module.modulemap"
-      time_started_recording: 2018-01-05 18:48:32.000000000 +00:00
-      time_stopped_recording: 2018-01-05 18:48:32.000000000 +00:00
+      time_started_recording: 2018-07-04 05:12:12.808269977 +00:00
+      time_stopped_recording: 2018-07-04 05:12:12.809239029 +00:00
       subsections: 
       text: 
       messages: 
@@ -621,7 +621,7 @@
       title: Copy Swift standard libraries into /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework
       signature: "\e[1mCopySwiftLibs\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework"
       time_started_recording: 2018-07-04 05:12:12.809842944 +00:00
-      time_stopped_recording: 2018-07-04 05:12:12.827850341 +00:00
+      time_stopped_recording: 2018-07-04 05:12:12.827857017 +00:00
       subsections: 
       text: 'Exiting early, found no Swift version in executables.
 
@@ -656,8 +656,8 @@
       domain_type: com.apple.dt.IDE.BuildLogSection
       title: Touch /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework
       signature: "\e[1mTouch\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework"
-      time_started_recording: 2018-07-04 05:12:12.078125000 +00:00
-      time_stopped_recording: 2018-07-04 05:12:12.845460414 +00:00
+      time_started_recording: 2018-07-04 05:12:12.828902006 +00:00
+      time_stopped_recording: 2018-07-04 05:12:12.845468044 +00:00
       subsections: 
       text: 
       messages: 
@@ -680,7 +680,7 @@
       domain_type: com.apple.dt.IDE.BuildLogSection
       title: Sign /Users/segiddins/Development/OpenSource/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework
       signature: "\e[1mCodeSign\e[0m testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework"
-      time_started_recording: 2018-07-04 05:12:12.846162080 +00:00
+      time_started_recording: 2018-07-04 05:12:12.846163988 +00:00
       time_stopped_recording: 2018-07-04 05:12:12.981892943 +00:00
       subsections: 
       text: 

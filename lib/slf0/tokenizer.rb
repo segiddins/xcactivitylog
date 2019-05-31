@@ -24,7 +24,7 @@ module SLF0
     def tokenize_body!
       body = []
       until scanner.eos?
-        object = tokenize_field || tokenize_double_field || tokenize_object_list_nil
+        object = tokenize_double_field || tokenize_field || tokenize_object_list_nil
         raise "malformed no object: #{scanner.rest.inspect}\n\nafter: #{body.inspect}" unless object
 
         body << object
@@ -39,11 +39,11 @@ module SLF0
       when '#'
         SLF0::Token::Int.new int
       when '%'
-        SLF0::Token::ClassName.new scanner.scan(/.{#{int}}/).freeze
+        SLF0::Token::ClassName.new scan_length(int).freeze
       when '@'
         SLF0::Token::ClassNameRef.new int
       when '"'
-        SLF0::Token::String.new scanner.scan(/.{#{int}}/).tr("\r", "\n").freeze
+        SLF0::Token::String.new scan_length(int).tr("\r", "\n").freeze
       when '('
         SLF0::Token::ObjectList.new int
       else
@@ -52,8 +52,14 @@ module SLF0
       end
     end
 
+    def scan_length(length)
+      string = scanner.string[scanner.pos, length]
+      scanner.pos += length
+      string
+    end
+
     def tokenize_double_field
-      return unless (hex = scanner.scan(/[0-9a-fA-F]*\^/)&.chomp('^'))
+      return unless (hex = scanner.scan(/\h*\^/)&.chop)
 
       double = [hex.to_i(16)].pack('Q<').unpack1('G')
       SLF0::Token::Double.new double
