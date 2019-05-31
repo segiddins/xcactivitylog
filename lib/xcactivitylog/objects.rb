@@ -75,11 +75,20 @@ module XCActivityLog
     attribute :command_detail_description, :string
     attribute :unique_identifier, :string
     attribute :localized_result_string, :string
-    attribute :xcbuild_signature, :string
-    attribute :collect_metrics, :boolean, 9
+    attribute :xcbuild_signature, :string, 8
+    attribute :collect_metrics, :boolean, 9, 10
     attributes.freeze
   end
   class IDECommandLineBuildLog < IDEActivityLogSection
+    attributes.freeze
+  end
+  class IDEActivityLogUnitTestSection < IDEActivityLogSection
+    attribute :tests_passes, :string
+    attribute :duration, :string
+    attribute :summary, :string
+    attribute :suite_name, :string
+    attribute :test_name, :string
+    attribute :performance_test_output, :string
     attributes.freeze
   end
 
@@ -98,13 +107,41 @@ module XCActivityLog
     attribute :submessages, :object_list
     attribute :severity, :int
     attribute :type, :string
-    attribute :location, :object
+    attribute :location, :document_location
     attribute :category_identifier, :string
     attribute :secondary_locations, :object_list
     attribute :additional_description, :string
     attributes.freeze
   end
   class IDEClangDiagnosticActivityLogMessage < IDEActivityLogMessage
+    attributes.freeze
+  end
+  class IDEActivityLogAnalyzerResultMessage < IDEActivityLogMessage
+    attribute :result_type, :string
+    attribute :key_event_index, :int
+    attributes.freeze
+  end
+  class IDEActivityLogAnalyzerStepMessage < IDEActivityLogMessage
+    attribute :parent_index, :int
+    attributes.freeze
+  end
+  class IDEActivityLogAnalyzerEventStepMessage < IDEActivityLogAnalyzerStepMessage
+    attribute :result_type, :string
+    attribute :key_event_index, :int
+    attributes.freeze
+  end
+  class IDEActivityLogAnalyzerControlFlowStepMessage < IDEActivityLogAnalyzerStepMessage
+    attribute :end_location, :document_location
+    attribute :edges, :object_list
+    attributes.freeze
+  end
+  class IDEActivityLogAnalyzerWarningMessage < IDEActivityLogMessage
+    attributes.freeze
+  end
+
+  class IDEActivityLogAnalyzerControlFlowStepEdge < SerializedObject
+    attribute :start_location, :document_location
+    attribute :end_location, :document_location
     attributes.freeze
   end
 
@@ -123,7 +160,7 @@ module XCActivityLog
     attribute :ending_line_number, :int
     attribute :ending_column_number, :int
     attribute :character_range, :nsrange
-    attribute :location_encoding, :int
+    attribute :location_encoding, :int, 7
     attributes.freeze
   end
 end
