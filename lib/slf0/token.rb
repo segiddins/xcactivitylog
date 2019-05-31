@@ -40,54 +40,60 @@ module SLF0
         @class_deserializer = class_deserializer
       end
 
-      def int(reason = nil)
-        shift(Int, reason).value
+      def int(&reason_blk)
+        shift(Int, &reason_blk).value
       end
 
-      def string(reason = nil)
-        return if shift_nil?(reason)
+      def string(&reason_blk)
+        return if shift_nil?(&reason_blk)
 
-        shift(String, reason).value
+        shift(String, &reason_blk).value
       end
 
-      def double(reason = nil)
+      def double(&reason_blk)
         return if shift_nil?
 
-        shift(Double, reason).value
+        shift(Double, &reason_blk).value
       end
 
-      def object_list(reason = nil)
-        return if shift_nil?(reason)
+      def object_list(&reason_blk)
+        return if shift_nil?(&reason_blk)
 
-        Array.new(shift(ObjectList, reason).length) do
-          object(reason && "object in object list for #{reason}")
+        length = shift(ObjectList, &reason_blk).length
+        Array.new(length) do
+          object { reason_blk && "object #{length} in object list for #{reason_blk&.call}" }
         end
       end
 
-      def object(reason = nil)
-        deserializer_for(shift(ClassNameRef, reason).value)[self]
+      def object(&reason_blk)
+        return if shift_nil?(&reason_blk)
+        deserializer_for(shift(ClassNameRef, &reason_blk).value)[self]
       end
 
       def deserializer_for(class_ref_num)
         @class_deserializer[class_ref_num].last
       end
 
-      def shift_nil?(reason = nil)
-        shift(ObjectListNil, reason, raise: false)
+      def shift_nil?(&reason_blk)
+        shift(ObjectListNil, raise: false, &reason_blk)
       end
 
-      def shift(cls, reason = nil, raise: true)
+      def shift(cls, raise: true, &reason_blk)
         unless (token = @tokens.shift)
           raise 'no more tokens'
         end
 
         unless token.is_a?(cls)
-          raise "expected #{cls} got #{token.inspect} for #{reason}" if raise
+          unexpected_token!(cls, token, &reason_blk) if raise
 
           @tokens.unshift(token)
           return
         end
         token
+      end
+
+      def unexpected_token!(expected_class, token, &reason_blk)
+        raise "expected #{expected_class} got #{token.inspect} for #{reason}"
       end
     end
   end
