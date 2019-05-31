@@ -2,8 +2,8 @@
 
 module XCActivityLog
   class SerializedObject
-    Attribute = Struct.new(:name, :type, :first_version, :last_version)
-    def self.attribute(name, type, first_version = 0, last_version = 99_999)
+    Attribute = Struct.new(:name, :type, :first_version, :first_version_without)
+    def self.attribute(name, type, first_version = 0, first_version_without = 99_999)
       attr_reader name
       alias_method "#{name}?", name if type == :boolean
       if type == :time
@@ -12,7 +12,7 @@ module XCActivityLog
           time.to_i * 1_000_000 + time.usec
         end
       end
-      attributes << Attribute.new(name, type, first_version, last_version).freeze
+      attributes << Attribute.new(name, type, first_version, first_version_without).freeze
     end
 
     def self.attributes

@@ -24,7 +24,7 @@ module XCActivityLog
       def deserialize_instance_of(stream, cls)
         instance = cls.new
         cls.attributes.each do |attr|
-          next if attr.first_version > @version || attr.last_version < @version
+          next if attr.first_version > @version || attr.first_version_without <= @version
 
           value = stream.send(attr.type) { "#{attr.name} for #{cls.name.split('::').last} #{instance.inspect}" }
           instance.instance_variable_set(:"@#{attr.name}", value)
