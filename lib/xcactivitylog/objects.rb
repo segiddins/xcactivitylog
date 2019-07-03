@@ -108,11 +108,31 @@ module XCActivityLog
         (title =~ /=== BUILD TARGET (.+?) OF PROJECT (.+?) WITH CONFIGURATION (.+?) ===/ and TargetInfo.new(name: $1, configuration: $3, workspace: $2))
     end
 
+    def each_trace_event(&blk)
+      thread_id_map_by_section_type = Hash.new { |h, k| h[k] = [] }
+      each_with_parent.sort_by { |s, _| s.time_started_recording }.each do |section, parent|
+        thread_id_map = thread_id_map_by_section_type[section.section_type]
+        best_thread, thread_id = thread_id_map.each_with_index.select do |thread, _tid|
+          section.time_started_recording > thread.last.time_stopped_recording
+        end.min_by do |thread, _tid|
+          (section.time_started_recording - thread.last.time_stopped_recording) +
+            (thread.last.time_stopped_recording - thread_id_map.map(&:last).map(&:time_stopped_recording).min)
+        end
+        unless thread_id
+          thread_id = thread_id_map.size
+          best_thread = []
+          thread_id_map << best_thread
+        end
+        best_thread << section
+
+        yield(section: section, parent: parent, thread_id: thread_id)
+      end
+    end
+
     def write_chrome_trace_file(section_type:, to:)
       to << '{"traceEvents":[' << "\n"
       written_comma = false
-      thread_id_map = []
-      each_with_parent.sort_by { |s, _| s.time_started_recording }.each do |section, parent|
+      each_trace_event do |section:, parent:, thread_id:|
         case section.section_type
         when section_type
           if written_comma
@@ -120,18 +140,6 @@ module XCActivityLog
           else
             written_comma = true
           end
-          best_thread, thread_id = thread_id_map.each_with_index.select do |thread, _tid|
-            section.time_started_recording > thread.last.time_stopped_recording
-          end.min_by do |thread, _tid|
-            (section.time_started_recording - thread.last.time_stopped_recording) +
-              (thread.last.time_stopped_recording - thread_id_map.map(&:last).map(&:time_stopped_recording).min)
-          end
-          unless thread_id
-            thread_id = thread_id_map.size
-            best_thread = []
-            thread_id_map << best_thread
-          end
-          best_thread << section
           require 'json'
           to << JSON.generate(
             pid: section.section_type.to_s,
