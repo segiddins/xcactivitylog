@@ -47,6 +47,43 @@ module XCActivityLog
   end
 
   class IDEActivityLogSection < SerializedObject
+    class Severity
+      attr_reader :severity
+      protected :severity
+      def initialize(severity)
+        @severity = severity
+        freeze
+      end
+
+      SUCCESS = new(0)
+      WARNING = new(1)
+      ERROR = new(2)
+      TEST_FAILURE = new(3)
+
+      def to_s
+        case severity
+        when 0
+          "Success"
+        when 1
+          "Warning"
+        when 2
+          "Error"
+        when 3
+          "Test Failure"
+        else
+          "Unknown (#{severity})"
+        end
+      end
+
+      include Comparable
+
+      def <=>(other)
+        severity <=> other.severity
+      end
+    end
+
+    TargetInfo = Struct.new(:name, :configuration, :workspace, keyword_init: true)
+
     include Enumerable
     def each(&blk)
       return enum_for(__method__) unless block_given?
@@ -66,6 +103,11 @@ module XCActivityLog
       time_stopped_recording_usec - time_started_recording_usec
     end
 
+    def target_info(parent: nil)
+      parent&.target_info ||
+        (title =~ /=== BUILD TARGET (.+?) OF PROJECT (.+?) WITH CONFIGURATION (.+?) ===/ and TargetInfo.new(name: $1, configuration: $3, workspace: $2))
+    end
+
     def write_chrome_trace_file(section_type:, to:)
       to << '{"traceEvents":[' << "\n"
       written_comma = false
@@ -78,9 +120,9 @@ module XCActivityLog
           else
             written_comma = true
           end
-          best_thread, thread_id = thread_id_map.each_with_index.select do |thread, tid|
+          best_thread, thread_id = thread_id_map.each_with_index.select do |thread, _tid|
             section.time_started_recording > thread.last.time_stopped_recording
-          end.min_by do |thread, tid|
+          end.min_by do |thread, _tid|
             (section.time_started_recording - thread.last.time_stopped_recording) +
               (thread.last.time_stopped_recording - thread_id_map.map(&:last).map(&:time_stopped_recording).min)
           end
@@ -92,17 +134,16 @@ module XCActivityLog
           best_thread << section
           require 'json'
           to << JSON.generate(
-            {
-              pid: section.section_type.to_s,
-              tid: thread_id,
-              ts: section.time_started_recording_usec,
-              ph: 'X',
-              name: section.title,
-              dur: section.duration_usec,
-              args: {
-                subtitle: section.subtitle,
-                target: parent.title,
-              }
+            pid: section.section_type.to_s,
+            tid: thread_id,
+            ts: section.time_started_recording_usec,
+            ph: 'X',
+            name: section.title,
+            dur: section.duration_usec,
+            args: {
+              subtitle: section.subtitle,
+              target: section.target_info(parent: parent).to_h,
+              severity: section.severity,
             }
           )
         end
@@ -111,6 +152,11 @@ module XCActivityLog
       to << "\n]}"
 
       to
+    end
+
+    def severity
+      severity = (messages || []).reduce(Severity::SUCCESS) { |a, e| [a, Severity.new(e.severity)].max }
+      (subsections || []).reduce(severity) { |a, e| [a, e.severity].max }
     end
 
     attribute :section_type, :int

@@ -1,0 +1,3 @@
+{"traceEvents":[
+{"pid":"0","tid":0,"ts":1530681127827049,"ph":"X","name":"Building project TestDumper with scheme TestDumper and configuration Debug","dur":5157706,"args":{"subtitle":null,"target":{},"severity":"Warning"}}
+]}

@@ -67,6 +67,7 @@ module SLF0
 
       def object(&reason_blk)
         return if shift_nil?(&reason_blk)
+
         deserializer_for(shift(ClassNameRef, &reason_blk).value)[self]
       end
 
@@ -93,7 +94,7 @@ module SLF0
       end
 
       def unexpected_token!(expected_class, token, &reason_blk)
-        raise "expected #{expected_class} got #{token.inspect} for #{reason}"
+        raise "expected #{expected_class} got #{token.inspect} for #{reason_blk&.call}"
       end
     end
   end
