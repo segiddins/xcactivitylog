@@ -12,7 +12,9 @@ RSpec.describe XCActivityLog do
         parsed = XCActivityLog.parse_file(path: log)
         yaml = YAML.dump(parsed)
         yaml_path = log + '.yaml'
-        chrome_trace_files = [0, 1, 2, 3].map { |i| [parsed.first.write_chrome_trace_file(section_type: i, to: +''), log + ".#{i}.trace"] }
+        chrome_trace_files = [0, 1, 2, 3].map do |i|
+          [parsed.first.write_chrome_trace_file(section_type: i, to: +''), log + ".#{i}.trace"]
+        end
         aggregate_failures do
           if !File.file?(yaml_path)
             satisfy("missing #{yaml_path}") { false }

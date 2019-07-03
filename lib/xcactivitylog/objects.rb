@@ -48,8 +48,12 @@ module XCActivityLog
 
   class IDEActivityLogSection < SerializedObject
     class Severity
+      protected
+
       attr_reader :severity
-      protected :severity
+
+      public
+
       def initialize(severity)
         @severity = severity
         freeze
@@ -63,13 +67,13 @@ module XCActivityLog
       def to_s
         case severity
         when 0
-          "Success"
+          'Success'
         when 1
-          "Warning"
+          'Warning'
         when 2
-          "Error"
+          'Error'
         when 3
-          "Test Failure"
+          'Test Failure'
         else
           "Unknown (#{severity})"
         end
@@ -105,10 +109,11 @@ module XCActivityLog
 
     def target_info(parent: nil)
       parent&.target_info ||
-        (title =~ /=== BUILD TARGET (.+?) OF PROJECT (.+?) WITH CONFIGURATION (.+?) ===/ and TargetInfo.new(name: $1, configuration: $3, workspace: $2))
+        (title =~ /=== BUILD TARGET (.+?) OF PROJECT (.+?) WITH CONFIGURATION (.+?) ===/ &&
+          TargetInfo.new(name: Regexp.last_match(1), configuration: Regexp.last_match(3), workspace: Regexp.last_match(2)))
     end
 
-    def each_trace_event(&blk)
+    def each_trace_event
       thread_id_map_by_section_type = Hash.new { |h, k| h[k] = [] }
       each_with_parent.sort_by { |s, _| s.time_started_recording }.each do |section, parent|
         thread_id_map = thread_id_map_by_section_type[section.section_type]
@@ -151,7 +156,7 @@ module XCActivityLog
             args: {
               subtitle: section.subtitle,
               target: section.target_info(parent: parent).to_h,
-              severity: section.severity,
+              severity: section.severity
             }
           )
         end
