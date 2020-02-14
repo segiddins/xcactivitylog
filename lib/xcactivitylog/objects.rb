@@ -196,6 +196,9 @@ module XCActivityLog
   class IDECommandLineBuildLog < IDEActivityLogSection
     attributes.freeze
   end
+  class IDEActivityLogCommandInvocationSection < IDEActivityLogSection
+    attributes.freeze
+  end
   class IDEActivityLogUnitTestSection < IDEActivityLogSection
     attribute :tests_passes, :string
     attribute :duration, :string
