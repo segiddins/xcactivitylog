@@ -151,10 +151,10 @@ module XCActivityLog
             tid: thread_id,
             ts: section.time_started_recording_usec,
             ph: 'X',
-            name: section.title,
+            name: section.title.dup&.force_encoding('UTF-8'),
             dur: section.duration_usec,
             args: {
-              subtitle: section.subtitle,
+              subtitle: section.subtitle.dup&.force_encoding('UTF-8'),
               target: section.target_info(parent: parent).to_h,
               severity: section.severity
             }
@@ -206,6 +206,9 @@ module XCActivityLog
     attribute :suite_name, :string
     attribute :test_name, :string
     attribute :performance_test_output, :string
+    attributes.freeze
+  end
+  class IDEActivityLogMajorGroupSection < IDEActivityLogSection
     attributes.freeze
   end
 

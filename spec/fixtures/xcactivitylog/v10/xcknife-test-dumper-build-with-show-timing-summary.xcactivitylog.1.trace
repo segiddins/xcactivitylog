@@ -1,0 +1,3 @@
+{"traceEvents":[
+{"pid":"1","tid":0,"ts":1585848509184553,"ph":"X","name":"Build Timing Summary","dur":404,"args":{"subtitle":"Workspace TestDumper | Scheme TestDumper | Destination Generic iOS Simulator Device","target":{},"severity":"Success"}}
+]}
