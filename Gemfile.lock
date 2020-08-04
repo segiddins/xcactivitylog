@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    xcactivitylog (0.1.0)
+    xcactivitylog (0.2.0)
 
 GEM
   remote: https://rubygems.org/
@@ -51,4 +51,4 @@ DEPENDENCIES
   xcactivitylog!
 
 BUNDLED WITH
-   2.0.1
+   2.1.4
