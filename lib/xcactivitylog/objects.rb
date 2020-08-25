@@ -283,4 +283,8 @@ module XCActivityLog
     attribute :location_encoding, :int, 7
     attributes.freeze
   end
+
+  class Xcode3ProjectDocumentLocation < DVTDocumentLocation
+    attributes.freeze
+  end
 end
