@@ -1,0 +1,7 @@
+{"traceEvents":[
+{"pid":"1","tid":0,"ts":1605026185081333,"ph":"X","name":"Build target Pods-Foo","dur":884475,"args":{"subtitle":"Project Pods | Configuration Debug | Destination iPod touch (7th generation) | SDK Simulator - iOS 14.1","target":{},"severity":"Success"}},
+{"pid":"1","tid":1,"ts":1605026185942231,"ph":"X","name":"Build target Foo","dur":740313,"args":{"subtitle":"Project Foo | Configuration Debug | Destination iPod touch (7th generation) | SDK Simulator - iOS 14.1","target":{},"severity":"Success"}},
+{"pid":"1","tid":0,"ts":1605026222111696,"ph":"X","name":"Prepare build","dur":18324,"args":{"subtitle":"Workspace Foo | Scheme Foo | Destination iPod touch (7th generation)","target":{},"severity":"Success"}},
+{"pid":"1","tid":0,"ts":1605026222134037,"ph":"X","name":"Build target Fabric","dur":147,"args":{"subtitle":"Project Pods | Configuration Debug | Destination iPod touch (7th generation) | SDK Simulator - iOS 14.1","target":{},"severity":"Warning"}},
+{"pid":"1","tid":0,"ts":1605026222134292,"ph":"X","name":"Build target Crashlytics","dur":108,"args":{"subtitle":"Project Pods | Configuration Debug | Destination iPod touch (7th generation) | SDK Simulator - iOS 14.1","target":{},"severity":"Warning"}}
+]}
