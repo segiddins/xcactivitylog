@@ -1,0 +1,1645 @@
+---
+- !ruby/object:XCActivityLog::IDEActivityLogSection
+  section_type: 0
+  domain_type: Xcode.IDEActivityLogDomainType.BuildLog
+  title: Build Foo
+  signature: Build Foo
+  time_started_recording: 2020-11-10 16:37:02.107113003 +00:00
+  time_stopped_recording: 2020-11-10 16:37:02.137120008 +00:00
+  subsections:
+  - !ruby/object:XCActivityLog::IDEActivityLogMajorGroupSection
+    section_type: 1
+    domain_type: Xcode.IDEActivityLogDomainType.XCBuild.Preparation
+    title: Prepare build
+    signature: Prepare build
+    time_started_recording: 2020-11-10 16:37:02.111696958 +00:00
+    time_stopped_recording: 2020-11-10 16:37:02.130020976 +00:00
+    subsections:
+    text: |
+      note: Using new build system
+      note: Building targets in parallel
+      note: Planning build
+      note: Using build description from memory
+    messages:
+    - !ruby/object:XCActivityLog::IDEActivityLogMessage
+      title: Using new build system
+      short_title:
+      time_emitted: 626719022
+      range_in_section_text: !ruby/object:XCActivityLog::NSRange
+        location: 18446744073709551615
+        length: 0
+      submessages:
+      severity: 0
+      type:
+      location:
+      category_identifier: Notice
+      secondary_locations:
+      additional_description:
+    - !ruby/object:XCActivityLog::IDEActivityLogMessage
+      title: Building targets in parallel
+      short_title:
+      time_emitted: 626719022
+      range_in_section_text: !ruby/object:XCActivityLog::NSRange
+        location: 18446744073709551615
+        length: 0
+      submessages:
+      severity: 0
+      type:
+      location:
+      category_identifier: Notice
+      secondary_locations:
+      additional_description:
+    - !ruby/object:XCActivityLog::IDEActivityLogMessage
+      title: Planning build
+      short_title:
+      time_emitted: 626719022
+      range_in_section_text: !ruby/object:XCActivityLog::NSRange
+        location: 18446744073709551615
+        length: 0
+      submessages:
+      severity: 0
+      type:
+      location:
+      category_identifier: Notice
+      secondary_locations:
+      additional_description:
+    - !ruby/object:XCActivityLog::IDEActivityLogMessage
+      title: Using build description from memory
+      short_title:
+      time_emitted: 626719022
+      range_in_section_text: !ruby/object:XCActivityLog::NSRange
+        location: 18446744073709551615
+        length: 0
+      submessages:
+      severity: 0
+      type:
+      location:
+      category_identifier: Notice
+      secondary_locations:
+      additional_description:
+    cancelled: false
+    quiet: false
+    fetched_from_cache: false
+    subtitle: Workspace Foo | Scheme Foo | Destination iPod touch (7th generation)
+    location:
+    command_detail_description:
+    unique_identifier: 82337A80-48BD-4F0E-9D8C-E5991B511C41
+    localized_result_string:
+    xcbuild_signature:
+  - !ruby/object:XCActivityLog::IDEActivityLogMajorGroupSection
+    section_type: 1
+    domain_type: Xcode.IDEActivityLogDomainType.target.product-type.framework
+    title: Build target Pods-Foo
+    signature: Pods-Foo-hgzopicwpiiqsqaxhlrezibbxfmz
+    time_started_recording: 2020-11-10 16:36:25.081333041 +00:00
+    time_stopped_recording: 2020-11-10 16:36:25.965808987 +00:00
+    subsections:
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Create directory Headers
+      signature: MkDir /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework/Headers
+      time_started_recording: 2020-11-10 16:35:58.407737970 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.407771944 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        MkDir /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework/Headers (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            /bin/mkdir -p /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework/Headers
+      unique_identifier: CAC35EB6-1A1D-4667-A864-4BAF707E9BCB
+      localized_result_string:
+      xcbuild_signature: '3565663936383166623830393261303437386563376335326438366430613764'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Create directory Pods_Foo.framework
+      signature: MkDir /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework
+      time_started_recording: 2020-11-10 16:35:58.407614946 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.407688021 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        MkDir /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            /bin/mkdir -p /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework
+      unique_identifier: 197B0E1B-1EBB-47F8-992C-0B76B685DA56
+      localized_result_string:
+      xcbuild_signature: '6364343262663839396230303130643335313832323536316632383261333861'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Pods_Foo-all-non-framework-target-headers.hmap
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-all-non-framework-target-headers.hmap
+      time_started_recording: 2020-11-10 16:35:58.407796978 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.409250974 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-all-non-framework-target-headers.hmap (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-all-non-framework-target-headers.hmap
+      unique_identifier: 4341A7B9-2FA8-462F-8D9C-26F0A12D00B6
+      localized_result_string:
+      xcbuild_signature: '3837613530653434646464313134396563396361653865356333623161656533'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write all-product-headers.yaml
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/all-product-headers.yaml
+      time_started_recording: 2020-11-10 16:35:58.407935023 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.409283041 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/all-product-headers.yaml (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/all-product-headers.yaml
+      unique_identifier: EE900DFF-C1F4-4D5B-93A3-C6C8B9D532A3
+      localized_result_string:
+      xcbuild_signature: '3034663133386163663139333634646633613661303038356662363734363232'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Pods_Foo-generated-files.hmap
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-generated-files.hmap
+      time_started_recording: 2020-11-10 16:35:58.408177018 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.409309029 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-generated-files.hmap (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-generated-files.hmap
+      unique_identifier: FCD290DC-B212-41DC-9709-F0BF4A47404E
+      localized_result_string:
+      xcbuild_signature: '3230383763313539626533333565616433326566653935356364333436633637'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Pods_Foo.hmap
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo.hmap
+      time_started_recording: 2020-11-10 16:35:58.408434033 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.409338951 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo.hmap (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo.hmap
+      unique_identifier: 79872142-895A-4489-9458-C96537A589C4
+      localized_result_string:
+      xcbuild_signature: '6365626330353462363565343131303531306630663138316638643663386637'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Pods_Foo-own-target-headers.hmap
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-own-target-headers.hmap
+      time_started_recording: 2020-11-10 16:35:58.408666014 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.409366011 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-own-target-headers.hmap (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-own-target-headers.hmap
+      unique_identifier: '08F010FB-F2BF-4468-BD23-E7C0BF0CB6ED'
+      localized_result_string:
+      xcbuild_signature: '3135356264656263316630616531663362366564633163356330656261343861'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Pods_Foo-project-headers.hmap
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-project-headers.hmap
+      time_started_recording: 2020-11-10 16:35:58.408875942 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.409472942 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-project-headers.hmap (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-project-headers.hmap
+      unique_identifier: FFA071F5-DCDD-42D2-B9D7-5765AF907ADB
+      localized_result_string:
+      xcbuild_signature: '3964383530613763653264363166643435393561633961323665616666653331'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Pods_Foo-all-target-headers.hmap
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-all-target-headers.hmap
+      time_started_recording: 2020-11-10 16:35:58.409093022 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.409494042 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-all-target-headers.hmap (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-all-target-headers.hmap
+      unique_identifier: A97E745F-1A38-48EC-BD6F-0DD9D9CD224E
+      localized_result_string:
+      xcbuild_signature: '6364633339356666626435633734396636663461646636653838663835656533'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Copy Pods-Foo-umbrella.h
+      signature: CpHeader /Users/thiago/Desktop/Foo/Pods/Target\ Support\ Files/Pods-Foo/Pods-Foo-umbrella.h
+        /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework/Headers/Pods-Foo-umbrella.h
+      time_started_recording: 2020-11-10 16:35:58.410078048 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.411082029 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/thiago/Desktop/Foo/Pods/Target%20Support%20Files/Pods-Foo/Pods-Foo-umbrella.h
+        timestamp: 0.0
+      command_detail_description: |
+        CpHeader /Users/thiago/Desktop/Foo/Pods/Target\ Support\ Files/Pods-Foo/Pods-Foo-umbrella.h /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework/Headers/Pods-Foo-umbrella.h (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/thiago/Desktop/Foo/Pods/Target\ Support\ Files/Pods-Foo/Pods-Foo-umbrella.h /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework/Headers
+      unique_identifier: 5E7D9B42-8DFA-43FA-97ED-187A351AD98C
+      localized_result_string:
+      xcbuild_signature: '6632303635636637323737336637363433623438616266383663356364393637'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Pods_Foo_vers.c
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/DerivedSources/Pods_Foo_vers.c
+      time_started_recording: 2020-11-10 16:35:58.411373019 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.411800026 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/DerivedSources/Pods_Foo_vers.c (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/DerivedSources/Pods_Foo_vers.c
+      unique_identifier: 4849B9FA-45E0-46FD-9A8A-10FB3FB8E5E0
+      localized_result_string:
+      xcbuild_signature: '3132353433666337666466336161393966643934303566393431323736616433'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write module.modulemap
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/module.modulemap
+      time_started_recording: 2020-11-10 16:35:58.409721970 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.410182952 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/module.modulemap (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/module.modulemap
+      unique_identifier: AD1DFFC6-8655-4B15-B6A7-1B53D861AAAB
+      localized_result_string:
+      xcbuild_signature: '6265626266653931643463323139653735376332393635353836656531656439'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Pods_Foo.LinkFileList (x86_64)
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Objects-normal/x86_64/Pods_Foo.LinkFileList
+      time_started_recording: 2020-11-10 16:36:25.081529021 +00:00
+      time_stopped_recording: 2020-11-10 16:36:25.083716034 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Objects-normal/x86_64/Pods_Foo.LinkFileList (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Objects-normal/x86_64/Pods_Foo.LinkFileList
+      unique_identifier: 170D46F6-B70E-43BA-AEAE-277244EBFA75
+      localized_result_string:
+      xcbuild_signature: '3161376663613831343066316436663565306562393535363261373965646138'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Compile Pods-Foo-dummy.m (x86_64)
+      signature: CompileC /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Objects-normal/x86_64/Pods-Foo-dummy.o
+        /Users/thiago/Desktop/Foo/Pods/Target\ Support\ Files/Pods-Foo/Pods-Foo-dummy.m
+        normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+      time_started_recording: 2020-11-10 16:36:25.082563042 +00:00
+      time_stopped_recording: 2020-11-10 16:36:25.938128948 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/thiago/Desktop/Foo/Pods/Target%20Support%20Files/Pods-Foo/Pods-Foo-dummy.m
+        timestamp: 0.0
+      command_detail_description: |
+        CompileC /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Objects-normal/x86_64/Pods-Foo-dummy.o /Users/thiago/Desktop/Foo/Pods/Target\ Support\ Files/Pods-Foo/Pods-Foo-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            export LANG\=en_US.US-ASCII
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -target x86_64-apple-ios14.1-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -std\=gnu11 -fobjc-arc -fmodules -gmodules -fmodules-cache-path\=/Users/thiago/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/thiago/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -fmodule-name\=Pods_Foo -Wno-trigraphs -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror\=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror\=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -DPOD_CONFIGURATION_DEBUG\=1 -DDEBUG\=1 -DCOCOAPODS\=1 -DOBJC_OLD_DISPATCH_PROTOTYPES\=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability -fobjc-abi-version\=2 -fobjc-legacy-dispatch -index-store-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Index/DataStore -iquote /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-generated-files.hmap -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-own-target-headers.hmap -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-all-non-framework-target-headers.hmap -ivfsoverlay /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/all-product-headers.yaml -iquote /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-project-headers.hmap -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/include -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/DerivedSources-normal/x86_64 -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/DerivedSources/x86_64 -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/DerivedSources -F/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator -F/Users/thiago/Desktop/Foo/Pods/Crashlytics/iOS -F/Users/thiago/Desktop/Foo/Pods/Fabric/iOS -MMD -MT dependencies -MF /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Objects-normal/x86_64/Pods-Foo-dummy.d --serialize-diagnostics /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Objects-normal/x86_64/Pods-Foo-dummy.dia -c /Users/thiago/Desktop/Foo/Pods/Target\ Support\ Files/Pods-Foo/Pods-Foo-dummy.m -o /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Objects-normal/x86_64/Pods-Foo-dummy.o
+      unique_identifier: D10837F7-58A6-4031-8CEB-64EA2016EF33
+      localized_result_string:
+      xcbuild_signature: '3565326465303364313234343337313537616133616235353466623739313764'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Compile Pods_Foo_vers.c (x86_64)
+      signature: CompileC /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Objects-normal/x86_64/Pods_Foo_vers.o
+        /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/DerivedSources/Pods_Foo_vers.c
+        normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+      time_started_recording: 2020-11-10 16:36:25.083538055 +00:00
+      time_stopped_recording: 2020-11-10 16:36:25.148187994 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/DerivedSources/Pods_Foo_vers.c
+        timestamp: 0.0
+      command_detail_description: |
+        CompileC /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Objects-normal/x86_64/Pods_Foo_vers.o /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/DerivedSources/Pods_Foo_vers.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            export LANG\=en_US.US-ASCII
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-ios14.1-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -std\=gnu11 -fmodules -gmodules -fmodules-cache-path\=/Users/thiago/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/thiago/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -fmodule-name\=Pods_Foo -Wno-trigraphs -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Werror\=deprecated-objc-isa-usage -Werror\=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DPOD_CONFIGURATION_DEBUG\=1 -DDEBUG\=1 -DCOCOAPODS\=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability -index-store-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Index/DataStore -iquote /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-generated-files.hmap -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-own-target-headers.hmap -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-all-non-framework-target-headers.hmap -ivfsoverlay /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/all-product-headers.yaml -iquote /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Pods_Foo-project-headers.hmap -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/include -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/DerivedSources-normal/x86_64 -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/DerivedSources/x86_64 -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/DerivedSources -F/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator -F/Users/thiago/Desktop/Foo/Pods/Crashlytics/iOS -F/Users/thiago/Desktop/Foo/Pods/Fabric/iOS -MMD -MT dependencies -MF /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Objects-normal/x86_64/Pods_Foo_vers.d --serialize-diagnostics /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Objects-normal/x86_64/Pods_Foo_vers.dia -c /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/DerivedSources/Pods_Foo_vers.c -o /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Objects-normal/x86_64/Pods_Foo_vers.o
+      unique_identifier: 31D1C9C6-3203-475B-A205-CB3AB15EA17F
+      localized_result_string:
+      xcbuild_signature: '6636396465663437386536663363383532636166666134336665316533363561'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Create static library Pods_Foo (x86_64)
+      signature: Libtool /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework/Pods_Foo
+        normal
+      time_started_recording: 2020-11-10 16:36:25.938305974 +00:00
+      time_stopped_recording: 2020-11-10 16:36:25.941185951 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        Libtool /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework/Pods_Foo normal (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            export IPHONEOS_DEPLOYMENT_TARGET\=14.1
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -D -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk -L/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator -filelist /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Objects-normal/x86_64/Pods_Foo.LinkFileList -framework Foundation -dependency_info /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/Objects-normal/x86_64/Pods_Foo_libtool_dependency_info.dat -o /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework/Pods_Foo
+      unique_identifier: 6FB4C196-DFAA-4E76-8F46-E29F54106AEF
+      localized_result_string:
+      xcbuild_signature: '3766633863323938623730343461393836396162366363316438323335333561'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Process Pods-Foo-Info.plist
+      signature: ProcessInfoPlistFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework/Info.plist
+        /Users/thiago/Desktop/Foo/Pods/Target\ Support\ Files/Pods-Foo/Pods-Foo-Info.plist
+      time_started_recording: 2020-11-10 16:36:25.941880941 +00:00
+      time_stopped_recording: 2020-11-10 16:36:25.943277001 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        ProcessInfoPlistFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework/Info.plist /Users/thiago/Desktop/Foo/Pods/Target\ Support\ Files/Pods-Foo/Pods-Foo-Info.plist (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            builtin-infoPlistUtility /Users/thiago/Desktop/Foo/Pods/Target\ Support\ Files/Pods-Foo/Pods-Foo-Info.plist -producttype com.apple.product-type.framework -expandbuildsettings -format binary -platform iphonesimulator -o /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework/Info.plist
+      unique_identifier: 77E46E9F-607E-44FA-BA15-4DC51646B8C8
+      localized_result_string:
+      xcbuild_signature: '3063316361313031666230633339316433346366326232376139346265363133'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Copy module.modulemap
+      signature: Ditto /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/module.modulemap
+        /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework/Modules/module.modulemap
+      time_started_recording: 2020-11-10 16:35:58.410380959 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.411049962 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/module.modulemap
+        timestamp: 0.0
+      command_detail_description: |
+        Ditto /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/module.modulemap /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework/Modules/module.modulemap (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-Foo.build/module.modulemap /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework/Modules
+      unique_identifier: 927DBC93-E1F9-40F1-8270-8E9DA0B1AE85
+      localized_result_string:
+      xcbuild_signature: '6163376439303366653761376663313864346164643436623835643836373061'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Sign Pods_Foo.framework
+      signature: CodeSign /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework
+      time_started_recording: 2020-11-10 16:36:25.943761944 +00:00
+      time_stopped_recording: 2020-11-10 16:36:25.958173036 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: "CodeSign /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework
+        (in target 'Pods-Foo' from project 'Pods')\n    cd /Users/thiago/Desktop/Foo/Pods\n
+        \   export CODESIGN_ALLOCATE\\=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate\n
+        \   \nSigning Identity:     \"-\"\n\n    /usr/bin/codesign --force --sign
+        - --timestamp\\=none /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework\n"
+      unique_identifier: F12ACA12-2A42-4418-BD06-19301275706A
+      localized_result_string:
+      xcbuild_signature: '6439643134303663313961633630623533663336396234636161366165633837'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Register execution policy exception for Pods_Foo.framework
+      signature: RegisterExecutionPolicyException /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework
+      time_started_recording: 2020-11-10 16:36:25.958348035 +00:00
+      time_stopped_recording: 2020-11-10 16:36:25.964328050 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        RegisterExecutionPolicyException /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            builtin-RegisterExecutionPolicyException /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework
+      unique_identifier: C73D031A-2494-40A7-8F3F-5881F9B8495A
+      localized_result_string:
+      xcbuild_signature: '3239373036363834313631303730623636613637303738373431326239303037'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Touch Pods_Foo.framework
+      signature: Touch /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework
+      time_started_recording: 2020-11-10 16:36:25.964473009 +00:00
+      time_stopped_recording: 2020-11-10 16:36:25.965775012 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        Touch /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework (in target 'Pods-Foo' from project 'Pods')
+            cd /Users/thiago/Desktop/Foo/Pods
+            /usr/bin/touch -c /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework
+      unique_identifier: D4E0BDA7-19CF-43E2-ABB8-2D60F028FDB7
+      localized_result_string:
+      xcbuild_signature: '3838333430653630346332306536613533306432306630636339653033363732'
+    text:
+    messages:
+    cancelled: false
+    quiet: false
+    fetched_from_cache: true
+    subtitle: Project Pods | Configuration Debug | Destination iPod touch (7th generation)
+      | SDK Simulator - iOS 14.1
+    location:
+    command_detail_description:
+    unique_identifier: 7E2280E1-0F1C-4409-B732-CDEA1B11C78A
+    localized_result_string:
+    xcbuild_signature: '66613437343739353738356535346334316564366462346461646465373063643534646330636462316166633132613766613565373036326635363738636538'
+  - !ruby/object:XCActivityLog::IDEActivityLogMajorGroupSection
+    section_type: 1
+    domain_type: Xcode.IDEActivityLogDomainType.target.product-type.application
+    title: Build target Foo
+    signature: Foo-dxtetopblqgfhwgzjvfrrxkcxlyq
+    time_started_recording: 2020-11-10 16:36:25.942231059 +00:00
+    time_stopped_recording: 2020-11-10 16:36:26.682544946 +00:00
+    subsections:
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: CreateBuildDirectory /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex
+      signature: CreateBuildDirectory /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex
+      time_started_recording: 2020-11-10 16:35:58.407181978 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.407405018 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        CreateBuildDirectory /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            builtin-create-build-directory /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex
+      unique_identifier: 19E0D8D5-8681-4C56-9561-C232CF0264A8
+      localized_result_string:
+      xcbuild_signature: '3163383235306539303463366533373761356238396634313964366139326338'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: CreateBuildDirectory /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products
+      signature: CreateBuildDirectory /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products
+      time_started_recording: 2020-11-10 16:35:58.407279968 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.407446026 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        CreateBuildDirectory /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            builtin-create-build-directory /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products
+      unique_identifier: 8A9E1330-F3F1-42A8-809F-F79CAAF786E9
+      localized_result_string:
+      xcbuild_signature: '6634646637393266613135313432313962366532323436343766323839353661'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Create directory Foo.app
+      signature: MkDir /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app
+      time_started_recording: 2020-11-10 16:35:58.407650947 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.407716035 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        MkDir /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            /bin/mkdir -p /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app
+      unique_identifier: 9392BC38-B95B-4D10-B198-554C1547670D
+      localized_result_string:
+      xcbuild_signature: '6566646434306331346139326632363938393164653662616362393433643737'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Entitlements-Simulated.plist
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources/Entitlements-Simulated.plist
+      time_started_recording: 2020-11-10 16:36:25.942325949 +00:00
+      time_stopped_recording: 2020-11-10 16:36:25.942716956 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources/Entitlements-Simulated.plist (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources/Entitlements-Simulated.plist
+      unique_identifier: EC5D3E2C-1BCD-480B-B07C-78C2C2E50BB4
+      localized_result_string:
+      xcbuild_signature: '3032373132383336356231626562623133613630343837393734363733633463'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Entitlements.plist
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources/Entitlements.plist
+      time_started_recording: 2020-11-10 16:36:25.942536950 +00:00
+      time_stopped_recording: 2020-11-10 16:36:25.943086981 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources/Entitlements.plist (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources/Entitlements.plist
+      unique_identifier: FCF4F0B7-3EFA-429A-BB21-A4DA73EFFD66
+      localized_result_string:
+      xcbuild_signature: '3161623736613565393136393637663533373332613836313064633163666666'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Process product packaging
+      signature: ProcessProductPackaging "" /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo.app-Simulated.xcent
+      time_started_recording: 2020-11-10 16:36:25.942935943 +00:00
+      time_stopped_recording: 2020-11-10 16:36:25.943626999 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: "ProcessProductPackaging \"\" /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo.app-Simulated.xcent
+        (in target 'Foo' from project 'Foo')\n    cd /Users/thiago/Desktop/Foo\n    \n\nEntitlements:\n\n{\n
+        \   \"application-identifier\" = \"IT.foo.Foo\";\n    \"keychain-access-groups\"
+        =     (\n        \"IT.foo.Foo\"\n    );\n}\n\n\n    builtin-productPackagingUtility
+        -entitlements -format xml -o /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo.app-Simulated.xcent\n"
+      unique_identifier: B2A7BC13-C852-4840-9A57-21147B9ECB7E
+      localized_result_string:
+      xcbuild_signature: '3164326562646162333366353064373732366135633861666238353863393265'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Process product packaging
+      signature: ProcessProductPackaging "" /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo.app.xcent
+      time_started_recording: 2020-11-10 16:36:25.943397045 +00:00
+      time_stopped_recording: 2020-11-10 16:36:25.943874955 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: "ProcessProductPackaging \"\" /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo.app.xcent
+        (in target 'Foo' from project 'Foo')\n    cd /Users/thiago/Desktop/Foo\n    \n\nEntitlements:\n\n{\n
+        \   \"com.apple.security.get-task-allow\" = 1;\n}\n\n\n    builtin-productPackagingUtility
+        -entitlements -format xml -o /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo.app.xcent\n"
+      unique_identifier: D7449E34-BA25-4BFF-92DE-B391A0ACA68A
+      localized_result_string:
+      xcbuild_signature: '3534356666656238643031343765396532313264316232623264303565626438'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Foo.hmap
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo.hmap
+      time_started_recording: 2020-11-10 16:35:58.413221955 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.413701057 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo.hmap (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo.hmap
+      unique_identifier: A69B83AD-CFFA-4457-903C-2941121332DB
+      localized_result_string:
+      xcbuild_signature: '3066633935393562343661366533333561323861316331613238376337636535'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Foo-project-headers.hmap
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-project-headers.hmap
+      time_started_recording: 2020-11-10 16:35:58.412575960 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.413637042 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-project-headers.hmap (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-project-headers.hmap
+      unique_identifier: 38FD3AFB-5933-4186-8483-218AC2403156
+      localized_result_string:
+      xcbuild_signature: '6265633934323266386365363334633337316435343861373665356638373835'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Foo-own-target-headers.hmap
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-own-target-headers.hmap
+      time_started_recording: 2020-11-10 16:35:58.412160992 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.413563013 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-own-target-headers.hmap (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-own-target-headers.hmap
+      unique_identifier: 2DDA0C92-6437-4E12-A1FC-C6D92C1C45EC
+      localized_result_string:
+      xcbuild_signature: '6631323661356139623539393834646134623830396337646465653535383835'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Foo-generated-files.hmap
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-generated-files.hmap
+      time_started_recording: 2020-11-10 16:35:58.412986040 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.413663029 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-generated-files.hmap (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-generated-files.hmap
+      unique_identifier: 2AEEAC81-20F9-4615-84F1-A5F5C9B0FB13
+      localized_result_string:
+      xcbuild_signature: '3136363666623865363462623237383631643833613134306265393737633566'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Foo-all-target-headers.hmap
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-all-target-headers.hmap
+      time_started_recording: 2020-11-10 16:35:58.412348031 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.413586020 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-all-target-headers.hmap (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-all-target-headers.hmap
+      unique_identifier: 904A38D7-4D1B-4BD4-B789-7D8575D31FEC
+      localized_result_string:
+      xcbuild_signature: '3831303431626236653164643936623530326435336339343435383763363233'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Foo-all-non-framework-target-headers.hmap
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-all-non-framework-target-headers.hmap
+      time_started_recording: 2020-11-10 16:35:58.412806034 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.413683056 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-all-non-framework-target-headers.hmap (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-all-non-framework-target-headers.hmap
+      unique_identifier: 6929DEB7-0EBA-42A4-A90F-ADAFA3BEE3C3
+      localized_result_string:
+      xcbuild_signature: '3638643035626439623636303164356136363834653466316130613536363534'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write all-product-headers.yaml
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/all-product-headers.yaml
+      time_started_recording: 2020-11-10 16:35:58.411913037 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.413450002 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/all-product-headers.yaml (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/all-product-headers.yaml
+      unique_identifier: 78267CE2-5C41-4B9A-AC77-4AB297D367F4
+      localized_result_string:
+      xcbuild_signature: '6632326631636465373235626462336639626366393631666638303739313166'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Script-83BF8263971C16E049688446.sh
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Script-83BF8263971C16E049688446.sh
+      time_started_recording: 2020-11-10 16:36:25.966009020 +00:00
+      time_stopped_recording: 2020-11-10 16:36:25.966403007 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Script-83BF8263971C16E049688446.sh (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Script-83BF8263971C16E049688446.sh
+      unique_identifier: '0795246C-94CA-4677-946D-0066E5D87B2C'
+      localized_result_string:
+      xcbuild_signature: '6134376336373834613634333133343537326630323764393831633263313936'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Run custom shell script '[CP] Check Pods Manifest.lock'
+      signature: PhaseScriptExecution [CP]\ Check\ Pods\ Manifest.lock /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Script-83BF8263971C16E049688446.sh
+      time_started_recording: 2020-11-10 16:36:25.966629981 +00:00
+      time_stopped_recording: 2020-11-10 16:36:26.187613010 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        PhaseScriptExecution [CP]\ Check\ Pods\ Manifest.lock /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Script-83BF8263971C16E049688446.sh (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            /bin/sh -c /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Script-83BF8263971C16E049688446.sh
+      unique_identifier: 42E933F4-A032-49A3-A14A-FCBE74F1FAD0
+      localized_result_string:
+      xcbuild_signature: '3133636461323761366634373532373235386238313032336461633561366566'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Foo.SwiftFileList (x86_64)
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.SwiftFileList
+      time_started_recording: 2020-11-10 16:35:58.414031982 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.414499998 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.SwiftFileList (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.SwiftFileList
+      unique_identifier: A9E619BF-21E1-4FF4-8B5A-F141E4EB7483
+      localized_result_string:
+      xcbuild_signature: '3436336133306435323337656136396533633438663962386635646166323834'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Foo-OutputFileMap.json (x86_64)
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo-OutputFileMap.json
+      time_started_recording: 2020-11-10 16:35:58.414222002 +00:00
+      time_stopped_recording: 2020-11-10 16:35:58.414569020 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo-OutputFileMap.json (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo-OutputFileMap.json
+      unique_identifier: 60EDCC81-8783-441F-A2BA-D2F64A330C70
+      localized_result_string:
+      xcbuild_signature: '3530323937393038333334303835346431636364323535336536386565663335'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Compile Swift source files (x86_64)
+      signature: CompileSwiftSources normal x86_64 com.apple.xcode.tools.swift.compiler
+      time_started_recording: 2020-11-10 16:35:58.415413022 +00:00
+      time_stopped_recording: 2020-11-10 16:36:04.515048027 +00:00
+      subsections:
+      - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+        section_type: 2
+        domain_type: com.apple.dt.IDE.BuildLogSection
+        title: Compile ViewController.swift (x86_64)
+        signature: CompileSwift normal x86_64 /Users/thiago/Desktop/Foo/Foo/ViewController.swift
+        time_started_recording: 2020-11-10 16:35:58.425580978 +00:00
+        time_stopped_recording: 2020-11-10 16:36:04.513252973 +00:00
+        subsections:
+        text:
+        messages:
+        cancelled: false
+        quiet: false
+        fetched_from_cache: false
+        subtitle:
+        location: !ruby/object:XCActivityLog::DVTDocumentLocation
+          document_url_string: file:///Users/thiago/Desktop/Foo/Foo/ViewController.swift
+          timestamp: 0.0
+        command_detail_description: |
+          CompileSwift normal x86_64 /Users/thiago/Desktop/Foo/Foo/ViewController.swift (in target 'Foo' from project 'Foo')
+              cd /Users/thiago/Desktop/Foo
+              /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -frontend -c -primary-file /Users/thiago/Desktop/Foo/Foo/ViewController.swift /Users/thiago/Desktop/Foo/Foo/AppDelegate.swift /Users/thiago/Desktop/Foo/Foo/SceneDelegate.swift -emit-module-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/ViewController\~partial.swiftmodule -emit-module-doc-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/ViewController\~partial.swiftdoc -emit-module-source-info-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/ViewController\~partial.swiftsourceinfo -serialize-diagnostics-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/ViewController.dia -emit-dependencies-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/ViewController.d -emit-reference-dependencies-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/ViewController.swiftdeps -target x86_64-apple-ios14.1-simulator -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk -I /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator -F /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator -F /Users/thiago/Desktop/Foo/Pods/Crashlytics/iOS -F /Users/thiago/Desktop/Foo/Pods/Fabric/iOS -enable-testing -g -module-cache-path /Users/thiago/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -Xcc -working-directory -Xcc /Users/thiago/Desktop/Foo -enable-anonymous-context-mangled-names -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-generated-files.hmap -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-own-target-headers.hmap -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/all-product-headers.yaml -Xcc -iquote -Xcc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-project-headers.hmap -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources-normal/x86_64 -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources/x86_64 -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources -Xcc -DDEBUG\=1 -Xcc -DCOCOAPODS\=1 -target-sdk-version 14.1 -module-name Foo -o /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/ViewController.o -index-store-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Index/DataStore -index-system-modules
+        unique_identifier: 016E68E5-B9D2-4DD5-94EB-9D028DB35E5B
+        localized_result_string:
+        xcbuild_signature: '3730383763326430323639616530623334633561313833396437643861353033'
+      - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+        section_type: 2
+        domain_type: com.apple.dt.IDE.BuildLogSection
+        title: Compile AppDelegate.swift (x86_64)
+        signature: CompileSwift normal x86_64 /Users/thiago/Desktop/Foo/Foo/AppDelegate.swift
+        time_started_recording: 2020-11-10 16:35:58.426658987 +00:00
+        time_stopped_recording: 2020-11-10 16:36:04.514083981 +00:00
+        subsections:
+        text:
+        messages:
+        cancelled: false
+        quiet: false
+        fetched_from_cache: false
+        subtitle:
+        location: !ruby/object:XCActivityLog::DVTDocumentLocation
+          document_url_string: file:///Users/thiago/Desktop/Foo/Foo/AppDelegate.swift
+          timestamp: 0.0
+        command_detail_description: |
+          CompileSwift normal x86_64 /Users/thiago/Desktop/Foo/Foo/AppDelegate.swift (in target 'Foo' from project 'Foo')
+              cd /Users/thiago/Desktop/Foo
+              /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -frontend -c /Users/thiago/Desktop/Foo/Foo/ViewController.swift -primary-file /Users/thiago/Desktop/Foo/Foo/AppDelegate.swift /Users/thiago/Desktop/Foo/Foo/SceneDelegate.swift -emit-module-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/AppDelegate\~partial.swiftmodule -emit-module-doc-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/AppDelegate\~partial.swiftdoc -emit-module-source-info-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/AppDelegate\~partial.swiftsourceinfo -serialize-diagnostics-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/AppDelegate.dia -emit-dependencies-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/AppDelegate.d -emit-reference-dependencies-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/AppDelegate.swiftdeps -target x86_64-apple-ios14.1-simulator -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk -I /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator -F /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator -F /Users/thiago/Desktop/Foo/Pods/Crashlytics/iOS -F /Users/thiago/Desktop/Foo/Pods/Fabric/iOS -enable-testing -g -module-cache-path /Users/thiago/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -Xcc -working-directory -Xcc /Users/thiago/Desktop/Foo -enable-anonymous-context-mangled-names -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-generated-files.hmap -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-own-target-headers.hmap -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/all-product-headers.yaml -Xcc -iquote -Xcc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-project-headers.hmap -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources-normal/x86_64 -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources/x86_64 -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources -Xcc -DDEBUG\=1 -Xcc -DCOCOAPODS\=1 -target-sdk-version 14.1 -module-name Foo -o /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/AppDelegate.o -index-store-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Index/DataStore -index-system-modules
+        unique_identifier: 638AD870-3777-4EFF-9649-649F215FC062
+        localized_result_string:
+        xcbuild_signature: '3937393033616665303262323961666336313733366361366438306337646161'
+      - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+        section_type: 2
+        domain_type: com.apple.dt.IDE.BuildLogSection
+        title: Compile SceneDelegate.swift (x86_64)
+        signature: CompileSwift normal x86_64 /Users/thiago/Desktop/Foo/Foo/SceneDelegate.swift
+        time_started_recording: 2020-11-10 16:35:58.427793979 +00:00
+        time_stopped_recording: 2020-11-10 16:36:04.513445019 +00:00
+        subsections:
+        text:
+        messages:
+        cancelled: false
+        quiet: false
+        fetched_from_cache: false
+        subtitle:
+        location: !ruby/object:XCActivityLog::DVTDocumentLocation
+          document_url_string: file:///Users/thiago/Desktop/Foo/Foo/SceneDelegate.swift
+          timestamp: 0.0
+        command_detail_description: |
+          CompileSwift normal x86_64 /Users/thiago/Desktop/Foo/Foo/SceneDelegate.swift (in target 'Foo' from project 'Foo')
+              cd /Users/thiago/Desktop/Foo
+              /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -frontend -c /Users/thiago/Desktop/Foo/Foo/ViewController.swift /Users/thiago/Desktop/Foo/Foo/AppDelegate.swift -primary-file /Users/thiago/Desktop/Foo/Foo/SceneDelegate.swift -emit-module-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/SceneDelegate\~partial.swiftmodule -emit-module-doc-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/SceneDelegate\~partial.swiftdoc -emit-module-source-info-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/SceneDelegate\~partial.swiftsourceinfo -serialize-diagnostics-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/SceneDelegate.dia -emit-dependencies-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/SceneDelegate.d -emit-reference-dependencies-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/SceneDelegate.swiftdeps -target x86_64-apple-ios14.1-simulator -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk -I /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator -F /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator -F /Users/thiago/Desktop/Foo/Pods/Crashlytics/iOS -F /Users/thiago/Desktop/Foo/Pods/Fabric/iOS -enable-testing -g -module-cache-path /Users/thiago/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -Xcc -working-directory -Xcc /Users/thiago/Desktop/Foo -enable-anonymous-context-mangled-names -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-generated-files.hmap -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-own-target-headers.hmap -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/all-product-headers.yaml -Xcc -iquote -Xcc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-project-headers.hmap -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources-normal/x86_64 -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources/x86_64 -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources -Xcc -DDEBUG\=1 -Xcc -DCOCOAPODS\=1 -target-sdk-version 14.1 -module-name Foo -o /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/SceneDelegate.o -index-store-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Index/DataStore -index-system-modules
+        unique_identifier: 6D1ED63C-D916-4559-959F-1597B5A70A1A
+        localized_result_string:
+        xcbuild_signature: '3432646333356337343035356461626637373261396634366163646438316633'
+      - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+        section_type: 2
+        domain_type: com.apple.dt.IDE.BuildLogSection
+        title: Merge swiftmodule (x86_64)
+        signature: MergeSwiftModule normal x86_64
+        time_started_recording: 2020-11-10 16:36:04.514901995 +00:00
+        time_stopped_recording: 2020-11-10 16:36:04.515010952 +00:00
+        subsections:
+        text:
+        messages:
+        cancelled: false
+        quiet: false
+        fetched_from_cache: false
+        subtitle:
+        location:
+        command_detail_description: |
+          MergeSwiftModule normal x86_64 (in target 'Foo' from project 'Foo')
+              cd /Users/thiago/Desktop/Foo
+              /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -frontend -merge-modules -emit-module /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/ViewController\~partial.swiftmodule /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/AppDelegate\~partial.swiftmodule /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/SceneDelegate\~partial.swiftmodule -parse-as-library -sil-merge-partial-modules -disable-diagnostic-passes -disable-sil-perf-optzns -target x86_64-apple-ios14.1-simulator -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk -I /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator -F /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator -F /Users/thiago/Desktop/Foo/Pods/Crashlytics/iOS -F /Users/thiago/Desktop/Foo/Pods/Fabric/iOS -enable-testing -g -module-cache-path /Users/thiago/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -Xcc -working-directory -Xcc /Users/thiago/Desktop/Foo -enable-anonymous-context-mangled-names -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-generated-files.hmap -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-own-target-headers.hmap -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/all-product-headers.yaml -Xcc -iquote -Xcc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-project-headers.hmap -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources-normal/x86_64 -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources/x86_64 -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources -Xcc -DDEBUG\=1 -Xcc -DCOCOAPODS\=1 -target-sdk-version 14.1 -emit-module-doc-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftdoc -emit-module-source-info-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftsourceinfo -emit-objc-header-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo-Swift.h -module-name Foo -o /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftmodule
+        unique_identifier: D2C14671-3FC6-4F38-939E-58AB9BCBF1E5
+        localized_result_string:
+        xcbuild_signature: '6666333066346664663761623739623835373863643865346165656238613064'
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location:
+      command_detail_description: |
+        CompileSwiftSources normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            export DEVELOPER_DIR\=/Applications/Xcode.app/Contents/Developer
+            export SDKROOT\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -incremental -module-name Foo -Onone -enable-batch-mode -enforce-exclusivity\=checked @/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.SwiftFileList -DDEBUG -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk -target x86_64-apple-ios14.1-simulator -g -module-cache-path /Users/thiago/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Index/DataStore -swift-version 5 -I /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator -F /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator -F /Users/thiago/Desktop/Foo/Pods/Crashlytics/iOS -F /Users/thiago/Desktop/Foo/Pods/Fabric/iOS -c -j16 -output-file-map /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo-OutputFileMap.json -parseable-output -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftmodule -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-generated-files.hmap -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-own-target-headers.hmap -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/all-product-headers.yaml -Xcc -iquote -Xcc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo-project-headers.hmap -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources-normal/x86_64 -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources/x86_64 -Xcc -I/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources -Xcc -DDEBUG\=1 -Xcc -DCOCOAPODS\=1 -emit-objc-header -emit-objc-header-path /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo-Swift.h -working-directory /Users/thiago/Desktop/Foo
+      unique_identifier: 4133E5F1-12A1-46BA-BABD-0E85A2D32B40
+      localized_result_string:
+      xcbuild_signature: '3366353439343563633835643563343665656233646563316361343161626362'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Copy Foo.swiftmodule (x86_64)
+      signature: Ditto /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.swiftmodule/x86_64.swiftmodule
+        /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftmodule
+      time_started_recording: 2020-11-10 16:36:04.515408039 +00:00
+      time_stopped_recording: 2020-11-10 16:36:04.516505956 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftmodule
+        timestamp: 0.0
+      command_detail_description: |
+        Ditto /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.swiftmodule/x86_64.swiftmodule /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftmodule (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            /usr/bin/ditto -rsrc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftmodule /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.swiftmodule/x86_64.swiftmodule
+      unique_identifier: 96F99BEB-9CEA-4E38-A97A-48B39BD4275C
+      localized_result_string:
+      xcbuild_signature: '3263626235313131616431373963326361663333623438373333636231633839'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Copy Foo.swiftdoc (x86_64)
+      signature: Ditto /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.swiftmodule/x86_64.swiftdoc
+        /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftdoc
+      time_started_recording: 2020-11-10 16:36:04.515210032 +00:00
+      time_stopped_recording: 2020-11-10 16:36:04.516430974 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftdoc
+        timestamp: 0.0
+      command_detail_description: |
+        Ditto /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.swiftmodule/x86_64.swiftdoc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftdoc (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            /usr/bin/ditto -rsrc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftdoc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.swiftmodule/x86_64.swiftdoc
+      unique_identifier: 83FEE35D-4AE4-4E6A-879F-386EE621A894
+      localized_result_string:
+      xcbuild_signature: '3630626230303166383565633462373539376263643530353130643935353831'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Copy Foo.swiftmodule (x86_64)
+      signature: Ditto /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.swiftmodule/x86_64-apple-ios-simulator.swiftmodule
+        /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftmodule
+      time_started_recording: 2020-11-10 16:36:04.515795946 +00:00
+      time_stopped_recording: 2020-11-10 16:36:04.516548991 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftmodule
+        timestamp: 0.0
+      command_detail_description: |
+        Ditto /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.swiftmodule/x86_64-apple-ios-simulator.swiftmodule /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftmodule (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            /usr/bin/ditto -rsrc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftmodule /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.swiftmodule/x86_64-apple-ios-simulator.swiftmodule
+      unique_identifier: 2EEDCD1E-8EA6-4CC8-AB53-19BA7DD272CE
+      localized_result_string:
+      xcbuild_signature: '3939653531373532636137373738653735653230656434346261386538663932'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Copy Foo.swiftdoc (x86_64)
+      signature: Ditto /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.swiftmodule/x86_64-apple-ios-simulator.swiftdoc
+        /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftdoc
+      time_started_recording: 2020-11-10 16:36:04.515980958 +00:00
+      time_stopped_recording: 2020-11-10 16:36:04.516805052 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftdoc
+        timestamp: 0.0
+      command_detail_description: |
+        Ditto /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.swiftmodule/x86_64-apple-ios-simulator.swiftdoc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftdoc (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            /usr/bin/ditto -rsrc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftdoc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.swiftmodule/x86_64-apple-ios-simulator.swiftdoc
+      unique_identifier: C82A7834-13C1-46EC-9A76-F92B753AA69D
+      localized_result_string:
+      xcbuild_signature: '3638326235653835646533343136633131303136616564396437663538656333'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Copy Foo.swiftsourceinfo (x86_64)
+      signature: Ditto /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.swiftmodule/Project/x86_64.swiftsourceinfo
+        /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftsourceinfo
+      time_started_recording: 2020-11-10 16:36:04.516160964 +00:00
+      time_stopped_recording: 2020-11-10 16:36:04.516742944 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftsourceinfo
+        timestamp: 0.0
+      command_detail_description: |
+        Ditto /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.swiftmodule/Project/x86_64.swiftsourceinfo /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftsourceinfo (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            /usr/bin/ditto -rsrc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftsourceinfo /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.swiftmodule/Project/x86_64.swiftsourceinfo
+      unique_identifier: 852ED4DD-A03B-4683-AEEE-0E3D96183331
+      localized_result_string:
+      xcbuild_signature: '6261346264626635323734313439316664366134633438313339636532633931'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Copy Foo.swiftsourceinfo (x86_64)
+      signature: Ditto /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo
+        /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftsourceinfo
+      time_started_recording: 2020-11-10 16:36:04.516345024 +00:00
+      time_stopped_recording: 2020-11-10 16:36:04.516824007 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftsourceinfo
+        timestamp: 0.0
+      command_detail_description: |
+        Ditto /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftsourceinfo (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            /usr/bin/ditto -rsrc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftsourceinfo /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo
+      unique_identifier: 7F4EB59B-2622-4C0F-83B7-0525FFF01AB8
+      localized_result_string:
+      xcbuild_signature: '6663366563366238363337313235373164656135386635313738396331633535'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Copy Foo-Swift.h (x86_64)
+      signature: Ditto /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources/Foo-Swift.h
+        /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo-Swift.h
+      time_started_recording: 2020-11-10 16:36:04.515594959 +00:00
+      time_stopped_recording: 2020-11-10 16:36:04.516679048 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: true
+      subtitle:
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo-Swift.h
+        timestamp: 0.0
+      command_detail_description: |
+        Ditto /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources/Foo-Swift.h /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo-Swift.h (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            /usr/bin/ditto -rsrc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo-Swift.h /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/DerivedSources/Foo-Swift.h
+      unique_identifier: 81932E1E-2103-4D7B-93E0-593AB0C88C45
+      localized_result_string:
+      xcbuild_signature: '3861666164393130383665633736366531616532336534383935343436336362'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Foo.LinkFileList (x86_64)
+      signature: WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.LinkFileList
+      time_started_recording: 2020-11-10 16:36:26.188325047 +00:00
+      time_stopped_recording: 2020-11-10 16:36:26.188743948 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.LinkFileList (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            write-file /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.LinkFileList
+      unique_identifier: D857EF83-CC11-4C1B-935F-61DAB98CA52A
+      localized_result_string:
+      xcbuild_signature: '3738396663316233363337393634353133666437306239303439626434386531'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Link Foo (x86_64)
+      signature: Ld /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app/Foo
+        normal
+      time_started_recording: 2020-11-10 16:36:26.189278006 +00:00
+      time_stopped_recording: 2020-11-10 16:36:26.391334056 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        Ld /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app/Foo normal (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-ios14.1-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk -L/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator -F/Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator -F/Users/thiago/Desktop/Foo/Pods/Crashlytics/iOS -F/Users/thiago/Desktop/Foo/Pods/Fabric/iOS -filelist /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -rpath -Xlinker @loader_path/Frameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo_lto.o -Xlinker -export_dynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo.swiftmodule -ObjC -lc++ -lz -framework Crashlytics -framework Fabric -framework Security -framework SystemConfiguration -framework UIKit -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo.app-Simulated.xcent -framework Pods_Foo -Xlinker -dependency_info -Xlinker /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Objects-normal/x86_64/Foo_dependency_info.dat -o /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app/Foo
+      unique_identifier: 4B566833-2C34-4DCA-B947-5C73698049B8
+      localized_result_string:
+      xcbuild_signature: '6538323630633365303265653233323538623731663037346265643536626361'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Compile asset catalogs
+      signature: CompileAssetCatalog /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app
+        /Users/thiago/Desktop/Foo/Foo/Assets.xcassets
+      time_started_recording: 2020-11-10 16:36:26.393352985 +00:00
+      time_stopped_recording: 2020-11-10 16:36:26.404886007 +00:00
+      subsections:
+      text: |+
+        /* com.apple.actool.compilation-results */
+        /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/assetcatalog_generated_info.plist
+
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        CompileAssetCatalog /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app /Users/thiago/Desktop/Foo/Foo/Assets.xcassets (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/assetcatalog_dependencies --output-partial-info-plist /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/assetcatalog_generated_info.plist --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --filter-for-device-model iPod9,1 --filter-for-device-os-version 14.1 --development-region en --target-device iphone --target-device ipad --minimum-deployment-target 14.1 --platform iphonesimulator --compile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app /Users/thiago/Desktop/Foo/Foo/Assets.xcassets
+      unique_identifier: D7C70537-EC41-458E-B38F-A85F26C8F9EB
+      localized_result_string:
+      xcbuild_signature: '6636303932363861663334313434396430656364386232623465633163366166'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Compile Storyboard file LaunchScreen.storyboard
+      signature: CompileStoryboard /Users/thiago/Desktop/Foo/Foo/Base.lproj/LaunchScreen.storyboard
+      time_started_recording: 2020-11-10 16:36:26.393661022 +00:00
+      time_stopped_recording: 2020-11-10 16:36:26.626906037 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        CompileStoryboard /Users/thiago/Desktop/Foo/Foo/Base.lproj/LaunchScreen.storyboard (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            export XCODE_DEVELOPER_USR_PATH\=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+            /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module Foo --output-partial-info-plist /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Base.lproj/LaunchScreen-SBPartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 14.1 --output-format human-readable-text --compilation-directory /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Base.lproj /Users/thiago/Desktop/Foo/Foo/Base.lproj/LaunchScreen.storyboard
+      unique_identifier: 45F225AF-92AF-433A-864B-C1EDAAE04AFA
+      localized_result_string:
+      xcbuild_signature: '3039316432653935326337366235383561633033633831386463353435393233'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Compile Storyboard file Main.storyboard
+      signature: CompileStoryboard /Users/thiago/Desktop/Foo/Foo/Base.lproj/Main.storyboard
+      time_started_recording: 2020-11-10 16:36:26.393983006 +00:00
+      time_stopped_recording: 2020-11-10 16:36:26.625857949 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        CompileStoryboard /Users/thiago/Desktop/Foo/Foo/Base.lproj/Main.storyboard (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            export XCODE_DEVELOPER_USR_PATH\=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+            /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module Foo --output-partial-info-plist /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Base.lproj/Main-SBPartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 14.1 --output-format human-readable-text --compilation-directory /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Base.lproj /Users/thiago/Desktop/Foo/Foo/Base.lproj/Main.storyboard
+      unique_identifier: 15BB6448-EFA0-42D3-AB08-CD50DC411E7C
+      localized_result_string:
+      xcbuild_signature: '3638613364393164623461626463623732623332363939383136306135346134'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Process Info.plist
+      signature: ProcessInfoPlistFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app/Info.plist
+        /Users/thiago/Desktop/Foo/Foo/Info.plist
+      time_started_recording: 2020-11-10 16:36:26.627279043 +00:00
+      time_stopped_recording: 2020-11-10 16:36:26.628859996 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        ProcessInfoPlistFile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app/Info.plist /Users/thiago/Desktop/Foo/Foo/Info.plist (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            builtin-infoPlistUtility /Users/thiago/Desktop/Foo/Foo/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Base.lproj/LaunchScreen-SBPartialInfo.plist -additionalcontentfile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Base.lproj/Main-SBPartialInfo.plist -additionalcontentfile /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/assetcatalog_generated_info.plist -o /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app/Info.plist
+      unique_identifier: D12C1A21-AD07-4B77-9179-8C20FA54D274
+      localized_result_string:
+      xcbuild_signature: '3866646238356563373661356163616637303435396536316631623538626263'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Link Storyboards
+      signature: LinkStoryboards
+      time_started_recording: 2020-11-10 16:36:26.627678036 +00:00
+      time_stopped_recording: 2020-11-10 16:36:26.635434031 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        LinkStoryboards (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            export XCODE_DEVELOPER_USR_PATH\=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+            /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module Foo --target-device iphone --target-device ipad --minimum-deployment-target 14.1 --output-format human-readable-text --link /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Base.lproj/LaunchScreen.storyboardc /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Base.lproj/Main.storyboardc
+      unique_identifier: 5BA8FE6B-A1D2-434F-A47F-EB773316CC4A
+      localized_result_string:
+      xcbuild_signature: '6666626662313366386161653765366435623761363633646636336331323134'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Copy Swift standard libraries into Foo.app
+      signature: CopySwiftLibs /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app
+      time_started_recording: 2020-11-10 16:36:26.635962963 +00:00
+      time_stopped_recording: 2020-11-10 16:36:26.639897942 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        CopySwiftLibs /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            export CODESIGN_ALLOCATE\=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+            export DEVELOPER_DIR\=/Applications/Xcode.app/Contents/Developer
+            export SDKROOT\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.1.sdk
+            builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app/Foo --scan-folder /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app/Frameworks --scan-folder /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app/PlugIns --scan-folder /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Pods_Foo.framework --platform iphonesimulator --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+      unique_identifier: 6F84DFB9-869A-4DF7-BD44-280CA385F18C
+      localized_result_string:
+      xcbuild_signature: '3630366462366530373761626433343866636238393632396266636630363934'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Sign Foo.app
+      signature: CodeSign /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app
+      time_started_recording: 2020-11-10 16:36:26.640198945 +00:00
+      time_stopped_recording: 2020-11-10 16:36:26.674834966 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: "CodeSign /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app
+        (in target 'Foo' from project 'Foo')\n    cd /Users/thiago/Desktop/Foo\n    export
+        CODESIGN_ALLOCATE\\=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate\n
+        \   \nSigning Identity:     \"-\"\n\n    /usr/bin/codesign --force --sign
+        - --entitlements /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Intermediates.noindex/Foo.build/Debug-iphonesimulator/Foo.build/Foo.app.xcent
+        --timestamp\\=none /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app\n"
+      unique_identifier: 5BFCA800-32EA-43A5-B040-A841D222D695
+      localized_result_string:
+      xcbuild_signature: '3665363039343934353734323630353732643034333939316565363964363666'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Register execution policy exception for Foo.app
+      signature: RegisterExecutionPolicyException /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app
+      time_started_recording: 2020-11-10 16:36:26.675042986 +00:00
+      time_stopped_recording: 2020-11-10 16:36:26.680922031 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        RegisterExecutionPolicyException /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            builtin-RegisterExecutionPolicyException /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app
+      unique_identifier: 7AA6D544-D1BC-48C3-A46B-9A22BDFCCE06
+      localized_result_string:
+      xcbuild_signature: '6565663539356631303732366634383362653965393131313934666666346166'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Touch Foo.app
+      signature: Touch /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app
+      time_started_recording: 2020-11-10 16:36:26.681187987 +00:00
+      time_stopped_recording: 2020-11-10 16:36:26.682456016 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        Touch /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app (in target 'Foo' from project 'Foo')
+            cd /Users/thiago/Desktop/Foo
+            /usr/bin/touch -c /Users/thiago/Library/Developer/Xcode/DerivedData/Foo-gormmzdvjqrfuifjjtbrgpvhaexz/Build/Products/Debug-iphonesimulator/Foo.app
+      unique_identifier: D5E16CED-5B15-41F8-8A95-E46357AE5C81
+      localized_result_string:
+      xcbuild_signature: '3436653031393732356466353035643463653962633637303135643836313438'
+    text:
+    messages:
+    cancelled: false
+    quiet: false
+    fetched_from_cache: true
+    subtitle: Project Foo | Configuration Debug | Destination iPod touch (7th generation)
+      | SDK Simulator - iOS 14.1
+    location:
+    command_detail_description:
+    unique_identifier: 6E41591D-68E7-477D-AA1A-0B0B36FF577F
+    localized_result_string:
+    xcbuild_signature: '38366263353835613462353737323930663033346266346434363130643234346564623730633537666532666664303332616538356533333062306665343863'
+  - !ruby/object:XCActivityLog::IDEActivityLogMajorGroupSection
+    section_type: 1
+    domain_type: Xcode.IDEActivityLogDomainType.target.product-type.target
+    title: Build target Fabric
+    signature: Fabric-hgzopicwpiiqsqaxhlrezibbxfmz
+    time_started_recording: 2020-11-10 16:37:02.134037017 +00:00
+    time_stopped_recording: 2020-11-10 16:37:02.134184956 +00:00
+    subsections:
+    text: 'warning: The iOS Simulator deployment target ''IPHONEOS_DEPLOYMENT_TARGET''
+      is set to 8.0, but the range of supported deployment target versions is 9.0
+      to 14.1.99. (in target ''Fabric'' from project ''Pods'')
+
+'
+    messages:
+    - !ruby/object:XCActivityLog::IDEDiagnosticActivityLogMessage
+      title: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set
+        to 8.0, but the range of supported deployment target versions is 9.0 to 14.1.99.
+      short_title:
+      time_emitted: 626719022
+      range_in_section_text: !ruby/object:XCActivityLog::NSRange
+        location: 18446744073709551615
+        length: 0
+      submessages:
+      severity: 1
+      type: com.apple.dt.IDE.diagnostic
+      location:
+      category_identifier: Warning
+      secondary_locations:
+      additional_description:
+    cancelled: false
+    quiet: false
+    fetched_from_cache: false
+    subtitle: Project Pods | Configuration Debug | Destination iPod touch (7th generation)
+      | SDK Simulator - iOS 14.1
+    location:
+    command_detail_description:
+    unique_identifier: AEBFB061-0A0B-4DCF-B4A1-AD617D9643B6
+    localized_result_string:
+    xcbuild_signature: '66613437343739353738356535346334316564366462346461646465373063646639353635393938373436636163356365323833363961383039326162643331'
+  - !ruby/object:XCActivityLog::IDEActivityLogMajorGroupSection
+    section_type: 1
+    domain_type: Xcode.IDEActivityLogDomainType.target.product-type.target
+    title: Build target Crashlytics
+    signature: Crashlytics-hgzopicwpiiqsqaxhlrezibbxfmz
+    time_started_recording: 2020-11-10 16:37:02.134292006 +00:00
+    time_stopped_recording: 2020-11-10 16:37:02.134400010 +00:00
+    subsections:
+    text: 'warning: The iOS Simulator deployment target ''IPHONEOS_DEPLOYMENT_TARGET''
+      is set to 8.0, but the range of supported deployment target versions is 9.0
+      to 14.1.99. (in target ''Crashlytics'' from project ''Pods'')
+
+'
+    messages:
+    - !ruby/object:XCActivityLog::IDEDiagnosticActivityLogMessage
+      title: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set
+        to 8.0, but the range of supported deployment target versions is 9.0 to 14.1.99.
+      short_title:
+      time_emitted: 626719022
+      range_in_section_text: !ruby/object:XCActivityLog::NSRange
+        location: 18446744073709551615
+        length: 0
+      submessages:
+      severity: 1
+      type: com.apple.dt.IDE.diagnostic
+      location:
+      category_identifier: Warning
+      secondary_locations:
+      additional_description:
+    cancelled: false
+    quiet: false
+    fetched_from_cache: false
+    subtitle: Project Pods | Configuration Debug | Destination iPod touch (7th generation)
+      | SDK Simulator - iOS 14.1
+    location:
+    command_detail_description:
+    unique_identifier: 724CF453-4385-47C6-8728-C15FA591C697
+    localized_result_string:
+    xcbuild_signature: '66613437343739353738356535346334316564366462346461646465373063643265383233336262376438333833303533336539363864643564663634363132'
+  text:
+  messages:
+  cancelled: false
+  quiet: false
+  fetched_from_cache: false
+  subtitle:
+  location:
+  command_detail_description:
+  unique_identifier: 4E5D8D6D-5EEA-44FA-A602-0AD025FCB5DD
+  localized_result_string: Build succeeded
+  xcbuild_signature:

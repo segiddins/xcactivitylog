@@ -36,6 +36,14 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/segiddins/xcactivitylog. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
+## New Xcode versions
+
+As new versions of Xcode come out it might be necessary to handle new private API, the parser will fail and the name of the unhandled class can be found in the error message as `#<NameError: uninitialized constant <CLASS_NAME>`.
+
+One way to fix it is to create a dummy project using the new Xcode version and generate a `.xcactivitylog` that allows one to reproduce the same error, the logs can be found in Xcode's `DerivedData` folder (`~/Library/Developer/Xcode/DerivedData/{UUID}/Logs/Build`). Manually parse the `.xcactivitylog` file, check the `version` at the top and then for `version = X` create a folder `spec/fixtures/xcactivitylog/vX` and puth the `.xcactivitylog` in there.
+
+Now `rake spec` will try to parse the new log file and it should fail with the same exception above. Make the necessary code changes to handle the new class (it might help to check for class dumps like these [here](https://github.com/segiddins/Xcode-RuntimeHeaders)). Once the proper changes are in `rake spec` should go green.
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

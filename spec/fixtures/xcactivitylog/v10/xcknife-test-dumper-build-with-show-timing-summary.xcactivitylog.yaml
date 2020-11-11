@@ -15,20 +15,20 @@
     signature: CreateBuildDirectory /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex
     time_started_recording: 2020-04-02 17:28:25.832476019 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.833179950 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       CreateBuildDirectory /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           builtin-create-build-directory /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex
     unique_identifier: 43FFA8EE-6D48-4100-B264-C809B5076870
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '6630643031613836636661613334313032623533633963386132633036636236'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -37,20 +37,20 @@
     signature: CreateBuildDirectory /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products
     time_started_recording: 2020-04-02 17:28:25.832738995 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.833237051 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       CreateBuildDirectory /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           builtin-create-build-directory /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products
     unique_identifier: 9CC5BDA7-ED08-4756-8B4F-C0F2325AF5FE
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3935373333666136333337353230306533663665663738393732306466356631'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -60,20 +60,20 @@
     signature: MkDir /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework
     time_started_recording: 2020-04-02 17:28:25.833451986 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.833583950 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       MkDir /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           /bin/mkdir -p /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework
     unique_identifier: 9DB7CA74-4CD2-4601-8751-5FA2FF8F5B95
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3836393236363934363162333935383731363230663030303863336162656135'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -83,20 +83,20 @@
     signature: MkDir /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Headers
     time_started_recording: 2020-04-02 17:28:25.833675026 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.833942055 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       MkDir /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Headers (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           /bin/mkdir -p /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Headers
     unique_identifier: C244136A-4FC9-4602-A654-7C0EC452B3A0
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '6564356138623136653033316136326663613036376234353135626463363264'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -105,20 +105,20 @@
     signature: WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-own-target-headers.hmap
     time_started_recording: 2020-04-02 17:28:25.834079980 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.835875034 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-own-target-headers.hmap (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           write-file /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-own-target-headers.hmap
     unique_identifier: 0B9E0E60-21A2-4405-AF77-DE05879E5FE5
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3131663239396561323463303236363233373064373665303865396664373561'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -127,20 +127,20 @@
     signature: WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper.hmap
     time_started_recording: 2020-04-02 17:28:25.834308981 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.835963964 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper.hmap (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           write-file /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper.hmap
     unique_identifier: 23758EC8-FCEA-47C6-8A7E-0067C4399F91
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3763356433343765346336356132303738336634356336363664306634653131'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -149,20 +149,20 @@
     signature: WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-project-headers.hmap
     time_started_recording: 2020-04-02 17:28:25.834547042 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.835929036 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-project-headers.hmap (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           write-file /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-project-headers.hmap
     unique_identifier: F4A16544-B8C9-49DB-995F-9B3A209134A3
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '6436393563323933396636383539646332663166636539346338646530366133'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -171,20 +171,20 @@
     signature: WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-all-target-headers.hmap
     time_started_recording: 2020-04-02 17:28:25.834826946 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.835996031 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-all-target-headers.hmap (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           write-file /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-all-target-headers.hmap
     unique_identifier: 6705256B-41D5-40F9-88FD-66E4FD691221
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '6239336530336433356462663133353161306134316334386234306535353464'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -193,20 +193,20 @@
     signature: WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-all-non-framework-target-headers.hmap
     time_started_recording: 2020-04-02 17:28:25.835113048 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.836030006 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-all-non-framework-target-headers.hmap (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           write-file /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-all-non-framework-target-headers.hmap
     unique_identifier: 4EC82FDE-9852-4E9E-BDD3-AC9E0080E3F6
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3039303939383432343438633139636335636364376135613434666633626564'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -215,20 +215,20 @@
     signature: WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/all-product-headers.yaml
     time_started_recording: 2020-04-02 17:28:25.835348010 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.836060047 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/all-product-headers.yaml (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           write-file /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/all-product-headers.yaml
     unique_identifier: 9DD7810D-999E-4248-A894-81B4F60C9AC3
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3465653231386432303333623639376163353735633163616237343564663339'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -237,20 +237,20 @@
     signature: WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-generated-files.hmap
     time_started_recording: 2020-04-02 17:28:25.835664987 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.836089968 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-generated-files.hmap (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           write-file /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-generated-files.hmap
     unique_identifier: 0B1635D7-89D6-48A1-9B9E-265D85A9EE5A
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3736623939626237366539656637303766306639326262346664393932626165'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -259,20 +259,20 @@
     signature: WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/module.modulemap
     time_started_recording: 2020-04-02 17:28:25.836336016 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.837936043 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/module.modulemap (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           write-file /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/module.modulemap
     unique_identifier: 5A8612B3-5F2C-4265-AF86-6A8D72816CCC
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '6136616566636538376533363831383364343230303438623935383936313265'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -282,20 +282,20 @@
       /Users/yuanfeng/Development/xcknife/TestDumper/TestDumper/Info.plist
     time_started_recording: 2020-04-02 17:28:25.836725950 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.843778014 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       ProcessInfoPlistFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Info.plist /Users/yuanfeng/Development/xcknife/TestDumper/TestDumper/Info.plist (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           builtin-infoPlistUtility /Users/yuanfeng/Development/xcknife/TestDumper/TestDumper/Info.plist -producttype com.apple.product-type.framework -expandbuildsettings -format binary -platform iphonesimulator -o /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Info.plist
     unique_identifier: 14ABDCE8-D30A-49C8-9815-F63B5C14419A
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3833643363623163373163643232356532393462653431616563616564626361'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -304,20 +304,20 @@
     signature: WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c
     time_started_recording: 2020-04-02 17:28:25.837034940 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.840968966 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           write-file /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c
     unique_identifier: 24FA1D5A-5794-4B4A-B880-76BD4A5C5D83
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '6434626662643161346235353730356331386466316532353232343136326336'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -326,20 +326,20 @@
     signature: WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper.LinkFileList
     time_started_recording: 2020-04-02 17:28:25.837373018 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.843742012 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper.LinkFileList (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           write-file /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper.LinkFileList
     unique_identifier: 00410620-990F-40DB-9D1B-2EACF82679DF
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3633643032656430633862633862623465333330626130306231343764623966'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -348,20 +348,20 @@
     signature: WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper.LinkFileList
     time_started_recording: 2020-04-02 17:28:25.837744951 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.843799948 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       WriteAuxiliaryFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper.LinkFileList (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           write-file /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper.LinkFileList
     unique_identifier: E20F6695-7BFF-4368-9F8D-13EABFC1C81D
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3964386436326436666633643261303534326635366531613631633037633638'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -372,13 +372,13 @@
       x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
     time_started_recording: 2020-04-02 17:28:25.839411020 +00:00
     time_stopped_recording: 2020-04-02 17:28:28.976318001 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
+    subtitle:
     location: !ruby/object:XCActivityLog::DVTDocumentLocation
       document_url_string: file:///Users/yuanfeng/Development/xcknife/TestDumper/TestDumper/Initialize.m
       timestamp: 0.0
@@ -388,7 +388,7 @@
           export LANG=en_US.US-ASCII
           /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -target x86_64-apple-ios8.4-simulator -fmessage-length=163 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -gmodules -fmodules-cache-path=/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/ModuleCache.noindex -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -fmodule-name=TestDumper -Wno-trigraphs -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -fobjc-abi-version=2 -fobjc-legacy-dispatch -index-store-path /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Index/DataStore -iquote /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-generated-files.hmap -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-own-target-headers.hmap -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-all-non-framework-target-headers.hmap -ivfsoverlay /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/all-product-headers.yaml -iquote /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-project-headers.hmap -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/include -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources-normal/x86_64 -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/x86_64 -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources -F/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F/Users/yuanfeng/Development/xcknife/TestDumper -MMD -MT dependencies -MF /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/Initialize.d --serialize-diagnostics /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/Initialize.dia -c /Users/yuanfeng/Development/xcknife/TestDumper/TestDumper/Initialize.m -o /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/Initialize.o
     unique_identifier: 3EBC44B9-1D2D-43B9-B379-D23FB353BC1F
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3833306362613934326434393561653763356532616532613163356564363934'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -399,7 +399,7 @@
       i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
     time_started_recording: 2020-04-02 17:28:25.840630054 +00:00
     time_stopped_recording: 2020-04-02 17:28:28.984827041 +00:00
-    subsections: 
+    subsections:
     text: "\e[1m/Users/yuanfeng/Development/xcknife/TestDumper/TestDumper/Initialize.m:250:65:
       \e[0m\e[0;1;35mwarning: \e[0m\e[1mvalues of type 'NSInteger' should not be used
       as format arguments; add an\n      explicit cast to 'long' instead [-Wformat]\e[0m\n
@@ -411,12 +411,12 @@
     - !ruby/object:XCActivityLog::IDEClangDiagnosticActivityLogMessage
       title: Values of type 'NSInteger' should not be used as format arguments; add
         an explicit cast to 'long' instead
-      short_title: 
+      short_title:
       time_emitted: 607541308
       range_in_section_text: !ruby/object:XCActivityLog::NSRange
         location: 18446744073709551615
         length: 0
-      submessages: 
+      submessages:
       severity: 1
       type: com.apple.dt.IDE.diagnostic
       location: !ruby/object:XCActivityLog::DVTTextDocumentLocation
@@ -476,11 +476,11 @@
           location: 9166
           length: 0
         location_encoding: 1
-      additional_description: 
+      additional_description:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
+    subtitle:
     location: !ruby/object:XCActivityLog::DVTDocumentLocation
       document_url_string: file:///Users/yuanfeng/Development/xcknife/TestDumper/TestDumper/Initialize.m
       timestamp: 0.0
@@ -490,7 +490,7 @@
           export LANG=en_US.US-ASCII
           /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -target i386-apple-ios8.4-simulator -fmessage-length=163 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fobjc-arc -fmodules -gmodules -fmodules-cache-path=/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/ModuleCache.noindex -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -fmodule-name=TestDumper -Wno-trigraphs -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -fobjc-abi-version=2 -fobjc-legacy-dispatch -index-store-path /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Index/DataStore -iquote /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-generated-files.hmap -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-own-target-headers.hmap -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-all-non-framework-target-headers.hmap -ivfsoverlay /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/all-product-headers.yaml -iquote /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-project-headers.hmap -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/include -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources-normal/i386 -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/i386 -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources -F/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F/Users/yuanfeng/Development/xcknife/TestDumper -MMD -MT dependencies -MF /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/Initialize.d --serialize-diagnostics /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/Initialize.dia -c /Users/yuanfeng/Development/xcknife/TestDumper/TestDumper/Initialize.m -o /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/Initialize.o
     unique_identifier: D7EEE6FC-2024-47C2-8DCD-AC990CD47B00
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3831616630663433646635363166653630336561356163376538376130613462'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -500,13 +500,13 @@
       /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Modules/module.modulemap
     time_started_recording: 2020-04-02 17:28:25.840806961 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.843847036 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
+    subtitle:
     location: !ruby/object:XCActivityLog::DVTDocumentLocation
       document_url_string: file:///Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/module.modulemap
       timestamp: 0.0
@@ -515,7 +515,7 @@
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/module.modulemap /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Modules
     unique_identifier: 1F0616A0-E53F-4328-B65F-165F217424C3
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3336613630336538363964373837616333393934363562633063363337336563'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -526,13 +526,13 @@
       normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
     time_started_recording: 2020-04-02 17:28:25.842296957 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.892480969 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
+    subtitle:
     location: !ruby/object:XCActivityLog::DVTDocumentLocation
       document_url_string: file:///Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c
       timestamp: 0.0
@@ -542,7 +542,7 @@
           export LANG=en_US.US-ASCII
           /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target i386-apple-ios8.4-simulator -fmessage-length=163 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -gmodules -fmodules-cache-path=/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/ModuleCache.noindex -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -fmodule-name=TestDumper -Wno-trigraphs -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wunreachable-code -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -index-store-path /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Index/DataStore -iquote /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-generated-files.hmap -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-own-target-headers.hmap -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-all-non-framework-target-headers.hmap -ivfsoverlay /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/all-product-headers.yaml -iquote /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-project-headers.hmap -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/include -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources-normal/i386 -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/i386 -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources -F/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F/Users/yuanfeng/Development/xcknife/TestDumper -MMD -MT dependencies -MF /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper_vers.d --serialize-diagnostics /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper_vers.dia -c /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c -o /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper_vers.o
     unique_identifier: 9B1798C8-5C49-4886-9216-7B17E0A1859B
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3639396262356635633733663261646539383531646562626638333631666339'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -553,13 +553,13 @@
       normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
     time_started_recording: 2020-04-02 17:28:25.843642950 +00:00
     time_stopped_recording: 2020-04-02 17:28:25.892315983 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
+    subtitle:
     location: !ruby/object:XCActivityLog::DVTDocumentLocation
       document_url_string: file:///Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c
       timestamp: 0.0
@@ -569,7 +569,7 @@
           export LANG=en_US.US-ASCII
           /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target x86_64-apple-ios8.4-simulator -fmessage-length=163 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=gnu99 -fmodules -gmodules -fmodules-cache-path=/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/ModuleCache.noindex -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -fmodule-name=TestDumper -Wno-trigraphs -fpascal-strings -O0 -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wunreachable-code -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -index-store-path /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Index/DataStore -iquote /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-generated-files.hmap -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-own-target-headers.hmap -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-all-non-framework-target-headers.hmap -ivfsoverlay /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/all-product-headers.yaml -iquote /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/TestDumper-project-headers.hmap -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/include -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources-normal/x86_64 -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/x86_64 -I/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources -F/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -F/Users/yuanfeng/Development/xcknife/TestDumper -MMD -MT dependencies -MF /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper_vers.d --serialize-diagnostics /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper_vers.dia -c /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/DerivedSources/TestDumper_vers.c -o /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper_vers.o
     unique_identifier: A9E3E9E8-2A66-441C-9A3A-AF32B138137A
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3531376132623033396137336165616432613438393634383133383730373362'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -579,20 +579,20 @@
       normal x86_64
     time_started_recording: 2020-04-02 17:28:28.977030038 +00:00
     time_stopped_recording: 2020-04-02 17:28:29.081840038 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       Ld /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/Binary/TestDumper normal x86_64 (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-ios8.4-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk -L/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator -F/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/../../Library/Frameworks/ -F/Users/yuanfeng/Development/xcknife/TestDumper -filelist /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper.LinkFileList -install_name @rpath/TestDumper.framework/TestDumper -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -rpath -Xlinker @loader_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper_lto.o -Xlinker -export_dynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -framework XCTest -compatibility_version 1 -current_version 1 -Xlinker -dependency_info -Xlinker /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/TestDumper_dependency_info.dat -o /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/Binary/TestDumper
     unique_identifier: 44D65F2E-2DB4-4C69-B6C7-927023D912CF
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3035643335366264633764356633303337353030323036393966613762303138'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -602,20 +602,20 @@
       normal i386
     time_started_recording: 2020-04-02 17:28:28.984915018 +00:00
     time_stopped_recording: 2020-04-02 17:28:29.085129022 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       Ld /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/Binary/TestDumper normal i386 (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target i386-apple-ios8.4-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk -L/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator -F/Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/../../Library/Frameworks/ -F/Users/yuanfeng/Development/xcknife/TestDumper -filelist /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper.LinkFileList -install_name @rpath/TestDumper.framework/TestDumper -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -rpath -Xlinker @loader_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper_lto.o -Xlinker -export_dynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -framework XCTest -compatibility_version 1 -current_version 1 -Xlinker -dependency_info -Xlinker /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/TestDumper_dependency_info.dat -o /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/Binary/TestDumper
     unique_identifier: 7861B37D-729B-42D5-8841-B5D24032032D
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '6632303633666138616333343866353435353233363163353830636435666262'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -625,20 +625,20 @@
       normal i386\ x86_64
     time_started_recording: 2020-04-02 17:28:29.085744976 +00:00
     time_stopped_recording: 2020-04-02 17:28:29.091009974 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       CreateUniversalBinary /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper normal i386\ x86_64 (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/i386/Binary/TestDumper /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/Objects-normal/x86_64/Binary/TestDumper -output /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper
     unique_identifier: 823A261A-D7BC-48EF-A876-B9072945343B
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '6261653836656438646237363432633430343266666561303234353730363834'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -648,13 +648,13 @@
       /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Headers/TestDumper.h
     time_started_recording: 2020-04-02 17:28:29.091449975 +00:00
     time_stopped_recording: 2020-04-02 17:28:29.092762947 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
+    subtitle:
     location: !ruby/object:XCActivityLog::DVTDocumentLocation
       document_url_string: file:///Users/yuanfeng/Development/xcknife/TestDumper/TestDumper/TestDumper.h
       timestamp: 0.0
@@ -663,7 +663,7 @@
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yuanfeng/Development/xcknife/TestDumper/TestDumper/TestDumper.h /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Headers
     unique_identifier: 85698E9B-164E-44FF-A2BD-B88CFB5EEEF3
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '6639376261396131383364656637376334303761373831393736646137663933'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -673,20 +673,20 @@
       /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper
     time_started_recording: 2020-04-02 17:28:29.092126011 +00:00
     time_stopped_recording: 2020-04-02 17:28:29.182486057 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       GenerateDSYMFile /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework.dSYM /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper -o /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework.dSYM
     unique_identifier: 3F8CB465-4AFE-4E50-97CC-89A926EC7556
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3235663639366130343562646537356563383333353635323361353536356231'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -695,16 +695,16 @@
     signature: CopySwiftLibs /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework
     time_started_recording: 2020-04-02 17:28:29.094007015 +00:00
     time_stopped_recording: 2020-04-02 17:28:29.112666964 +00:00
-    subsections: 
+    subsections:
     text: 'Exiting early, found no Swift version in executables.
 
 '
-    messages: 
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       CopySwiftLibs /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
@@ -713,7 +713,7 @@
           export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk
           builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/TestDumper --scan-folder /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Frameworks --scan-folder /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/PlugIns --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework --platform iphonesimulator --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Intermediates.noindex/TestDumper.build/Debug-iphonesimulator/TestDumper.build/SwiftStdLibToolInputDependencies.dep
     unique_identifier: E70671D0-FE98-412D-9E78-B557EE28FA84
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3737646366363963636162623437376465386162663763336631333235656336'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -722,21 +722,21 @@
     signature: CodeSign /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework
     time_started_recording: 2020-04-02 17:28:29.113260984 +00:00
     time_stopped_recording: 2020-04-02 17:28:29.163439035 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: "CodeSign /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework
       (in target 'TestDumper' from project 'TestDumper')\n    cd /Users/yuanfeng/Development/xcknife/TestDumper\n
       \   export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate\n
       \   \nSigning Identity:     \"-\"\n\n    /usr/bin/codesign --force --sign -
       --timestamp=none /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework\n"
     unique_identifier: F1BBB2ED-A479-4BD2-9B91-DB91C7599D82
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '6539333930346163643932303135643237303736333835633564323532356366'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -745,7 +745,7 @@
     signature: RegisterExecutionPolicyException /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework
     time_started_recording: 2020-04-02 17:28:29.163730978 +00:00
     time_stopped_recording: 2020-04-02 17:28:29.177530050 +00:00
-    subsections: 
+    subsections:
     text: 'note: Execution policy exception registration failed and was skipped: Error
       Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted" (in target ''TestDumper''
       from project ''TestDumper'')
@@ -755,29 +755,29 @@
     - !ruby/object:XCActivityLog::IDEActivityLogMessage
       title: 'Execution policy exception registration failed and was skipped: Error
         Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"'
-      short_title: 
+      short_title:
       time_emitted: 607541309
       range_in_section_text: !ruby/object:XCActivityLog::NSRange
         location: 18446744073709551615
         length: 0
-      submessages: 
+      submessages:
       severity: 0
-      type: 
-      location: 
+      type:
+      location:
       category_identifier: Notice
-      secondary_locations: 
-      additional_description: 
+      secondary_locations:
+      additional_description:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       RegisterExecutionPolicyException /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           builtin-RegisterExecutionPolicyException /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework
     unique_identifier: 2649A52F-95FD-4F8D-A326-525F671655B2
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3365643166613362303461396361353934353338333533353161383339323761'
   - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
     section_type: 2
@@ -786,20 +786,20 @@
     signature: Touch /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework
     time_started_recording: 2020-04-02 17:28:29.177716970 +00:00
     time_stopped_recording: 2020-04-02 17:28:29.181591987 +00:00
-    subsections: 
-    text: 
-    messages: 
+    subsections:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
-    subtitle: 
-    location: 
+    subtitle:
+    location:
     command_detail_description: |
       Touch /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework (in target 'TestDumper' from project 'TestDumper')
           cd /Users/yuanfeng/Development/xcknife/TestDumper
           /usr/bin/touch -c /Users/yuanfeng/Development/xcknife/TestDumper/testdumperbuild/Build/Products/Debug-iphonesimulator/TestDumper.framework
     unique_identifier: 0B6E9B76-564E-43B3-BFA2-82ABE83D6F1C
-    localized_result_string: 
+    localized_result_string:
     xcbuild_signature: '3335353134646463383363663333653736636634383134323338666230663837'
   - !ruby/object:XCActivityLog::IDEActivityLogMajorGroupSection
     section_type: 1
@@ -816,18 +816,18 @@
       signature: CompileC (4 tasks)
       time_started_recording: 2020-04-02 17:28:29.184813022 +00:00
       time_stopped_recording: 2020-04-02 17:28:29.185217976 +00:00
-      subsections: 
-      text: 
-      messages: 
+      subsections:
+      text:
+      messages:
       cancelled: false
       quiet: false
       fetched_from_cache: false
-      subtitle: 
-      location: 
+      subtitle:
+      location:
       command_detail_description: CompileC (4 tasks) | 6.350 seconds
       unique_identifier: 5FB678B6-C7F9-4963-8DA4-A4642D40BBC9
-      localized_result_string: 
-      xcbuild_signature: 
+      localized_result_string:
+      xcbuild_signature:
     - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
       section_type: 2
       domain_type: com.apple.dt.IDE.timing.aggregate
@@ -835,18 +835,18 @@
       signature: Ld (2 tasks)
       time_started_recording: 2020-04-02 17:28:29.184852004 +00:00
       time_stopped_recording: 2020-04-02 17:28:29.185256958 +00:00
-      subsections: 
-      text: 
-      messages: 
+      subsections:
+      text:
+      messages:
       cancelled: false
       quiet: false
       fetched_from_cache: false
-      subtitle: 
-      location: 
+      subtitle:
+      location:
       command_detail_description: Ld (2 tasks) | 0.204 seconds
       unique_identifier: C1DB9068-20E7-43EF-8E45-53DD66F3BDDD
-      localized_result_string: 
-      xcbuild_signature: 
+      localized_result_string:
+      xcbuild_signature:
     - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
       section_type: 2
       domain_type: com.apple.dt.IDE.timing.aggregate
@@ -854,18 +854,18 @@
       signature: GenerateDSYMFile (1 task)
       time_started_recording: 2020-04-02 17:28:29.184877991 +00:00
       time_stopped_recording: 2020-04-02 17:28:29.185282945 +00:00
-      subsections: 
-      text: 
-      messages: 
+      subsections:
+      text:
+      messages:
       cancelled: false
       quiet: false
       fetched_from_cache: false
-      subtitle: 
-      location: 
+      subtitle:
+      location:
       command_detail_description: GenerateDSYMFile (1 task) | 0.090 seconds
       unique_identifier: 01B247B6-0642-43BE-B1D7-8C7200A8D8BC
-      localized_result_string: 
-      xcbuild_signature: 
+      localized_result_string:
+      xcbuild_signature:
     - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
       section_type: 2
       domain_type: com.apple.dt.IDE.timing.aggregate
@@ -873,18 +873,18 @@
       signature: CodeSign (1 task)
       time_started_recording: 2020-04-02 17:28:29.184901952 +00:00
       time_stopped_recording: 2020-04-02 17:28:29.185306906 +00:00
-      subsections: 
-      text: 
-      messages: 
+      subsections:
+      text:
+      messages:
       cancelled: false
       quiet: false
       fetched_from_cache: false
-      subtitle: 
-      location: 
+      subtitle:
+      location:
       command_detail_description: CodeSign (1 task) | 0.050 seconds
       unique_identifier: BE71061C-1DB1-427A-AFD7-AA8E5482A780
-      localized_result_string: 
-      xcbuild_signature: 
+      localized_result_string:
+      xcbuild_signature:
     - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
       section_type: 2
       domain_type: com.apple.dt.IDE.timing.aggregate
@@ -892,18 +892,18 @@
       signature: CreateUniversalBinary (1 task)
       time_started_recording: 2020-04-02 17:28:29.184923052 +00:00
       time_stopped_recording: 2020-04-02 17:28:29.185328006 +00:00
-      subsections: 
-      text: 
-      messages: 
+      subsections:
+      text:
+      messages:
       cancelled: false
       quiet: false
       fetched_from_cache: false
-      subtitle: 
-      location: 
+      subtitle:
+      location:
       command_detail_description: CreateUniversalBinary (1 task) | 0.005 seconds
       unique_identifier: AF491E8A-77FA-4DF9-9431-CC9798D783D4
-      localized_result_string: 
-      xcbuild_signature: 
+      localized_result_string:
+      xcbuild_signature:
     - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
       section_type: 2
       domain_type: com.apple.dt.IDE.timing.aggregate
@@ -911,30 +911,30 @@
       signature: Touch (1 task)
       time_started_recording: 2020-04-02 17:28:29.184944033 +00:00
       time_stopped_recording: 2020-04-02 17:28:29.185348987 +00:00
-      subsections: 
-      text: 
-      messages: 
+      subsections:
+      text:
+      messages:
       cancelled: false
       quiet: false
       fetched_from_cache: false
-      subtitle: 
-      location: 
+      subtitle:
+      location:
       command_detail_description: Touch (1 task) | 0.004 seconds
       unique_identifier: 6E719A24-09F5-4F05-A28B-73FE4B11B153
-      localized_result_string: 
-      xcbuild_signature: 
-    text: 
-    messages: 
+      localized_result_string:
+      xcbuild_signature:
+    text:
+    messages:
     cancelled: false
     quiet: false
     fetched_from_cache: false
     subtitle: Workspace TestDumper | Scheme TestDumper | Destination Generic iOS Simulator
       Device
-    location: 
-    command_detail_description: 
+    location:
+    command_detail_description:
     unique_identifier: 2C0B36C5-ACAC-4982-9605-22ED98845E42
-    localized_result_string: 
-    xcbuild_signature: 
+    localized_result_string:
+    xcbuild_signature:
   text: |
     note: Using new build system
     note: Planning build
@@ -942,52 +942,52 @@
   messages:
   - !ruby/object:XCActivityLog::IDEActivityLogMessage
     title: Using new build system
-    short_title: 
+    short_title:
     time_emitted: 607541305
     range_in_section_text: !ruby/object:XCActivityLog::NSRange
       location: 18446744073709551615
       length: 0
-    submessages: 
+    submessages:
     severity: 0
-    type: 
-    location: 
+    type:
+    location:
     category_identifier: Notice
-    secondary_locations: 
-    additional_description: 
+    secondary_locations:
+    additional_description:
   - !ruby/object:XCActivityLog::IDEActivityLogMessage
     title: Planning build
-    short_title: 
+    short_title:
     time_emitted: 607541305
     range_in_section_text: !ruby/object:XCActivityLog::NSRange
       location: 18446744073709551615
       length: 0
-    submessages: 
+    submessages:
     severity: 0
-    type: 
-    location: 
+    type:
+    location:
     category_identifier: Notice
-    secondary_locations: 
-    additional_description: 
+    secondary_locations:
+    additional_description:
   - !ruby/object:XCActivityLog::IDEActivityLogMessage
     title: Constructing build description
-    short_title: 
+    short_title:
     time_emitted: 607541305
     range_in_section_text: !ruby/object:XCActivityLog::NSRange
       location: 18446744073709551615
       length: 0
-    submessages: 
+    submessages:
     severity: 0
-    type: 
-    location: 
+    type:
+    location:
     category_identifier: Notice
-    secondary_locations: 
-    additional_description: 
+    secondary_locations:
+    additional_description:
   cancelled: false
   quiet: false
   fetched_from_cache: false
-  subtitle: 
-  location: 
-  command_detail_description: 
+  subtitle:
+  location:
+  command_detail_description:
   unique_identifier: D103AFA5-7D75-4149-95A0-7CD0627DFBE4
   localized_result_string: Build succeeded
-  xcbuild_signature: 
+  xcbuild_signature:

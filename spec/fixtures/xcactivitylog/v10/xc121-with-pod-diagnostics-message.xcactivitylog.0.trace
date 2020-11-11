@@ -1,0 +1,3 @@
+{"traceEvents":[
+{"pid":"0","tid":0,"ts":1605026222107113,"ph":"X","name":"Build Foo","dur":30007,"args":{"subtitle":null,"target":{},"severity":"Warning"}}
+]}
