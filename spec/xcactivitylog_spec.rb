@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'xcactivitylog'
-require 'yaml'
 
 RSpec.describe XCActivityLog do
   context 'it correctly parses activity logs' do
@@ -10,7 +9,7 @@ RSpec.describe XCActivityLog do
       it log do
         log = File.expand_path(log, base_dir)
         parsed = XCActivityLog.parse_file(path: log)
-        yaml = YAML.dump(parsed)
+        yaml = sanitized_yaml(parsed)
         yaml_path = log + '.yaml'
         chrome_trace_files = [0, 1, 2, 3].map do |i|
           [parsed.first.write_chrome_trace_file(section_type: i, to: +''), log + ".#{i}.trace"]

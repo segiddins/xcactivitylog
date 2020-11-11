@@ -1566,7 +1566,7 @@
       is set to 8.0, but the range of supported deployment target versions is 9.0
       to 14.1.99. (in target ''Fabric'' from project ''Pods'')
 
-      '
+'
     messages:
     - !ruby/object:XCActivityLog::IDEDiagnosticActivityLogMessage
       title: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set
@@ -1605,7 +1605,7 @@
       is set to 8.0, but the range of supported deployment target versions is 9.0
       to 14.1.99. (in target ''Crashlytics'' from project ''Pods'')
 
-      '
+'
     messages:
     - !ruby/object:XCActivityLog::IDEDiagnosticActivityLogMessage
       title: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set

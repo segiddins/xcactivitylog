@@ -2,8 +2,13 @@
 
 require 'bundler/setup'
 require 'xcactivitylog'
+require 'util/xcactivity_log_yaml_helper'
 
 RSpec.configure do |config|
+  # Helper to sanitize the generated YAML due to different results on
+  # CI vs local
+  config.include XCActivityLogYAMLHelper
+
   # Enable flags like --only-failures and --next-failure
   config.example_status_persistence_file_path = '.rspec_status'
 
