@@ -1,0 +1,1338 @@
+---
+- !ruby/object:XCActivityLog::IDEActivityLogSection
+  section_type: 0
+  domain_type: Xcode.IDEActivityLogDomainType.BuildLog
+  title: Build xc14.1
+  signature: Build xc14.1
+  time_started_recording: 2022-11-18 21:12:00.637156009 +00:00
+  time_stopped_recording: 2022-11-18 21:12:01.946472048 +00:00
+  subsections:
+  - !ruby/object:XCActivityLog::IDEActivityLogSection
+    section_type: 1
+    domain_type: com.apple.dt.IDE.LogSection
+    title: Prepare packages
+    signature: eyJ0eXBlIjp7ImJsdWVwcmludFByb3ZpZGVyIjp7fX0sImJsdWVwcmludFByb3ZpZGVyX3Byb3ZpZGVyRmlsZVBhdGhTdHJpbmciOiJcL1VzZXJzXC9qc3p1bXNraVwvRGVza3RvcFwveGMxNC4xXC94YzE0LjEueGNvZGVwcm9qIn0=
+    time_started_recording: 2022-11-18 21:12:00.637325048 +00:00
+    time_stopped_recording: 2022-11-18 21:12:00.645290017 +00:00
+    subsections:
+    text:
+    messages:
+    cancelled: false
+    quiet: false
+    fetched_from_cache: false
+    subtitle: Compile plug-ins and run any prebuild commands
+    location:
+    command_detail_description:
+    unique_identifier: 9C8517F2-8BD6-4C1B-B472-ED2D06883038
+    localized_result_string:
+    xcbuild_signature:
+  - !ruby/object:XCActivityLog::IDEActivityLogSection
+    section_type: 1
+    domain_type: Xcode.IDEActivityLogDomainType.XCBuild.Preparation
+    title: Prepare build
+    signature: eyJ0eXBlIjp7ImJ1aWxkU3lzdGVtVGFzayI6e319LCJidWlsZFN5c3RlbVRhc2tfYnVpbGRUYXNrIjoiUHJlcGFyZSBidWlsZCJ9
+    time_started_recording: 2022-11-18 21:12:00.647423982 +00:00
+    time_stopped_recording: 2022-11-18 21:12:01.945863008 +00:00
+    subsections:
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Plan build
+      signature: Computing target dependency graph and provisioning inputs
+      time_started_recording: 2022-11-18 21:12:00.658738970 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.665040016 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: Computing target dependency graph and provisioning
+        inputs
+      unique_identifier: 1ED128D3-379C-481D-89B5-69CBB455C69F
+      localized_result_string:
+      xcbuild_signature: 4275696C64506C616E6E696E674F7065726174696F6E
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Create build description
+      signature: ''
+      time_started_recording: 2022-11-18 21:12:00.666715025 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.683372020 +00:00
+      subsections:
+      text: |
+        Build description signature: 61aff14e7d956a6dce57b3a51ff39ef9
+        Build description path: /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/XCBuildData/61aff14e7d956a6dce57b3a51ff39ef9-desc.xcbuild
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: ''
+      unique_identifier: EC5F6EB4-2FE7-4B10-93E3-003B8F4D287D
+      localized_result_string:
+      xcbuild_signature: '3631616666313465376439353661366463653537623361353166663339656639'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Create build directory $(OBJROOT)
+      signature: CreateBuildDirectory /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex
+      time_started_recording: 2022-11-18 21:12:00.689769983 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.690078973 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        CreateBuildDirectory /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex
+            cd /Users/jszumski/Desktop/xc14.1/xc14.1.xcodeproj
+            builtin-create-build-directory /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex
+      unique_identifier: 1EC6119C-68B6-421A-A49B-15DA878EC3CD
+      localized_result_string:
+      xcbuild_signature: '3663663834343336316163633766646433306637666437343964653937376561'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Create build directory $(TARGET_BUILD_DIR)
+      signature: CreateBuildDirectory /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products
+      time_started_recording: 2022-11-18 21:12:00.689929008 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.690173029 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        CreateBuildDirectory /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products
+            cd /Users/jszumski/Desktop/xc14.1/xc14.1.xcodeproj
+            builtin-create-build-directory /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products
+      unique_identifier: B62B98F3-54F5-4548-AB5D-2CF2B5E5BAF0
+      localized_result_string:
+      xcbuild_signature: '3937333432323964633666383536366436636563366639353836653435353733'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Create build directory $(TARGET_BUILD_DIR)/Debug
+      signature: CreateBuildDirectory /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug
+      time_started_recording: 2022-11-18 21:12:00.691970944 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.692404985 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        CreateBuildDirectory /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug
+            cd /Users/jszumski/Desktop/xc14.1/xc14.1.xcodeproj
+            builtin-create-build-directory /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug
+      unique_identifier: A5706CDF-0003-4CBF-8E89-E5FF0D388817
+      localized_result_string:
+      xcbuild_signature: '3139666366646161616434666631353532653730333730393661313266643762'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Create build directory $(OBJROOT)/EagerLinkingTBDs
+      signature: CreateBuildDirectory /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/EagerLinkingTBDs
+      time_started_recording: 2022-11-18 21:12:00.692348003 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.692420959 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        CreateBuildDirectory /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/EagerLinkingTBDs
+            cd /Users/jszumski/Desktop/xc14.1/xc14.1.xcodeproj
+            builtin-create-build-directory /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/EagerLinkingTBDs
+      unique_identifier: 216D54BD-EA29-44AC-BD3D-0EDC9F28E625
+      localized_result_string:
+      xcbuild_signature: '3061626638653534323932323234653862393466623435646233613366393638'
+    text: 'note: Building targets in dependency order
+
+'
+    messages:
+    - !ruby/object:XCActivityLog::IDEDiagnosticActivityLogMessage
+      title: Building targets in dependency order
+      short_title:
+      time_emitted: 690498720
+      range_in_section_text: !ruby/object:XCActivityLog::NSRange
+        location: 18446744073709551615
+        length: 0
+      submessages:
+      severity: 0
+      type: com.apple.dt.IDE.diagnostic
+      location:
+      category_identifier: Notice
+      secondary_locations: []
+      additional_description:
+    cancelled: false
+    quiet: false
+    fetched_from_cache: false
+    subtitle: Workspace xc14.1 | Scheme xc14.1 | Destination My Mac
+    location:
+    command_detail_description:
+    unique_identifier: 9DF503AA-E4E4-42C5-B1CD-84EC051A9685
+    localized_result_string:
+    xcbuild_signature:
+  - !ruby/object:XCActivityLog::IDEActivityLogSection
+    section_type: 1
+    domain_type: Xcode.IDEActivityLogDomainType.target.product-type.application
+    title: Build target xc14.1
+    signature: eyJibHVlcHJpbnRfYmx1ZXByaW50VmFyaWFudCI6eyJnZW5lcmljIjp7fX0sImJsdWVwcmludF9wcm92aWRlckZpbGVQYXRoU3RyaW5nIjoiXC9Vc2Vyc1wvanN6dW1za2lcL0Rlc2t0b3BcL3hjMTQuMVwveGMxNC4xLnhjb2RlcHJvaiIsInR5cGUiOnsiYmx1ZXByaW50Ijp7fX0sImJsdWVwcmludF9ibHVlcHJpbnRJZGVudGlmaWVyIjoiMDNGNDAxODUyOTI4Mjc2ODAwM0Q5MjNBIn0=
+    time_started_recording: 2022-11-18 21:12:00.693025946 +00:00
+    time_stopped_recording: 2022-11-18 21:12:01.944143056 +00:00
+    subsections:
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Create directory xc14.1.app
+      signature: MkDir /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.693076968 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.693503975 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        MkDir /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            /bin/mkdir -p /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app
+      unique_identifier: 5CAD49E3-0E76-4001-B363-2EC20FD5DC31
+      localized_result_string:
+      xcbuild_signature: '3333386437646565666639366539363930616566663835383539366161306532'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Create directory Contents
+      signature: MkDir /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.693125009 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.693519949 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        MkDir /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            /bin/mkdir -p /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents
+      unique_identifier: FDC89CBF-2DBA-44C9-8129-B517D9BAEE75
+      localized_result_string:
+      xcbuild_signature: '3935336436633931316566653336363964363031353165336330663463623536'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Create directory Resources
+      signature: MkDir /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/Resources
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.693526983 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.693892002 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        MkDir /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/Resources (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            /bin/mkdir -p /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/Resources
+      unique_identifier: 0567E50F-4A9A-4F10-8605-F6F59F536921
+      localized_result_string:
+      xcbuild_signature: '6437393730633564366630396336373965333535353338643565613939373736'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Create directory MacOS
+      signature: MkDir /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/MacOS
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.693845987 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.693882942 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        MkDir /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/MacOS (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            /bin/mkdir -p /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/MacOS
+      unique_identifier: 2B585761-3180-49EB-8253-818E6F9E8BA9
+      localized_result_string:
+      xcbuild_signature: '6166353732396632363238363237326466323039373832313431666633666366'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Validate development assets
+      signature: ValidateDevelopmentAssets /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.693956971 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.694113969 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        ValidateDevelopmentAssets /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            builtin-validate-development-assets --validate YES_ERROR /Users/jszumski/Desktop/xc14.1/xc14.1/Preview\ Content
+      unique_identifier: 11C2278A-3DDA-4617-8B51-B6C754F8D934
+      localized_result_string:
+      xcbuild_signature: '6664656265663264306236336634373136626464383236303136363761636431'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write Entitlements.plist
+      signature: WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources/Entitlements.plist
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.694123983 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.694290995 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources/Entitlements.plist (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            write-file /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources/Entitlements.plist
+      unique_identifier: 2F650AD6-BEB1-47CC-BF81-327B4AAEE932
+      localized_result_string:
+      xcbuild_signature: '3762376165623637326134303738643030623731633730343866386332636630'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Process product packaging
+      signature: ProcessProductPackaging /Users/jszumski/Desktop/xc14.1/xc14.1/xc14_1.entitlements
+        /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1.app.xcent
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.694388031 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.694676995 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: "ProcessProductPackaging /Users/jszumski/Desktop/xc14.1/xc14.1/xc14_1.entitlements
+        /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1.app.xcent
+        (in target 'xc14.1' from project 'xc14.1')\n    cd /Users/jszumski/Desktop/xc14.1\n
+        \   \n    Entitlements:\n    \n    {\n    \"com.apple.security.app-sandbox\"
+        = 1;\n    \"com.apple.security.files.user-selected.read-only\" = 1;\n    \"com.apple.security.get-task-allow\"
+        = 1;\n}\n    \n    builtin-productPackagingUtility /Users/jszumski/Desktop/xc14.1/xc14.1/xc14_1.entitlements
+        -entitlements -format xml -o /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1.app.xcent\n"
+      unique_identifier: A9BA19B6-663D-4711-9870-AA8A4B1BD282
+      localized_result_string:
+      xcbuild_signature: '6666333062373663316563613063623962636332326464353731353734326463'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Generate DER entitlements
+      signature: ProcessProductPackagingDER /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1.app.xcent
+        /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1.app.xcent.der
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.694798946 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.697921991 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        ProcessProductPackagingDER /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1.app.xcent /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1.app.xcent.der (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            /usr/bin/derq query -f xml -i /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1.app.xcent -o /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1.app.xcent.der --raw
+      unique_identifier: F647101D-6761-49E8-98B2-B69064D9F79E
+      localized_result_string:
+      xcbuild_signature: '3039323135663362356430653739343831366533346662383663383532643031'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write xc14.1-all-non-framework-target-headers.hmap
+      signature: WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-all-non-framework-target-headers.hmap
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.698048949 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.698966979 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-all-non-framework-target-headers.hmap (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            write-file /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-all-non-framework-target-headers.hmap
+      unique_identifier: FE2086E3-5210-49D5-84E1-8DBEACC7B902
+      localized_result_string:
+      xcbuild_signature: '6634373033623332643232343739303239336562323334623963393861386137'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write all-product-headers.yaml
+      signature: WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/all-product-headers.yaml
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.698228001 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.699028968 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/all-product-headers.yaml (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            write-file /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/all-product-headers.yaml
+      unique_identifier: 8A16EA8C-9E18-461E-B863-911F64AE7339
+      localized_result_string:
+      xcbuild_signature: '6132643065623636626361616630666164353139393634363662616232323063'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write xc14.1.hmap
+      signature: WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1.hmap
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.698359966 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.699604988 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1.hmap (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            write-file /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1.hmap
+      unique_identifier: 98E6B568-9449-481C-AA39-902846A493DD
+      localized_result_string:
+      xcbuild_signature: '3662323030326532646530336464623830306539373865643831373835333237'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write xc14.1-project-headers.hmap
+      signature: WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-project-headers.hmap
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.698680043 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.699619054 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-project-headers.hmap (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            write-file /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-project-headers.hmap
+      unique_identifier: 2809013B-1718-4B93-8448-34E0221A5123
+      localized_result_string:
+      xcbuild_signature: '6630663465303666646530343865643466646466303834666336613632623361'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write xc14.1-own-target-headers.hmap
+      signature: WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-own-target-headers.hmap
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.698722004 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.699627041 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-own-target-headers.hmap (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            write-file /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-own-target-headers.hmap
+      unique_identifier: 2202FE65-3186-4291-837E-068E5956A289
+      localized_result_string:
+      xcbuild_signature: '3931633337396638313062353362643030383138626161396165376166316261'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write xc14.1-all-target-headers.hmap
+      signature: WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-all-target-headers.hmap
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.698773026 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.699635028 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-all-target-headers.hmap (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            write-file /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-all-target-headers.hmap
+      unique_identifier: 7E46D839-9A79-4214-8FF7-245522EA228D
+      localized_result_string:
+      xcbuild_signature: '3030316564663834303030386632313239316237333535363730313264626564'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write xc14.1-generated-files.hmap
+      signature: WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-generated-files.hmap
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.698881030 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.699641942 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-generated-files.hmap (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            write-file /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-generated-files.hmap
+      unique_identifier: 0FF99AC2-602C-44D5-A381-5DA86B361A33
+      localized_result_string:
+      xcbuild_signature: '6538373464303639386664323963653261386235666133343364376362393064'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write empty-xc14.1.plist
+      signature: WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/empty-xc14.1.plist
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.699648976 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.700196981 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/empty-xc14.1.plist (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            write-file /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/empty-xc14.1.plist
+      unique_identifier: EE63BAA9-A969-46D3-9021-7F84FCC91C83
+      localized_result_string:
+      xcbuild_signature: '6163663639623864636665376136633764393137326237353032376433373562'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write xc14.1.SwiftFileList (arm64)
+      signature: WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1.SwiftFileList
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.699676990 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.700757026 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1.SwiftFileList (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            write-file /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1.SwiftFileList
+      unique_identifier: 3FF4876E-20CA-4DFA-B017-5B3A07F222F6
+      localized_result_string:
+      xcbuild_signature: '3733316431336333303934333863313530623830636161623239623236323234'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write xc14.1-OutputFileMap.json (arm64)
+      signature: WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1-OutputFileMap.json
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.699704051 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.700209021 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1-OutputFileMap.json (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            write-file /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1-OutputFileMap.json
+      unique_identifier: FEA9BC91-52D3-4E28-87CB-F3E3C3F288BE
+      localized_result_string:
+      xcbuild_signature: '3733393235373762333564633530366636303663326538353833663464636661'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Write xc14.1.LinkFileList (arm64)
+      signature: WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1.LinkFileList
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.699846982 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.700770020 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        WriteAuxiliaryFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1.LinkFileList (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            write-file /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1.LinkFileList
+      unique_identifier: EB164111-D336-431B-B633-C0BA4A9EB7E3
+      localized_result_string:
+      xcbuild_signature: '3731666565333534383432376463336462376434383861633762313437333762'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Compile asset catalogs
+      signature: CompileAssetCatalog /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/Resources
+        /Users/jszumski/Development/cash-ios/Code/ATMFinder/Sources/Resources/Images.xcassets
+        /Users/jszumski/Desktop/xc14.1/xc14.1/Preview\ Content/Preview\ Assets.xcassets
+        /Users/jszumski/Desktop/xc14.1/xc14.1/Assets.xcassets (in target 'xc14.1'
+        from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.700119972 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.877980947 +00:00
+      subsections:
+      text: |+
+        2022-11-18 16:12:01.802 ibtoold[46731:20428385] NSFileCoordinator is doing nothing.
+        /* com.apple.actool.document.warnings */
+        /Users/jszumski/Development/cash-ios/Code/ATMFinder/Sources/Resources/Images.xcassets:./explainerHeaderGeneric.imageset/(null)[2d][GenericATM.pdf]: warning: The image set "explainerHeaderGeneric" has an unassigned child.
+        /Users/jszumski/Development/cash-ios/Code/ATMFinder/Sources/Resources/Images.xcassets:./explainerHeaderGeneric.imageset/[universal][][][][][][][][][][][][][]: warning: The file "genericATM.pdf" for the image set "explainerHeaderGeneric" does not exist.
+        /* com.apple.actool.compilation-results */
+        /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/assetcatalog_generated_info.plist
+        /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/Resources/Assets.car
+
+      messages:
+      - !ruby/object:XCActivityLog::IDEDiagnosticActivityLogMessage
+        title: The image set "explainerHeaderGeneric" has an unassigned child.
+        short_title:
+        time_emitted: 690498721
+        range_in_section_text: !ruby/object:XCActivityLog::NSRange
+          location: 18446744073709551615
+          length: 0
+        submessages:
+        severity: 1
+        type: com.apple.dt.IDE.diagnostic
+        location: !ruby/object:XCActivityLog::DVTMemberDocumentLocation
+          document_url_string: file:///Users/jszumski/Development/cash-ios/Code/ATMFinder/Sources/Resources/Images.xcassets
+          timestamp: 0.0
+          member: "./explainerHeaderGeneric.imageset/(null)[2d][GenericATM.pdf]"
+        category_identifier: Warning
+        secondary_locations: []
+        additional_description:
+      - !ruby/object:XCActivityLog::IDEDiagnosticActivityLogMessage
+        title: The file "genericATM.pdf" for the image set "explainerHeaderGeneric"
+          does not exist.
+        short_title:
+        time_emitted: 690498721
+        range_in_section_text: !ruby/object:XCActivityLog::NSRange
+          location: 18446744073709551615
+          length: 0
+        submessages:
+        severity: 1
+        type: com.apple.dt.IDE.diagnostic
+        location: !ruby/object:XCActivityLog::DVTMemberDocumentLocation
+          document_url_string: file:///Users/jszumski/Development/cash-ios/Code/ATMFinder/Sources/Resources/Images.xcassets
+          timestamp: 0.0
+          member: "./explainerHeaderGeneric.imageset/[universal][][][][][][][][][][][][][]"
+        category_identifier: Warning
+        secondary_locations: []
+        additional_description:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        CompileAssetCatalog /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/Resources /Users/jszumski/Development/cash-ios/Code/ATMFinder/Sources/Resources/Images.xcassets /Users/jszumski/Desktop/xc14.1/xc14.1/Preview\ Content/Preview\ Assets.xcassets /Users/jszumski/Desktop/xc14.1/xc14.1/Assets.xcassets (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            /Applications/Xcode-14.1.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/assetcatalog_dependencies --output-partial-info-plist /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/assetcatalog_generated_info.plist --app-icon AppIcon --accent-color AccentColor --enable-on-demand-resources NO --development-region en --target-device mac --minimum-deployment-target 12.6 --platform macosx --compile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/Resources /Users/jszumski/Development/cash-ios/Code/ATMFinder/Sources/Resources/Images.xcassets /Users/jszumski/Desktop/xc14.1/xc14.1/Preview\ Content/Preview\ Assets.xcassets /Users/jszumski/Desktop/xc14.1/xc14.1/Assets.xcassets
+      unique_identifier: E814507B-7A97-424B-AA79-A4E3482E8F63
+      localized_result_string:
+      xcbuild_signature: '3937656333633036356665653839303933333539376534323165616461623136'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Planning target xc14_1 (arm64)
+      signature: SwiftDriver xc14.1 normal arm64 com.apple.xcode.tools.swift.compiler
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.702105045 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.760666012 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        SwiftDriver xc14.1 normal arm64 com.apple.xcode.tools.swift.compiler (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            builtin-SwiftDriver -- /Applications/Xcode-14.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name xc14_1 -Onone -enforce-exclusivity\=checked @/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1.SwiftFileList -DDEBUG -sdk /Applications/Xcode-14.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -target arm64-apple-macos12.6 -enable-bare-slash-regex -g -module-cache-path /Users/jszumski/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Index.noindex/DataStore -swift-version 5 -I /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug -F /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug -emit-localized-strings -emit-localized-strings-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64 -c -j10 -enable-batch-mode -incremental -output-file-map /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftmodule -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-generated-files.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-own-target-headers.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-all-target-headers.hmap -Xcc -iquote -Xcc /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-project-headers.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/include -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources-normal/arm64 -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources/arm64 -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1-Swift.h -working-directory /Users/jszumski/Desktop/xc14.1 -experimental-emit-module-separately
+      unique_identifier: '09236CE8-911D-4BC8-BD6A-C447C9343A43'
+      localized_result_string:
+      xcbuild_signature: '3232663538656561393634643662373931653262656431396161326663643066'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Emitting module for xc14_1
+      signature: SwiftEmitModule normal arm64 Emitting\ module\ for\ xc14_1 (in target
+        'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.763538956 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.000172019 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        SwiftEmitModule normal arm64 Emitting\ module\ for\ xc14_1 (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            builtin-swiftTaskExecution -- /Applications/Xcode-14.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -emit-module -experimental-skip-non-inlinable-function-bodies-without-types /Users/jszumski/Desktop/xc14.1/xc14.1/ContentView.swift /Users/jszumski/Desktop/xc14.1/xc14.1/xc14_1App.swift -target arm64-apple-macos12.6 -Xllvm -aarch64-use-tbi -enable-objc-interop -stack-check -sdk /Applications/Xcode-14.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -I /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug -F /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug -no-color-diagnostics -enable-testing -g -module-cache-path /Users/jszumski/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -enable-bare-slash-regex -empty-abi-descriptor -Xcc -working-directory -Xcc /Users/jszumski/Desktop/xc14.1 -resource-dir /Applications/Xcode-14.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-generated-files.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-own-target-headers.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-all-target-headers.hmap -Xcc -iquote -Xcc /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-project-headers.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/include -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources-normal/arm64 -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources/arm64 -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources -Xcc -DDEBUG\=1 -module-name xc14_1 -disable-clang-spi -target-sdk-version 13.0 -emit-module-doc-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftdoc -emit-module-source-info-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftsourceinfo -emit-objc-header-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1-Swift.h -serialize-diagnostics-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1-master-emit-module.dia -emit-dependencies-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1-master-emit-module.d -o /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftmodule -emit-abi-descriptor-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.abi.json
+      unique_identifier: 9460AF82-8798-4FFC-90CE-E7D134E2EE2F
+      localized_result_string:
+      xcbuild_signature: '6235616638626135306333306565366536356665333262646264356431376561'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Compiling ContentView.swift
+      signature: SwiftCompile normal arm64 Compiling\ ContentView.swift /Users/jszumski/Desktop/xc14.1/xc14.1/ContentView.swift
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.763957023 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.029261946 +00:00
+      subsections:
+      - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+        section_type: 2
+        domain_type: com.apple.dt.IDE.BuildLogSection
+        title: Compile ContentView.swift (arm64)
+        signature: CompileSwift normal arm64 /Users/jszumski/Desktop/xc14.1/xc14.1/ContentView.swift
+          (in target 'xc14.1' from project 'xc14.1')
+        time_started_recording: 2022-11-18 21:12:00.780166983 +00:00
+        time_stopped_recording: 2022-11-18 21:12:01.027982950 +00:00
+        subsections:
+        text:
+        messages:
+        cancelled: false
+        quiet: false
+        fetched_from_cache: false
+        subtitle:
+        location: !ruby/object:XCActivityLog::DVTDocumentLocation
+          document_url_string: file:///Users/jszumski/Desktop/xc14.1/xc14.1/ContentView.swift
+          timestamp: 0.0
+        command_detail_description: |
+          CompileSwift normal arm64 /Users/jszumski/Desktop/xc14.1/xc14.1/ContentView.swift (in target 'xc14.1' from project 'xc14.1')
+              cd /Users/jszumski/Desktop/xc14.1
+              /Applications/Xcode-14.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -c -primary-file /Users/jszumski/Desktop/xc14.1/xc14.1/ContentView.swift /Users/jszumski/Desktop/xc14.1/xc14.1/xc14_1App.swift -emit-dependencies-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/ContentView.d -emit-reference-dependencies-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/ContentView.swiftdeps -serialize-diagnostics-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/ContentView.dia -emit-localized-strings -emit-localized-strings-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64 -target arm64-apple-macos12.6 -Xllvm -aarch64-use-tbi -enable-objc-interop -stack-check -sdk /Applications/Xcode-14.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -I /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug -F /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug -no-color-diagnostics -enable-testing -g -module-cache-path /Users/jszumski/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -enable-bare-slash-regex -empty-abi-descriptor -Xcc -working-directory -Xcc /Users/jszumski/Desktop/xc14.1 -resource-dir /Applications/Xcode-14.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-generated-files.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-own-target-headers.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-all-target-headers.hmap -Xcc -iquote -Xcc /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-project-headers.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/include -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources-normal/arm64 -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources/arm64 -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources -Xcc -DDEBUG\=1 -module-name xc14_1 -frontend-parseable-output -disable-clang-spi -target-sdk-version 13.0 -o /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/ContentView.o -index-unit-output-path /xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/ContentView.o -index-store-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Index.noindex/DataStore -index-system-modules
+        unique_identifier: A664300B-AA69-4CBA-88E8-A7999B5FA860
+        localized_result_string:
+        xcbuild_signature: '3563646162663530353464633463393434363765323331343866323736336664'
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        SwiftCompile normal arm64 Compiling\ ContentView.swift /Users/jszumski/Desktop/xc14.1/xc14.1/ContentView.swift (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            builtin-swiftTaskExecution -- /Applications/Xcode-14.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c -primary-file /Users/jszumski/Desktop/xc14.1/xc14.1/ContentView.swift /Users/jszumski/Desktop/xc14.1/xc14.1/xc14_1App.swift -emit-dependencies-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/ContentView.d -emit-reference-dependencies-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/ContentView.swiftdeps -serialize-diagnostics-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/ContentView.dia -emit-localized-strings -emit-localized-strings-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64 -target arm64-apple-macos12.6 -Xllvm -aarch64-use-tbi -enable-objc-interop -stack-check -sdk /Applications/Xcode-14.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -I /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug -F /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug -no-color-diagnostics -enable-testing -g -module-cache-path /Users/jszumski/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -enable-bare-slash-regex -empty-abi-descriptor -Xcc -working-directory -Xcc /Users/jszumski/Desktop/xc14.1 -resource-dir /Applications/Xcode-14.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-generated-files.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-own-target-headers.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-all-target-headers.hmap -Xcc -iquote -Xcc /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-project-headers.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/include -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources-normal/arm64 -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources/arm64 -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources -Xcc -DDEBUG\=1 -module-name xc14_1 -frontend-parseable-output -disable-clang-spi -target-sdk-version 13.0 -o /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/ContentView.o -index-unit-output-path /xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/ContentView.o -index-store-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Index.noindex/DataStore -index-system-modules
+      unique_identifier: 7042703D-777D-4594-9704-045FDC333955
+      localized_result_string:
+      xcbuild_signature: '3262373333383031646164353438363035653134303264316338303033373434'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Compiling xc14_1App.swift
+      signature: SwiftCompile normal arm64 Compiling\ xc14_1App.swift /Users/jszumski/Desktop/xc14.1/xc14.1/xc14_1App.swift
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.764471054 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.980103969 +00:00
+      subsections:
+      - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+        section_type: 2
+        domain_type: com.apple.dt.IDE.BuildLogSection
+        title: Compile xc14_1App.swift (arm64)
+        signature: CompileSwift normal arm64 /Users/jszumski/Desktop/xc14.1/xc14.1/xc14_1App.swift
+          (in target 'xc14.1' from project 'xc14.1')
+        time_started_recording: 2022-11-18 21:12:00.780460953 +00:00
+        time_stopped_recording: 2022-11-18 21:12:00.979104042 +00:00
+        subsections:
+        text:
+        messages:
+        cancelled: false
+        quiet: false
+        fetched_from_cache: false
+        subtitle:
+        location: !ruby/object:XCActivityLog::DVTDocumentLocation
+          document_url_string: file:///Users/jszumski/Desktop/xc14.1/xc14.1/xc14_1App.swift
+          timestamp: 0.0
+        command_detail_description: |
+          CompileSwift normal arm64 /Users/jszumski/Desktop/xc14.1/xc14.1/xc14_1App.swift (in target 'xc14.1' from project 'xc14.1')
+              cd /Users/jszumski/Desktop/xc14.1
+              /Applications/Xcode-14.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -c /Users/jszumski/Desktop/xc14.1/xc14.1/ContentView.swift -primary-file /Users/jszumski/Desktop/xc14.1/xc14.1/xc14_1App.swift -emit-dependencies-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1App.d -emit-reference-dependencies-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1App.swiftdeps -serialize-diagnostics-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1App.dia -emit-localized-strings -emit-localized-strings-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64 -target arm64-apple-macos12.6 -Xllvm -aarch64-use-tbi -enable-objc-interop -stack-check -sdk /Applications/Xcode-14.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -I /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug -F /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug -no-color-diagnostics -enable-testing -g -module-cache-path /Users/jszumski/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -enable-bare-slash-regex -empty-abi-descriptor -Xcc -working-directory -Xcc /Users/jszumski/Desktop/xc14.1 -resource-dir /Applications/Xcode-14.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-generated-files.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-own-target-headers.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-all-target-headers.hmap -Xcc -iquote -Xcc /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-project-headers.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/include -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources-normal/arm64 -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources/arm64 -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources -Xcc -DDEBUG\=1 -module-name xc14_1 -frontend-parseable-output -disable-clang-spi -target-sdk-version 13.0 -o /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1App.o -index-unit-output-path /xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1App.o -index-store-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Index.noindex/DataStore -index-system-modules
+        unique_identifier: 9573149C-C6DD-4963-8597-4ACEB1F57A61
+        localized_result_string:
+        xcbuild_signature: '3234313562323831326335633163356534376262663433373563386566626266'
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        SwiftCompile normal arm64 Compiling\ xc14_1App.swift /Users/jszumski/Desktop/xc14.1/xc14.1/xc14_1App.swift (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            builtin-swiftTaskExecution -- /Applications/Xcode-14.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c /Users/jszumski/Desktop/xc14.1/xc14.1/ContentView.swift -primary-file /Users/jszumski/Desktop/xc14.1/xc14.1/xc14_1App.swift -emit-dependencies-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1App.d -emit-reference-dependencies-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1App.swiftdeps -serialize-diagnostics-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1App.dia -emit-localized-strings -emit-localized-strings-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64 -target arm64-apple-macos12.6 -Xllvm -aarch64-use-tbi -enable-objc-interop -stack-check -sdk /Applications/Xcode-14.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -I /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug -F /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug -no-color-diagnostics -enable-testing -g -module-cache-path /Users/jszumski/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -enable-bare-slash-regex -empty-abi-descriptor -Xcc -working-directory -Xcc /Users/jszumski/Desktop/xc14.1 -resource-dir /Applications/Xcode-14.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-generated-files.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-own-target-headers.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-all-target-headers.hmap -Xcc -iquote -Xcc /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-project-headers.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/include -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources-normal/arm64 -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources/arm64 -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources -Xcc -DDEBUG\=1 -module-name xc14_1 -frontend-parseable-output -disable-clang-spi -target-sdk-version 13.0 -o /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1App.o -index-unit-output-path /xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1App.o -index-store-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Index.noindex/DataStore -index-system-modules
+      unique_identifier: FF3050E8-C02F-4E82-BA86-BF091059B89A
+      localized_result_string:
+      xcbuild_signature: '3764326634306233366462656133616564616163636563346331616431633161'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Discovering Swift tasks after 'Compiling xc14_1App.swift'
+      signature: SwiftDriverJobDiscovery normal arm64 Compiling xc14_1App.swift (in
+        target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:00.980417013 +00:00
+      time_stopped_recording: 2022-11-18 21:12:00.980623006 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: SwiftDriverJobDiscovery normal arm64 Compiling xc14_1App.swift
+        (in target 'xc14.1' from project 'xc14.1')
+      unique_identifier: 4C47C89E-2529-41E3-BE1F-E434777697C3
+      localized_result_string:
+      xcbuild_signature: '3933663935666230613736393265366436333339613634366338613139363937'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Discovering Swift tasks after 'Emitting module for xc14_1'
+      signature: SwiftDriverJobDiscovery normal arm64 Emitting module for xc14_1 (in
+        target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:01.000735998 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.000807046 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: SwiftDriverJobDiscovery normal arm64 Emitting module
+        for xc14_1 (in target 'xc14.1' from project 'xc14.1')
+      unique_identifier: 0F20C784-BF55-4BC6-8D10-E6C4EFC9E18B
+      localized_result_string:
+      xcbuild_signature: '3139316530376638343330366435356131363339356166353561363739346561'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Unblock downstream dependents of xc14.1 (arm64)
+      signature: SwiftDriver\ Compilation\ Requirements xc14.1 normal arm64 com.apple.xcode.tools.swift.compiler
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:01.000815987 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.001358985 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        SwiftDriver\ Compilation\ Requirements xc14.1 normal arm64 com.apple.xcode.tools.swift.compiler (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            builtin-Swift-Compilation-Requirements -- /Applications/Xcode-14.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name xc14_1 -Onone -enforce-exclusivity\=checked @/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1.SwiftFileList -DDEBUG -sdk /Applications/Xcode-14.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -target arm64-apple-macos12.6 -enable-bare-slash-regex -g -module-cache-path /Users/jszumski/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Index.noindex/DataStore -swift-version 5 -I /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug -F /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug -emit-localized-strings -emit-localized-strings-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64 -c -j10 -enable-batch-mode -incremental -output-file-map /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftmodule -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-generated-files.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-own-target-headers.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-all-target-headers.hmap -Xcc -iquote -Xcc /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-project-headers.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/include -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources-normal/arm64 -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources/arm64 -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1-Swift.h -working-directory /Users/jszumski/Desktop/xc14.1 -experimental-emit-module-separately
+      unique_identifier: C64EF6C1-211A-444C-BE93-01F1674800C7
+      localized_result_string:
+      xcbuild_signature: '6663396665336465656265386637633834363963333938656438323264653036'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Merge Objective-C generated interface headers
+      signature: SwiftMergeGeneratedHeaders /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources/xc14_1-Swift.h
+        /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1-Swift.h
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:01.002228021 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.003458976 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        SwiftMergeGeneratedHeaders /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources/xc14_1-Swift.h /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1-Swift.h (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            builtin-swiftHeaderTool -arch arm64 /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1-Swift.h -o /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources/xc14_1-Swift.h
+      unique_identifier: 4D1A22DF-996F-433E-B628-3CB2EB7CCECB
+      localized_result_string:
+      xcbuild_signature: '6336376637396531313465316266306635333366646531623861333831366330'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Copy xc14_1.swiftdoc (arm64)
+      signature: Copy /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14_1.swiftmodule/arm64-apple-macos.swiftdoc
+        /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftdoc
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:01.002634048 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.003730058 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftdoc
+        timestamp: 0.0
+      command_detail_description: |
+        Copy /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14_1.swiftmodule/arm64-apple-macos.swiftdoc /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftdoc (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftdoc /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14_1.swiftmodule/arm64-apple-macos.swiftdoc
+      unique_identifier: 5EF9EF68-D394-463C-ADCF-B3BB508D7CAE
+      localized_result_string:
+      xcbuild_signature: '6234653832313863346439646162396139376630303434636161326361316363'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Copy xc14_1.swiftmodule (arm64)
+      signature: Copy /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14_1.swiftmodule/arm64-apple-macos.swiftmodule
+        /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftmodule
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:01.002982020 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.004120945 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftmodule
+        timestamp: 0.0
+      command_detail_description: |
+        Copy /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14_1.swiftmodule/arm64-apple-macos.swiftmodule /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftmodule (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftmodule /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14_1.swiftmodule/arm64-apple-macos.swiftmodule
+      unique_identifier: CA466E15-2CAD-4924-8B75-EA2687B66C89
+      localized_result_string:
+      xcbuild_signature: '3732646135343831303736323561373930343534616634383364623966333034'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Copy xc14_1.abi.json (arm64)
+      signature: Copy /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14_1.swiftmodule/arm64-apple-macos.abi.json
+        /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.abi.json
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:01.003299951 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.004140019 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.abi.json
+        timestamp: 0.0
+      command_detail_description: |
+        Copy /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14_1.swiftmodule/arm64-apple-macos.abi.json /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.abi.json (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.abi.json /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14_1.swiftmodule/arm64-apple-macos.abi.json
+      unique_identifier: 60881C47-22C1-482C-AB49-F251595DED3A
+      localized_result_string:
+      xcbuild_signature: '6234303438613364626361666432303465313565613432353162646462373264'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Copy xc14_1.swiftsourceinfo (arm64)
+      signature: Copy /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14_1.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo
+        /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftsourceinfo
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:01.003391027 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.004152059 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location: !ruby/object:XCActivityLog::DVTDocumentLocation
+        document_url_string: file:///Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftsourceinfo
+        timestamp: 0.0
+      command_detail_description: |
+        Copy /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14_1.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftsourceinfo (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftsourceinfo /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14_1.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo
+      unique_identifier: 79DE9887-9646-451B-93DC-2CA47235C7B5
+      localized_result_string:
+      xcbuild_signature: '3338643131666138623737393366383737396132373439653136303262643436'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Discovering Swift tasks after 'Compiling ContentView.swift'
+      signature: SwiftDriverJobDiscovery normal arm64 Compiling ContentView.swift
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:01.029361963 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.029932975 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: SwiftDriverJobDiscovery normal arm64 Compiling ContentView.swift
+        (in target 'xc14.1' from project 'xc14.1')
+      unique_identifier: 7B4754D9-CA05-4EE4-9DE6-103804BDDD54
+      localized_result_string:
+      xcbuild_signature: '3666656437393633333562333863376535333563306139653136386466646236'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Compile xc14.1 (arm64)
+      signature: SwiftDriver\ Compilation xc14.1 normal arm64 com.apple.xcode.tools.swift.compiler
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:01.030385971 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.030606985 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        SwiftDriver\ Compilation xc14.1 normal arm64 com.apple.xcode.tools.swift.compiler (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            builtin-Swift-Compilation -- /Applications/Xcode-14.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name xc14_1 -Onone -enforce-exclusivity\=checked @/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1.SwiftFileList -DDEBUG -sdk /Applications/Xcode-14.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -target arm64-apple-macos12.6 -enable-bare-slash-regex -g -module-cache-path /Users/jszumski/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Index.noindex/DataStore -swift-version 5 -I /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug -F /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug -emit-localized-strings -emit-localized-strings-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64 -c -j10 -enable-batch-mode -incremental -output-file-map /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftmodule -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-generated-files.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-own-target-headers.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-all-target-headers.hmap -Xcc -iquote -Xcc /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1-project-headers.hmap -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/include -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources-normal/arm64 -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources/arm64 -Xcc -I/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1-Swift.h -working-directory /Users/jszumski/Desktop/xc14.1 -experimental-emit-module-separately
+      unique_identifier: F3588E03-4077-4C15-99F1-3061510E7B47
+      localized_result_string:
+      xcbuild_signature: '6438313462626337343638336364393137376231353735356333323935623636'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Link xc14.1 (arm64)
+      signature: Ld /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/MacOS/xc14.1
+        normal (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:01.030941009 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.228605031 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        Ld /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/MacOS/xc14.1 normal (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            /Applications/Xcode-14.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-macos12.6 -isysroot /Applications/Xcode-14.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -L/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/EagerLinkingTBDs -L/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug -F/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/EagerLinkingTBDs -F/Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug -filelist /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1.LinkFileList -Xlinker -rpath -Xlinker @executable_path/../Frameworks -Xlinker -object_path_lto -Xlinker /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1_lto.o -Xlinker -export_dynamic -Xlinker -no_deduplicate -fobjc-link-runtime -L/Applications/Xcode-14.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14_1.swiftmodule -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1_dependency_info.dat -o /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/MacOS/xc14.1
+      unique_identifier: DB6E94D9-4060-4F50-8268-43FBDB6A667F
+      localized_result_string:
+      xcbuild_signature: '3861393066303732383263663230373264376565386462613064346331366264'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Process empty-xc14.1.plist
+      signature: ProcessInfoPlistFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/Info.plist
+        /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/empty-xc14.1.plist
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:01.878216028 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.880571007 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        ProcessInfoPlistFile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/Info.plist /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/empty-xc14.1.plist (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            builtin-infoPlistUtility /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/empty-xc14.1.plist -producttype com.apple.product-type.application -genpkginfo /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/PkgInfo -expandbuildsettings -platform macosx -additionalcontentfile /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/assetcatalog_generated_info.plist -o /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/Info.plist
+      unique_identifier: 7D67474E-EBEC-4660-9A5F-FCB27CE9CCE6
+      localized_result_string:
+      xcbuild_signature: '6234656636663238643333653039666365393533383930306538333763313964'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Extract app intents metadata
+      signature: ExtractAppIntentsMetadata (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:01.878394961 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.879395961 +00:00
+      subsections:
+      text: 'note: Metadata extraction skipped. No AppIntents.framework dependency
+        found. (in target ''xc14.1'' from project ''xc14.1'')
+
+'
+      messages:
+      - !ruby/object:XCActivityLog::IDEDiagnosticActivityLogMessage
+        title: Metadata extraction skipped. No AppIntents.framework dependency found.
+        short_title:
+        time_emitted: 690498721
+        range_in_section_text: !ruby/object:XCActivityLog::NSRange
+          location: 18446744073709551615
+          length: 0
+        submessages:
+        severity: 0
+        type: com.apple.dt.IDE.diagnostic
+        location:
+        category_identifier: Notice
+        secondary_locations: []
+        additional_description:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        ExtractAppIntentsMetadata (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            /Applications/Xcode-14.1.app/Contents/Developer/usr/bin/appintentsmetadataprocessor --output /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/Resources --toolchain-dir /Applications/Xcode-14.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name xc14_1 --source-files /Users/jszumski/Desktop/xc14.1/xc14.1/ContentView.swift /Users/jszumski/Desktop/xc14.1/xc14.1/xc14_1App.swift --sdk-root /Applications/Xcode-14.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk --target-triple arm64-apple-macos12.6 --binary-file /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/MacOS/xc14.1 --dependency-file /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/xc14.1_dependency_info.dat --stringsdata-file /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata
+      unique_identifier: 42DF1E7D-67B1-4EE8-889F-2B38DB8B691E
+      localized_result_string:
+      xcbuild_signature: '3562396330383433626636303362303765656138633162666661376435383237'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Copy Swift standard libraries into xc14.1.app
+      signature: CopySwiftLibs /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:01.878702998 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.904101967 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        CopySwiftLibs /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/MacOS/xc14.1 --scan-folder /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/Frameworks --scan-folder /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/PlugIns --scan-folder /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/Library/SystemExtensions --scan-folder /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/Extensions --platform macosx --toolchain /Applications/Xcode-14.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app/Contents/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode-14.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+      unique_identifier: 5BB9D88A-A8AA-4FEC-A2DC-87FC6B3FFF63
+      localized_result_string:
+      xcbuild_signature: '6536336636346236396233396537363938643066663434623139316562356537'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Sign xc14.1.app
+      signature: CodeSign /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:01.904317975 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.916424036 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: "CodeSign /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app
+        (in target 'xc14.1' from project 'xc14.1')\n    cd /Users/jszumski/Desktop/xc14.1\n
+        \   \n    Signing Identity:     \"-\"\n    \n    /usr/bin/codesign --force
+        --sign - --entitlements /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Intermediates.noindex/xc14.1.build/Debug/xc14.1.build/xc14.1.app.xcent
+        --timestamp\\=none --generate-entitlement-der /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app\n"
+      unique_identifier: D5B88075-2D9B-483C-B73D-FACA5433BA69
+      localized_result_string:
+      xcbuild_signature: '3938613933363561396463383465653864663630633265383262353034333933'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Register execution policy exception for xc14.1.app
+      signature: RegisterExecutionPolicyException /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:01.916556000 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.918908953 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        RegisterExecutionPolicyException /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            builtin-RegisterExecutionPolicyException /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app
+      unique_identifier: 339014D8-85EC-40D1-A5B8-04019C5EE780
+      localized_result_string:
+      xcbuild_signature: '6532363733373866343634356637313064353536616639343766353665643033'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Validate xc14.1.app
+      signature: Validate /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:01.919026017 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.919397950 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        Validate /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            builtin-validationUtility /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app -no-validate-extension
+      unique_identifier: 7F6F378C-1F97-48AD-86A5-E4640D531F36
+      localized_result_string:
+      xcbuild_signature: '3861393765366661663230653732363039653133643933316665333662336132'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Touch xc14.1.app
+      signature: Touch /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:01.919631004 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.920642018 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        Touch /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            /usr/bin/touch -c /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app
+      unique_identifier: 3EB21AAB-3D73-4690-A13E-E2EFB43D2EF1
+      localized_result_string:
+      xcbuild_signature: '6130373861343461356163313864346463313563326332323237626534663261'
+    - !ruby/object:XCActivityLog::IDEActivityLogCommandInvocationSection
+      section_type: 2
+      domain_type: com.apple.dt.IDE.BuildLogSection
+      title: Register xc14.1.app
+      signature: RegisterWithLaunchServices /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app
+        (in target 'xc14.1' from project 'xc14.1')
+      time_started_recording: 2022-11-18 21:12:01.919739007 +00:00
+      time_stopped_recording: 2022-11-18 21:12:01.944121956 +00:00
+      subsections:
+      text:
+      messages:
+      cancelled: false
+      quiet: false
+      fetched_from_cache: false
+      subtitle:
+      location:
+      command_detail_description: |
+        RegisterWithLaunchServices /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app (in target 'xc14.1' from project 'xc14.1')
+            cd /Users/jszumski/Desktop/xc14.1
+            /System/Library/Frameworks/CoreServices.framework/Versions/Current/Frameworks/LaunchServices.framework/Versions/Current/Support/lsregister -f -R -trusted /Users/jszumski/Library/Developer/Xcode/DerivedData/xc14.1-blgjcdtpukmzycgikibospunohxj/Build/Products/Debug/xc14.1.app
+      unique_identifier: 14E3B892-A3CC-4BCE-B434-ED8198E23E61
+      localized_result_string:
+      xcbuild_signature: '3139323731313733333734363435343261396138633764386331366232363131'
+    text:
+    messages:
+    cancelled: false
+    quiet: false
+    fetched_from_cache: false
+    subtitle: Project xc14.1 | Configuration Debug | Destination My Mac | SDK macOS
+      13.0
+    location:
+    command_detail_description:
+    unique_identifier: D6DCE924-5891-4C7F-B32D-5AC4F04258D9
+    localized_result_string:
+    xcbuild_signature: '39643563356139613561666336383966626430383166663836663030343764303363643838393061313732633165353935306264306437353236386133333332'
+  text:
+  messages:
+  cancelled: false
+  quiet: false
+  fetched_from_cache: false
+  subtitle:
+  location:
+  command_detail_description:
+  unique_identifier: C708A8BF-8C65-4A3D-AB13-FCEE65552951
+  localized_result_string: Build succeeded
+  xcbuild_signature:

@@ -1,0 +1,5 @@
+{"traceEvents":[
+{"pid":"1","tid":0,"ts":1668805920637325,"ph":"X","name":"Prepare packages","dur":7965,"args":{"subtitle":"Compile plug-ins and run any prebuild commands","target":{},"severity":"Success"}},
+{"pid":"1","tid":0,"ts":1668805920647423,"ph":"X","name":"Prepare build","dur":1298440,"args":{"subtitle":"Workspace xc14.1 | Scheme xc14.1 | Destination My Mac","target":{},"severity":"Success"}},
+{"pid":"1","tid":1,"ts":1668805920693025,"ph":"X","name":"Build target xc14.1","dur":1251118,"args":{"subtitle":"Project xc14.1 | Configuration Debug | Destination My Mac | SDK macOS 13.0","target":{},"severity":"Warning"}}
+]}

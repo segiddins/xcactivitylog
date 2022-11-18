@@ -1,0 +1,3 @@
+{"traceEvents":[
+{"pid":"0","tid":0,"ts":1668805920637156,"ph":"X","name":"Build xc14.1","dur":1309316,"args":{"subtitle":null,"target":{},"severity":"Warning"}}
+]}
