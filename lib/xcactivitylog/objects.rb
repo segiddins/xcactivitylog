@@ -278,6 +278,7 @@ module XCActivityLog
       URI::File.parse(document_url_string)
     end
   end
+
   class DVTTextDocumentLocation < DVTDocumentLocation
     attribute :starting_line_number, :int
     attribute :starting_column_number, :int
@@ -285,6 +286,11 @@ module XCActivityLog
     attribute :ending_column_number, :int
     attribute :character_range, :nsrange
     attribute :location_encoding, :int, 7
+    attributes.freeze
+  end
+
+  class DVTMemberDocumentLocation < DVTDocumentLocation
+    attribute :member, :string
     attributes.freeze
   end
 
